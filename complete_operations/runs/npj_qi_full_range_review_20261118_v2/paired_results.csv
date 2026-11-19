@@ -1,0 +1,9 @@
+N,seed,direct_control,seeded_control,direct_max_D32,seeded_max_D32,direct_minus_seeded,outcome,direct_below_1pct,seeded_below_1pct,direct_restoration_qualified,seeded_restoration_qualified,seeded_midpoint_first_order_qualified,seeded_midpoint_generator_R,seeded_midpoint_generator_T
+4,6112304,direct_restored,seeded_restored,0.1173759187389213,0.04795509516599923,0.06942082357292206,seeded_lower,False,False,True,True,True,1.0170609271299425e-07,3.9729112413528473e-08
+5,6112305,direct_restored,seeded_restored,0.1459961212129929,0.10895981525371701,0.0370363059592759,seeded_lower,False,False,True,True,True,3.843225338247006e-07,4.3957879936667675e-08
+4,6112404,direct_restored,seeded_restored,0.2772021490939172,0.06266732452320532,0.21453482457071188,seeded_lower,False,False,True,True,True,8.262950533389366e-08,3.214351305642863e-08
+5,6112405,direct_restored,seeded_restored,0.210146867912187,0.07654640761711622,0.13360046029507078,seeded_lower,False,False,True,True,True,1.508443832660064e-07,1.0440050155190566e-07
+4,6112504,direct_restored,seeded_restored,0.11986485548992912,0.0744068726101478,0.04545798287978131,seeded_lower,False,False,True,True,True,1.1421248490486016e-07,3.452469336311959e-08
+5,6112505,direct_restored,seeded_restored,0.13092991866585243,0.13335654143292097,-0.002426622767068537,direct_lower,False,False,True,True,True,4.909017711031337e-07,8.227297896222045e-08
+4,6112604,direct_restored,seeded_restored,0.1990335999570019,0.03809864933186183,0.16093495062514007,seeded_lower,False,False,True,True,True,5.958039496882329e-08,3.234175632802404e-08
+5,6112605,direct_restored,seeded_restored,0.28419816372206896,0.11002013452281116,0.1741780291992578,seeded_lower,False,False,True,True,True,2.6595624816091035e-07,1.3605884721899064e-07

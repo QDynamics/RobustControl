@@ -1,0 +1,277 @@
+{
+  "src/manifold_schur_v1.py": {
+    "archive": "Current_4Q5Q_evidence_v2.zip",
+    "member": "src/manifold_schur_v1.py",
+    "sha256": "5324cbd9167984c655257f3ab4c3a5d9c61558c7bd3d5a2491309b4a076f8d82"
+  },
+  "src/cnot_tolerance_v1.py": {
+    "archive": "Current_4Q5Q_evidence_v2.zip",
+    "member": "src/cnot_tolerance_v1.py",
+    "sha256": "f3c937ec40d061bff443c914c09a694c1289cd21d30bb979bda3d5c2ed78116e"
+  },
+  "tools/npj_qi_register_depth_20261118_v1.py": {
+    "archive": "Current_4Q5Q_evidence_v2.zip",
+    "member": "tools/npj_qi_register_depth_20261118_v1.py",
+    "sha256": "ae8035cda79064b03e8c9d1858edface6b972607e914ecd3efd884253d3e6be0"
+  },
+  "tools/npj_qi_register_depth_matched_20261118_v1.py": {
+    "archive": "Current_4Q5Q_evidence_v2.zip",
+    "member": "tools/npj_qi_register_depth_matched_20261118_v1.py",
+    "sha256": "677ff26c1ac74efc45c813468c17a68009b483a4d20775f8bb989523e99af018"
+  },
+  "tools/npj_qi_register_depth_projection_20261118_v1.py": {
+    "archive": "Current_4Q5Q_evidence_v2.zip",
+    "member": "tools/npj_qi_register_depth_projection_20261118_v1.py",
+    "sha256": "28a924cda52f2346b4a216c7d9c5bab7aa16dcd44ee9d45b6ae3d4250103ee04"
+  },
+  "tools/npj_qi_independent_audit_20261118_v1.py": {
+    "archive": "Current_4Q5Q_evidence_v2.zip",
+    "member": "tools/npj_qi_independent_audit_20261118_v1.py",
+    "sha256": "fde8b4a835844c91b0045523e9700d207fc28beae74a6c5ddd74271f301bd971"
+  },
+  "docs/NPJ_QI_REGISTER_DEPTH_PROTOCOL_20261118_v1.md": {
+    "archive": "Current_4Q5Q_evidence_v2.zip",
+    "member": "docs/NPJ_QI_REGISTER_DEPTH_PROTOCOL_20261118_v1.md",
+    "sha256": "3ed9091de8ce3a02dc5c6722f4cada356ae58bd7ce9ec17aed20ebdc6a2f3e3b"
+  },
+  "docs/NPJ_QI_REGISTER_DEPTH_PROTOCOL_20261118_v2.md": {
+    "archive": "Current_4Q5Q_evidence_v2.zip",
+    "member": "docs/NPJ_QI_REGISTER_DEPTH_PROTOCOL_20261118_v2.md",
+    "sha256": "a4dbc1273499c38fb23e57c9249728712250e992871f6e9e26f2da4e4dd7c2f4"
+  },
+  "runs/npj_qi_register_depth_20261118_v1/n4_nominal.npy": {
+    "archive": "Current_4Q5Q_evidence_v2.zip",
+    "member": "runs/npj_qi_register_depth_20261118_v1/n4_nominal.npy",
+    "sha256": "d1123353f815754825de21bfed4f35f8fab9fc78a9f30a410daf3c751151a792"
+  },
+  "runs/npj_qi_register_depth_20261118_v1/n4_corrected.npy": {
+    "archive": "Current_4Q5Q_evidence_v2.zip",
+    "member": "runs/npj_qi_register_depth_20261118_v1/n4_corrected.npy",
+    "sha256": "7ff5a2720b3a8fdfc1350f5822213c78fe21ee03367b7e5a4bd7064d9d156446"
+  },
+  "runs/npj_qi_register_depth_projection_20261118_v1/n4_nominal_restored.npy": {
+    "archive": "Current_4Q5Q_evidence_v2.zip",
+    "member": "runs/npj_qi_register_depth_projection_20261118_v1/n4_nominal_restored.npy",
+    "sha256": "6300a4a9266fabbc41eee2012b3731da31e5e2d7a0177dd5561cf546663c339e"
+  },
+  "runs/npj_qi_register_depth_projection_20261118_v1/n4_corrected_restored.npy": {
+    "archive": "Current_4Q5Q_evidence_v2.zip",
+    "member": "runs/npj_qi_register_depth_projection_20261118_v1/n4_corrected_restored.npy",
+    "sha256": "23e390d16b060ac57907de60fc1f558de5f41785e89e6598cc324ddeefd5fd18"
+  },
+  "runs/npj_qi_register_depth_20261118_v1/n5_nominal.npy": {
+    "archive": "Current_4Q5Q_evidence_v2.zip",
+    "member": "runs/npj_qi_register_depth_20261118_v1/n5_nominal.npy",
+    "sha256": "47b175a429bff8c1253f5989b69c5d6af89e2a4b5916e73328de5b2a6efb6a26"
+  },
+  "runs/npj_qi_register_depth_20261118_v1/n5_corrected.npy": {
+    "archive": "Current_4Q5Q_evidence_v2.zip",
+    "member": "runs/npj_qi_register_depth_20261118_v1/n5_corrected.npy",
+    "sha256": "3d51043361221b87e659a67b3028531157ee339ee42ed25f49d5db11025c9657"
+  },
+  "runs/npj_qi_register_depth_projection_20261118_v1/n5_nominal_restored.npy": {
+    "archive": "Current_4Q5Q_evidence_v2.zip",
+    "member": "runs/npj_qi_register_depth_projection_20261118_v1/n5_nominal_restored.npy",
+    "sha256": "d7873f1a4948298719877d7f77c643884a4496631f758b7fc61e44b65bd33285"
+  },
+  "runs/npj_qi_register_depth_projection_20261118_v1/n5_corrected_restored.npy": {
+    "archive": "Current_4Q5Q_evidence_v2.zip",
+    "member": "runs/npj_qi_register_depth_projection_20261118_v1/n5_corrected_restored.npy",
+    "sha256": "5a24932a7a3b1178cc5a5df61a1b0c2c13501a14dc53bf05b3b0ec4aa70a6f26"
+  },
+  "tools/npj_qi_full_range_review_20261118_v1.py": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "tools/npj_qi_full_range_review_20261118_v1.py",
+    "sha256": "f5e4812bb2f064ff7164c47406a7e21c104375a58d4ae921de729f311b9cec4a"
+  },
+  "docs/NPJ_QI_FULL_RANGE_REVIEW_PROTOCOL_20261118_v1.md": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "docs/NPJ_QI_FULL_RANGE_REVIEW_PROTOCOL_20261118_v1.md",
+    "sha256": "6b5f4b154c6f95e41d3f0526fd46576c7b56a46c2e3cd6844ce8748905ed041c"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/candidate_scores.csv": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/candidate_scores.csv",
+    "sha256": "4c6ddc875984c0ef042b2e6cc4af1a357ec26354bcd2e02044dc91998581e624"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/development_leakage_maxima.csv": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/development_leakage_maxima.csv",
+    "sha256": "117a0c5c87c598eb1dad39548b2d8317784ef6fd8a93db4ff5accece5e9ed5c3"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/development_leakage_points.csv": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/development_leakage_points.csv",
+    "sha256": "f235a168aefc8a35bba7447e9a9129f4d2bff17b94083f0302837352c597c5fd"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/heldout_maxima.csv": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/heldout_maxima.csv",
+    "sha256": "f08387030dab2a29da93e5f1896faecade28bcb7148c80992d2704411c93cacf"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/heldout_points.csv": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/heldout_points.csv",
+    "sha256": "4da7ec0e442c149f060ea5196e2bdb67319c9aeb1c455366247c4dc5be880c83"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/inputs.json": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/inputs.json",
+    "sha256": "8de85783c444a7252a8020fe26bc4582dca90c246bf1013f7a9cf47bf6b8e1fb"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112304/controls.npz": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112304/controls.npz",
+    "sha256": "596425fcd95b19e351e56a990ba492e26a7b815c9b62f9fcec4fe8ed6eb487d9"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112304/fit_histories.json": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112304/fit_histories.json",
+    "sha256": "94e6e7c32b590b114138d70632f1e8225f99f63226ab9fcd5ba6ea262a454d11"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112304/selection.json": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112304/selection.json",
+    "sha256": "f3135e7cc9d9ead064face852fa3deb3e35e8f13170a9f72011765a8cf9fadb2"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112404/controls.npz": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112404/controls.npz",
+    "sha256": "53667ff58e98c9b87d99acbadb02bfe94ced1a49a73841742ecc087a21cb4dec"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112404/fit_histories.json": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112404/fit_histories.json",
+    "sha256": "c777897ca194ba9d9b662fcf6b2f07f4acba795800a4a679543808f095e1ece8"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112404/selection.json": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112404/selection.json",
+    "sha256": "d676a8c110dbd710616f0feab8c9eeb6ad841ac172db376ec0caadf89a8a3db1"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112504/controls.npz": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112504/controls.npz",
+    "sha256": "2059fb2c4ac6f674d8bfbc7ae90c86b8d24cdaf5b47c9fa1170dd79639293953"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112504/fit_histories.json": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112504/fit_histories.json",
+    "sha256": "7917e3885f1d9769457b75350a3bfffaa80cb327d92658c0e1961c9e3df555f1"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112504/selection.json": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112504/selection.json",
+    "sha256": "cfba190e0aba51a52f7834caebed7798438f3c70a1072bc666dfda84cf5e2eca"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112604/controls.npz": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112604/controls.npz",
+    "sha256": "43afa5446c559a4610b22e21e53d37f2e44446f0a5dcecada4475b774988f635"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112604/fit_histories.json": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112604/fit_histories.json",
+    "sha256": "8fb55a55b69419b257a7f1618226497fcf039c68565038d0df9ea7caf7ea399a"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112604/selection.json": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n4_seed6112604/selection.json",
+    "sha256": "372c0311ef37e2360a2b3159c4e9915f7d1ebe2fd633c4588576ecbe52edf723"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112305/controls.npz": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112305/controls.npz",
+    "sha256": "38fb6663633cbc5881ab28ca25fa38a944f14f914ce0c3f77db32604be123c72"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112305/fit_histories.json": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112305/fit_histories.json",
+    "sha256": "9886e0e13d627de68c0575cb1186eb7dbc73af412ee8a1e47c70d84d15b73730"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112305/selection.json": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112305/selection.json",
+    "sha256": "a35a5504096f7ddd44414be2fa3becf649e27eb05e998bf2f3bc156ee23ea0ab"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112405/controls.npz": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112405/controls.npz",
+    "sha256": "5959dc9e222327f4abe2612510d7fb3e36f39894031548f4721c39e6d2b3efa6"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112405/fit_histories.json": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112405/fit_histories.json",
+    "sha256": "dfad0173a27d2eafc240b0b8be5a0050fe7c027ce5ba7718af741d6de8057559"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112405/selection.json": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112405/selection.json",
+    "sha256": "5983f0217115269482952aa7e828da7002116c94eb28a44ab00264645608fb18"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112505/controls.npz": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112505/controls.npz",
+    "sha256": "27599b44c3870d7d200fa1cc85be13a2ee95492da0075239d576691e1f2afad3"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112505/fit_histories.json": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112505/fit_histories.json",
+    "sha256": "a058517ff7f8a10867d86cc9ef15776f1755342549f9f827f3beb6addc7ccfb2"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112505/selection.json": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112505/selection.json",
+    "sha256": "5a045bbe791d40f0c88151a97e8bce728192e2b4081eb72a0c34e6ee2be39ae3"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112605/controls.npz": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112605/controls.npz",
+    "sha256": "a176d29f95d7e67ad5c0f1432c59b79f32425ee1d0f7b834502b76975a3df2f4"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112605/fit_histories.json": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112605/fit_histories.json",
+    "sha256": "d95f8796afc23aadad74228dc852cea5cf5f45283ee65756763348c7fc062b56"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112605/selection.json": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/n5_seed6112605/selection.json",
+    "sha256": "eae8590438dbc2bdce847c924871f43949309f6c46ee6ae5d5a65db814755534"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/paired_results.csv": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/paired_results.csv",
+    "sha256": "d227915e0d4736ef452e1eb549ca8ac8ccbf65d671c7ed21854120b1ee5494a4"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/sha256.json": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/sha256.json",
+    "sha256": "79981d7864b37e9f286306c866db4a8441f14b24f5c2f7a362a7bebc7cd5d2d4"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/solver_budgets.csv": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/solver_budgets.csv",
+    "sha256": "2ea090c6bc2c50bc557169c32af0a696e540ec30003c018b73ce5a9201c1d4c5"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/summary.json": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/summary.json",
+    "sha256": "af03474a46b075230507128951cd8ecfa916ead9f112bc9d378a5c90d759c24a"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/training_points.csv": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/training_points.csv",
+    "sha256": "9228a620a4ff8c7cf8b3a52cfab827cf1a0d71feef37cc16c972c08fbd255d2a"
+  },
+  "runs/npj_qi_full_range_review_20261118_v2/training_selections.json": {
+    "archive": "Revision_20261118_v2_reproducibility.zip",
+    "member": "runs/npj_qi_full_range_review_20261118_v2/training_selections.json",
+    "sha256": "d0e88b50b3b3a315024cfbfb27be9dada4cbe295c2c7edf3df0a70958bb2670b"
+  },
+  "data/three_qubit_controls.npz": {
+    "archive": "Historical_3Q_evidence_v2.zip",
+    "member": "cnot_tolerance/runs/cnot_tolerance_20261012_v1/numerical/CONTROLS.npz",
+    "sha256": "1922e16d662c9fb14c2b6b9cca214f8f5a4029dd6311e9e6f3938b304f5971a4"
+  }
+}
