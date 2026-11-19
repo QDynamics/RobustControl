@@ -1,0 +1,2 @@
+# Replay inputs and frozen source bindings require byte-identical checkouts.
+complete_operations/** -text
