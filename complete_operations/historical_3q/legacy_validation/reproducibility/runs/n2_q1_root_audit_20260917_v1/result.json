@@ -1,0 +1,18 @@
+{
+  "status": "ROOT_EXACT_CHART_AUDIT_PASS",
+  "created_utc": "2026-09-17T00:57:44.982587+00:00",
+  "reconstruction": "Full computational Pauli generators and independent Bell/Cartesian transform.",
+  "constructor_code_imported": false,
+  "exact_polynomial_column_count": 25,
+  "exact_polynomial_entries_matched": 625,
+  "determinant_method": "Direct polynomial-domain exact determinant, independent of interpolation.",
+  "raw_determinant": "p**11/2048",
+  "physical_determinant": "pi^11/2048 > 0",
+  "resource_counts": {
+    "sum_depths": 34,
+    "raw_slots": 93,
+    "nonzero_pair_slots": 118
+  },
+  "beta_euclidean_integer_upper_bound": 37,
+  "elapsed_seconds": 7.26600000000326
+}

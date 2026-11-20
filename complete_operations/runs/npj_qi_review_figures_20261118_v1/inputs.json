@@ -1,0 +1,19 @@
+{
+  "hashes": {
+    "tools/npj_qi_review_figures_20261118_v1.py": "880bf8df5734296b485ec4142bd0f6078e2c6d15b14fde843ddb39799cf22eca",
+    "docs/NPJ_QI_REVIEW_FIGURES_PROTOCOL_20261118_v1.md": "326d6074cbd0d79094bb130a17bcdd4e4e470d3e44e0ca762f2d730e01609293",
+    "runs/npj_qi_dephasing_20261118_v1/summary.json": "cd248945f0bf73c3b8d85502633f0ee221fbadf20e1a556f7125c13c38a7b2c6",
+    "runs/cnot_tolerance_20261012_v1/interval_v2/RESULTS.json": "3c33401ccf2cc7a38114d7ad9b99fc94d798ca93f4783df4409b43290212a06a",
+    "runs/npj_qi_register_depth_20261118_v1/n4_nominal.npy": "d1123353f815754825de21bfed4f35f8fab9fc78a9f30a410daf3c751151a792",
+    "runs/npj_qi_register_depth_20261118_v1/n4_corrected.npy": "7ff5a2720b3a8fdfc1350f5822213c78fe21ee03367b7e5a4bd7064d9d156446",
+    "runs/npj_qi_register_depth_projection_20261118_v1/n4_nominal_restored.npy": "6300a4a9266fabbc41eee2012b3731da31e5e2d7a0177dd5561cf546663c339e",
+    "runs/npj_qi_register_depth_projection_20261118_v1/n4_corrected_restored.npy": "23e390d16b060ac57907de60fc1f558de5f41785e89e6598cc324ddeefd5fd18"
+  },
+  "utc": "2026-11-18T15:01:23.860068+00:00",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "numpy": "2.4.6",
+  "matplotlib": "3.11.0",
+  "precision": "binary64",
+  "seed": 6111819
+}

@@ -1,0 +1,180 @@
+{
+  "schema": "n2-q1-exact-chart-config-20260917-v1",
+  "status": "FORMAL_RUN_CONFIG_FROZEN",
+  "created_utc": "2026-09-17T00:54:13.169403+00:00",
+  "protocol": {
+    "path": "docs/STAGE_C_EXACT_CHART_PROTOCOL_20260917_v1.md",
+    "bytes": 17805,
+    "sha256": "30952ef507aab4d4dacc6645e28befe94dcc9de41be4b73ace1a56e992c748b6"
+  },
+  "amendment": {
+    "path": "docs/STAGE_C_EXACT_CHART_PROTOCOL_AMENDMENT_20260917_v1.md",
+    "bytes": 2543,
+    "sha256": "f53a63fe4d96a3ac7b16fa2f2083337559c49dfc6244381a7584ae34fbd85417"
+  },
+  "tool": {
+    "path": "tools/run_n2_q1_exact_chart_20260917_v1.py",
+    "bytes": 44923,
+    "sha256": "c068fdde819f6940a1cdcf9ca78cb4731560bf78ddebd2c223a86c4ef9d9931b"
+  },
+  "python": {
+    "executable": "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "bytecode_disabled": true
+  },
+  "model": {
+    "N": 2,
+    "jet_order": 1,
+    "dimension": 25,
+    "full_hilbert_dimension": 4,
+    "signed_controls": true,
+    "drift": false,
+    "errors": [
+      "common_rotation_scale",
+      "common_twist_scale"
+    ]
+  },
+  "architecture": {
+    "alphabet": [
+      {
+        "axis": "X",
+        "sign": 1,
+        "area": "sign*pi/4"
+      },
+      {
+        "axis": "X",
+        "sign": -1,
+        "area": "sign*pi/4"
+      },
+      {
+        "axis": "Y",
+        "sign": 1,
+        "area": "sign*pi/4"
+      },
+      {
+        "axis": "Y",
+        "sign": -1,
+        "area": "sign*pi/4"
+      },
+      {
+        "axis": "Z",
+        "sign": 1,
+        "area": "sign*pi/4"
+      },
+      {
+        "axis": "Z",
+        "sign": -1,
+        "area": "sign*pi/4"
+      }
+    ],
+    "alphabet_order": [
+      "RX+",
+      "RX-",
+      "RY+",
+      "RY-",
+      "ZZ+",
+      "ZZ-"
+    ],
+    "word_order": "breadth_first_then_lexicographic",
+    "word_time_convention": "word tokens are chronological; h=g_k...g_1",
+    "immediate_inverse_forbidden": true,
+    "maximum_depth": 5,
+    "primitive_order": [
+      "X",
+      "Y",
+      "Z"
+    ],
+    "selection_specialization": "p=1",
+    "selection_field": "Q(sqrt(2))",
+    "pivot_rule": "first_exact_nonzero_coordinate",
+    "determinant_field": "Q(sqrt(2))[p]",
+    "determinant_degree_upper_bound": 25,
+    "interpolation_nodes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "validation_nodes": [
+      26,
+      27
+    ]
+  },
+  "basis_labels": [
+    "center_c",
+    "A_re_xy",
+    "A_im_xy",
+    "A_re_xz",
+    "A_im_xz",
+    "A_re_yz",
+    "A_im_yz",
+    "A_diag_x",
+    "A_diag_y",
+    "R_re_xy",
+    "R_im_xy",
+    "R_re_xz",
+    "R_im_xz",
+    "R_re_yz",
+    "R_im_yz",
+    "R_diag_x",
+    "R_diag_y",
+    "T_re_xy",
+    "T_im_xy",
+    "T_re_xz",
+    "T_im_xz",
+    "T_re_yz",
+    "T_im_yz",
+    "T_diag_x",
+    "T_diag_y"
+  ],
+  "resources": {
+    "nonzero_pair_area": "pi/8",
+    "slot_duration": "pi/4",
+    "separate_signed_primitive_caps": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "parameter_box": "|t_j| < pi/8",
+    "minimum_slot_duration": "pi/4",
+    "physical_smoothing_domain": "0 <= w < pi/8"
+  },
+  "budget": {
+    "wall_time_seconds": 120.0,
+    "threads": 1,
+    "packages": "stdlib_only",
+    "rerun_authorized": false,
+    "architecture_expansion_after_outcome": false
+  },
+  "self_test": {
+    "status": "SELF_TEST_PASS",
+    "field": true,
+    "primitive_relations": true,
+    "nominal_and_jet_inverses": true,
+    "raw_coordinates": true,
+    "determinant": true,
+    "interpolation": true
+  }
+}

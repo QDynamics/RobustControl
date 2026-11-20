@@ -1,0 +1,107 @@
+{
+  "schema": "prl-v20-depth-reduction-output-manifest-v1",
+  "self_excluded": "output_manifest_depth_reduction_v1.json",
+  "artifact_count": 20,
+  "artifacts": [
+    {
+      "path": "authorization.md",
+      "bytes": 816,
+      "sha256": "C12B866D31C0D9519A65EDC3EA37466474BD9DCFF827E41B26F80061A05C1C03"
+    },
+    {
+      "path": "bound_compiler_upgrade_manifest_v1.json",
+      "bytes": 26913,
+      "sha256": "037B3740EE17ABEAE24A82089EC5BDFC839308CC0E9C857D1A67225FB83A2678"
+    },
+    {
+      "path": "bound_package_manifest_v20.json",
+      "bytes": 9447,
+      "sha256": "FD12A4D1BC580F7FAB8583DCB9DECD2A9D9D720316766FCB83233AE8CE643B0B"
+    },
+    {
+      "path": "build_output_manifest.py",
+      "bytes": 1274,
+      "sha256": "62E17C94C7E9DC126571182E0F49076CA2D207F8274BC4BEA363FFF5557AB3C8"
+    },
+    {
+      "path": "certificates/three_module_open_family_320.json",
+      "bytes": 145160,
+      "sha256": "F56DBAF96FB8E187E444E509827010D666BC8752D34BB2DF97DEDDC70258EE22"
+    },
+    {
+      "path": "certificates/three_module_open_family_512.json",
+      "bytes": 202139,
+      "sha256": "9CB000E5882F17E5E0ADEC90610B18FF311F729A4CF1B043EDACF09BC180E245"
+    },
+    {
+      "path": "certify_reduced_architecture.py",
+      "bytes": 7101,
+      "sha256": "A24D7D8280060B1285C6EA9CBE58D6072D1A6D61462C602A4DE79FF688338255"
+    },
+    {
+      "path": "claim_evidence_matrix.md",
+      "bytes": 1074,
+      "sha256": "7B9BA3376D61D059EFE6844A0A20169FA339DA70BA2DF95410FFF62EE10844BF"
+    },
+    {
+      "path": "external_advisory_log.md",
+      "bytes": 438,
+      "sha256": "B2E9F6F5F9D09E0ABD8BFCD8BC1E09F37861B9907F7BF8AB318EC60780B0D212"
+    },
+    {
+      "path": "reports/gate_depth_reduction_v1.md",
+      "bytes": 1906,
+      "sha256": "D95B80E2F665D65D0ADCD4BC88F82FD4E092ED0B88CDFD7F1578BBB0AECBBA6C"
+    },
+    {
+      "path": "research_plan.md",
+      "bytes": 1792,
+      "sha256": "F50D7CF09399F446255ED9BEC4ED2B8E01C129C5991520800621F0E542DC223C"
+    },
+    {
+      "path": "results/depth_reduction_search_128.json",
+      "bytes": 32899,
+      "sha256": "8CFE02C455421FB9FD3878435148AD5A58F9AFFE35A9C3A96D7C9630DF0B78B6"
+    },
+    {
+      "path": "search_reduced_architecture.py",
+      "bytes": 8817,
+      "sha256": "083923922ACC2283FEFA09D27EF2AEC4734A178A045E7B7B3C1314023C139A12"
+    },
+    {
+      "path": "theory/three_module_minimal_open_family_theorem.md",
+      "bytes": 2692,
+      "sha256": "794653D3AD44A7E64F7A779A90E4F4B6298BD535C68EEC7FCDE7725D0933943C"
+    },
+    {
+      "path": "verify_final_replay_readonly.py",
+      "bytes": 2400,
+      "sha256": "C8099D6AD4789E63A000689E7996FB7CC3B664369381C360CCEDD863D254E73F"
+    },
+    {
+      "path": "verify_output_manifest_readonly.py",
+      "bytes": 1212,
+      "sha256": "8B3914D6ADEC0C0E80C5783E1E16BD8A0EB7F0712E4539E03913347F271283E3"
+    },
+    {
+      "path": "verify_provenance_readonly.py",
+      "bytes": 843,
+      "sha256": "212F7D626AEAA632501E47871868BDA8CE4AF792527F8596DD1B79B13815B1A6"
+    },
+    {
+      "path": "verify_theorem_logic_readonly.py",
+      "bytes": 4115,
+      "sha256": "D8F47F5FD0FE1C06A69374A89DD89BA0F204EB6B6382EC507EDBA6613A820FA4"
+    },
+    {
+      "path": "verify_three_module_certificates_readonly.py",
+      "bytes": 10455,
+      "sha256": "318F75DCBC89FE50098CA1C193473927C8F87463CFF16614949D2B1F53B79C04"
+    },
+    {
+      "path": "verify_three_module_independent_point_oracle_readonly.py",
+      "bytes": 7943,
+      "sha256": "62607E2A60A75CEADAEF52026008742F09718552CF1557FFD303187C141242DD"
+    }
+  ]
+}

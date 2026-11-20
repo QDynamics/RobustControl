@@ -1,0 +1,342 @@
+{
+  "status": "TARGET_REGISTRY_FROZEN_BEFORE_FIRST_SOLVE",
+  "config_sha256": "4b9b4d9e7322678fd3b429168e7fd5d096e3d6a8fa9e733ddbe73123ca48f7d6",
+  "target_count": 30,
+  "target_registry_npz": {
+    "path": "runs/target_programming_sol_20260915_v1/target_registry.npz",
+    "bytes": 49190,
+    "sha256": "12eff316472d47854e2225c229a6cee425fc3da8ff40d36528000e5ec585269a"
+  },
+  "targets": [
+    {
+      "target_index": 0,
+      "target_id": "00_IX_minus",
+      "direction_index": 0,
+      "pauli_label": "IX",
+      "sign": -1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.000999999989583359,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 1,
+      "target_id": "00_IX_plus",
+      "direction_index": 0,
+      "pauli_label": "IX",
+      "sign": 1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.0009999999895832987,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 2,
+      "target_id": "01_IY_minus",
+      "direction_index": 1,
+      "pauli_label": "IY",
+      "sign": -1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.000999999989583328,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 3,
+      "target_id": "01_IY_plus",
+      "direction_index": 1,
+      "pauli_label": "IY",
+      "sign": 1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.0009999999895833164,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 4,
+      "target_id": "02_IZ_minus",
+      "direction_index": 2,
+      "pauli_label": "IZ",
+      "sign": -1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.000999999989583331,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 5,
+      "target_id": "02_IZ_plus",
+      "direction_index": 2,
+      "pauli_label": "IZ",
+      "sign": 1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.0009999999895833212,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 6,
+      "target_id": "03_XI_minus",
+      "direction_index": 3,
+      "pauli_label": "XI",
+      "sign": -1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.0009999999895832987,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 7,
+      "target_id": "03_XI_plus",
+      "direction_index": 3,
+      "pauli_label": "XI",
+      "sign": 1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.0009999999895833284,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 8,
+      "target_id": "04_XX_minus",
+      "direction_index": 4,
+      "pauli_label": "XX",
+      "sign": -1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.0009999999895833115,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 9,
+      "target_id": "04_XX_plus",
+      "direction_index": 4,
+      "pauli_label": "XX",
+      "sign": 1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.0009999999895833535,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 10,
+      "target_id": "05_XY_minus",
+      "direction_index": 5,
+      "pauli_label": "XY",
+      "sign": -1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.0009999999895833557,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 11,
+      "target_id": "05_XY_plus",
+      "direction_index": 5,
+      "pauli_label": "XY",
+      "sign": 1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.0009999999895833323,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 12,
+      "target_id": "06_XZ_minus",
+      "direction_index": 6,
+      "pauli_label": "XZ",
+      "sign": -1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.0009999999895832844,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 13,
+      "target_id": "06_XZ_plus",
+      "direction_index": 6,
+      "pauli_label": "XZ",
+      "sign": 1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.0009999999895833427,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 14,
+      "target_id": "07_YI_minus",
+      "direction_index": 7,
+      "pauli_label": "YI",
+      "sign": -1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.0009999999895833323,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 15,
+      "target_id": "07_YI_plus",
+      "direction_index": 7,
+      "pauli_label": "YI",
+      "sign": 1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.0009999999895833516,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 16,
+      "target_id": "08_YX_minus",
+      "direction_index": 8,
+      "pauli_label": "YX",
+      "sign": -1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.0009999999895833403,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 17,
+      "target_id": "08_YX_plus",
+      "direction_index": 8,
+      "pauli_label": "YX",
+      "sign": 1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.0009999999895833475,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 18,
+      "target_id": "09_YY_minus",
+      "direction_index": 9,
+      "pauli_label": "YY",
+      "sign": -1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.0009999999895833243,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 19,
+      "target_id": "09_YY_plus",
+      "direction_index": 9,
+      "pauli_label": "YY",
+      "sign": 1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.000999999989583341,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 20,
+      "target_id": "10_YZ_minus",
+      "direction_index": 10,
+      "pauli_label": "YZ",
+      "sign": -1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.0009999999895833425,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 21,
+      "target_id": "10_YZ_plus",
+      "direction_index": 10,
+      "pauli_label": "YZ",
+      "sign": 1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.0009999999895833416,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 22,
+      "target_id": "11_ZI_minus",
+      "direction_index": 11,
+      "pauli_label": "ZI",
+      "sign": -1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.000999999989583313,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 23,
+      "target_id": "11_ZI_plus",
+      "direction_index": 11,
+      "pauli_label": "ZI",
+      "sign": 1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.0009999999895833392,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 24,
+      "target_id": "12_ZX_minus",
+      "direction_index": 12,
+      "pauli_label": "ZX",
+      "sign": -1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.000999999989583333,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 25,
+      "target_id": "12_ZX_plus",
+      "direction_index": 12,
+      "pauli_label": "ZX",
+      "sign": 1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.0009999999895833247,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 26,
+      "target_id": "13_ZY_minus",
+      "direction_index": 13,
+      "pauli_label": "ZY",
+      "sign": -1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.0009999999895833043,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 27,
+      "target_id": "13_ZY_plus",
+      "direction_index": 13,
+      "pauli_label": "ZY",
+      "sign": 1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.0009999999895833403,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 28,
+      "target_id": "14_ZZ_minus",
+      "direction_index": 14,
+      "pauli_label": "ZZ",
+      "sign": -1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.000999999989583336,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    },
+    {
+      "target_index": 29,
+      "target_id": "14_ZZ_plus",
+      "direction_index": 14,
+      "pauli_label": "ZZ",
+      "sign": 1,
+      "generator_frobenius_radius": 0.001,
+      "actual_gate4_frobenius_displacement": 0.000999999989583316,
+      "gate_formula": "G_source@exp(-i*sign*radius*(Pauli/2))",
+      "full8_formula": "-(V_Dicke@G_target@V_Dicke^dagger+Q)"
+    }
+  ]
+}

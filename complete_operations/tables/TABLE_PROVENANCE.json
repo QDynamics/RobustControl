@@ -1,0 +1,110 @@
+[
+  {
+    "file": "tables/npjqi_supplement_1.csv",
+    "source": "npjqi_supplement.tex",
+    "source_sha256": "3b04c7b8afc58ea31f75662a611d3f6e0a1fd28c9d5c3f7853f6865af554dd43",
+    "rows": 13,
+    "scope": "Exact displayed cells; mathematical expressions retain LaTeX notation.",
+    "source_snapshot": "Author v5 numerical-table curation snapshot before publication-link and archive-wording edits; whole-source hash is historical provenance, not a claim of final editorial file identity.",
+    "csv_sha256": "06417dbaa61a109065da0c9e3e667ff23a368bee6036a1560fd942599d1f1f04"
+  },
+  {
+    "file": "tables/npjqi_supplement_2.csv",
+    "source": "npjqi_supplement.tex",
+    "source_sha256": "3b04c7b8afc58ea31f75662a611d3f6e0a1fd28c9d5c3f7853f6865af554dd43",
+    "rows": 8,
+    "scope": "Exact displayed cells; mathematical expressions retain LaTeX notation.",
+    "source_snapshot": "Author v5 numerical-table curation snapshot before publication-link and archive-wording edits; whole-source hash is historical provenance, not a claim of final editorial file identity.",
+    "csv_sha256": "12ef7cb69e8dd97982482a2226a1938eef554ce3a15dccd1f675f0b8d879ff65"
+  },
+  {
+    "file": "tables/npjqi_supplement_3.csv",
+    "source": "npjqi_supplement.tex",
+    "source_sha256": "3b04c7b8afc58ea31f75662a611d3f6e0a1fd28c9d5c3f7853f6865af554dd43",
+    "rows": 9,
+    "scope": "Exact displayed cells; mathematical expressions retain LaTeX notation.",
+    "source_snapshot": "Author v5 numerical-table curation snapshot before publication-link and archive-wording edits; whole-source hash is historical provenance, not a claim of final editorial file identity.",
+    "csv_sha256": "915f0d26ddd935b9e644500f90d34d74836472b443b5d9f025eb24c09a6b77da"
+  },
+  {
+    "file": "tables/npjqi_supplement_4.csv",
+    "source": "npjqi_supplement.tex",
+    "source_sha256": "3b04c7b8afc58ea31f75662a611d3f6e0a1fd28c9d5c3f7853f6865af554dd43",
+    "rows": 6,
+    "scope": "Exact displayed cells; mathematical expressions retain LaTeX notation.",
+    "source_snapshot": "Author v5 numerical-table curation snapshot before publication-link and archive-wording edits; whole-source hash is historical provenance, not a claim of final editorial file identity.",
+    "csv_sha256": "7c0077b10bfcfd00cd2128bd63e084cd07c2c3ac93c4c0470d71e9e3a6821424"
+  },
+  {
+    "file": "tables/standard_gates_1.csv",
+    "source": "standard_gates.tex",
+    "source_sha256": "cbded6bc13b6ae2e7340aae64a428e2fd1c1ab5611cf62748a885409f5905cf6",
+    "rows": 7,
+    "scope": "Exact displayed cells; mathematical expressions retain LaTeX notation.",
+    "source_snapshot": "Author v5 numerical-table curation snapshot before publication-link and archive-wording edits; whole-source hash is historical provenance, not a claim of final editorial file identity.",
+    "csv_sha256": "3199a88625fbc3c284ceddfe6551fab094b6415134e67e50eeace67111f0ff39"
+  },
+  {
+    "file": "tables/supplement_1.csv",
+    "source": "supplement.tex",
+    "source_sha256": "3486a0d4415a6fe7130d42402e54769e9506818d5ec5d9b8146165aa81402800",
+    "rows": 6,
+    "scope": "Exact displayed cells; mathematical expressions retain LaTeX notation.",
+    "source_snapshot": "Author v5 numerical-table curation snapshot before publication-link and archive-wording edits; whole-source hash is historical provenance, not a claim of final editorial file identity.",
+    "csv_sha256": "c16bd46c04796667a3bd3b28633920907bde9437a7ebbb815a366771f9bc11b6"
+  },
+  {
+    "file": "tables/supplement_2.csv",
+    "source": "supplement.tex",
+    "source_sha256": "3486a0d4415a6fe7130d42402e54769e9506818d5ec5d9b8146165aa81402800",
+    "rows": 26,
+    "scope": "Exact displayed cells; mathematical expressions retain LaTeX notation.",
+    "source_snapshot": "Author v5 numerical-table curation snapshot before publication-link and archive-wording edits; whole-source hash is historical provenance, not a claim of final editorial file identity.",
+    "csv_sha256": "b5b029f7bfe2b5f5f02c096e3a30bbe5e7bfca2a1a251d81c8f8111955c9a2f0"
+  },
+  {
+    "file": "tables/v17_comparator_table_1.csv",
+    "source": "v17_comparator_table.tex",
+    "source_sha256": "bfacbdb79891a670a057dada7e7c89e1ecefa9e8ba4f922ebf9351eee6ce0cf5",
+    "rows": 11,
+    "scope": "Exact displayed cells; mathematical expressions retain LaTeX notation.",
+    "source_snapshot": "Author v5 numerical-table curation snapshot before publication-link and archive-wording edits; whole-source hash is historical provenance, not a claim of final editorial file identity.",
+    "csv_sha256": "6f92afb6a785e1bf876ab16b8041fd87d44349a941b371120047c1ec40526430"
+  },
+  {
+    "file": "tables/v17_library_table_1.csv",
+    "source": "v17_library_table.tex",
+    "source_sha256": "8402f093329d8f03c1afec5f111b66f79c75963cbcbfb0bc9680827859dbc4c5",
+    "rows": 9,
+    "scope": "Exact displayed cells; mathematical expressions retain LaTeX notation.",
+    "source_snapshot": "Author v5 numerical-table curation snapshot before publication-link and archive-wording edits; whole-source hash is historical provenance, not a claim of final editorial file identity.",
+    "csv_sha256": "be4dd64ef0ba7524333ca75516ecf88db55ec4ee7c20888ecaa40c77e87a4543"
+  },
+  {
+    "file": "tables/v17_prior_art_1.csv",
+    "source": "v17_prior_art.tex",
+    "source_sha256": "2b33942e1e3c2f7308265a4cb558bc62611f04f401870b38e0cef0b3927cfe1a",
+    "rows": 5,
+    "scope": "Exact displayed cells; mathematical expressions retain LaTeX notation.",
+    "source_snapshot": "Author v5 numerical-table curation snapshot before publication-link and archive-wording edits; whole-source hash is historical provenance, not a claim of final editorial file identity.",
+    "csv_sha256": "dcd5a1a3e0d4baf96d14f2905d49e3409cf37014e4f5a92a3c5e3df575379baa"
+  },
+  {
+    "file": "tables/v17_rm_search_table_1.csv",
+    "source": "v17_rm_search_table.tex",
+    "source_sha256": "a4bba2603313be744e9ef9718dae9e0af278e111fa785d3b0d7bb2e2a8904f7b",
+    "rows": 11,
+    "scope": "Exact displayed cells; mathematical expressions retain LaTeX notation.",
+    "source_snapshot": "Author v5 numerical-table curation snapshot before publication-link and archive-wording edits; whole-source hash is historical provenance, not a claim of final editorial file identity.",
+    "csv_sha256": "ca7118c8412c93c387680c4477013a8a2246827e0a70c82cb22cb71b2e43e52c"
+  },
+  {
+    "file": "tables/v20_tolerance_supplement_1.csv",
+    "source": "v20_tolerance_supplement.tex",
+    "source_sha256": "0570d5bfc84a9e16e9555385cc4a00a3fb7f6659655e9faa8d3cfcec42afcdb4",
+    "rows": 6,
+    "scope": "Exact displayed cells; mathematical expressions retain LaTeX notation.",
+    "source_snapshot": "Author v5 numerical-table curation snapshot before publication-link and archive-wording edits; whole-source hash is historical provenance, not a claim of final editorial file identity.",
+    "csv_sha256": "cb4aadf08a6b58b055bdc395f5dcfbade7bc5a9a62141598130a0efaf442236e"
+  }
+]

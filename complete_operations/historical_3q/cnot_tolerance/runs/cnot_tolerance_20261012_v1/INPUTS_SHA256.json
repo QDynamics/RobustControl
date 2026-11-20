@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-12T15:31:19.584044",
+  "archive": "D:\\Sync\\OneDrive\\My projects (QIP)\\Quantum Dynamics\\Composable Robust Quantum Control\\submission\\SCPMA_20261008_v1\\01_upload\\reproducibility_archive.zip",
+  "archive_sha256": "83f61234db6af70f6386e131669cf5cbb501c4c6919db11471ddda02c360d80d",
+  "protocol_sha256": "4f2464d54585357e04b40b2395870d0b11fc35ae20bb3bae96ef3bb643f35bcb",
+  "entries": {
+    "research/runs/v17_library_v1/whole.npz": {
+      "destination": "inputs/whole.npz",
+      "sha256": "2411dc26fb10e5ce1b68db5906d7092aafa1b7bf29a17f3869e79664f7b521ee"
+    },
+    "research/runs/v17_library_v1/module_response.npz": {
+      "destination": "inputs/module_response.npz",
+      "sha256": "14b35f806268e78d6d71b97c01432375431d7152a3842d2b2a5ddf8d2b3a2915"
+    },
+    "research/runs/v17_library_v1/modular.npz": {
+      "destination": "inputs/modular.npz",
+      "sha256": "169cb1a524cd8129dd9a5744a102a66a0b71aab624c91c85fde51843f533fa5a"
+    },
+    "research/runs/v17_library_v1/noise_complete.npz": {
+      "destination": "inputs/noise_complete.npz",
+      "sha256": "9eee12a2e37d6c9b4e9ac581c448c117c4a9ae72fd3d17854ca1ad336869c4f2"
+    },
+    "research/runs/v17_library_v1/nominal.npz": {
+      "destination": "inputs/nominal.npz",
+      "sha256": "4d5803b4ff8ab593328fa98ad53cb2af08e1fc70901e5fa897ba6c77b1dfb335"
+    },
+    "research/cnot_model_v1.py": {
+      "destination": "legacy_model/cnot_model_v1.py",
+      "sha256": "2f4a605a562c73c719507fa4d9ad31e22d91bae58054d78be712b9c51aa8dc52"
+    },
+    "research/v11_global_model.py": {
+      "destination": "legacy_model/v11_global_model.py",
+      "sha256": "dc65d81ffa62a557b7be342eab934c8b5772fcf0baaf17bfba94ee7b6a02ad0c"
+    },
+    "research/v12_model.py": {
+      "destination": "legacy_model/v12_model.py",
+      "sha256": "520493dd7e1f5aab65d9882a8eac6eea985aaba2d5627f413b7784d1ca41a851"
+    },
+    "research/v11_full8.py": {
+      "destination": "legacy_model/v11_full8.py",
+      "sha256": "3893c2ecfe75b026c29d0754ac93125bb7bf43145632bb7199489112d2a6e3a8"
+    },
+    "research/runs/v17_library_v1/result.json": {
+      "destination": "inputs/library_record.json",
+      "sha256": "4ed3b1de35409b97d198ff787fe15a58607f6f974377d8e348c7f66460e90ac6"
+    }
+  },
+  "status": "STAGED_ONLY_NO_NEW_PROPAGATION"
+}

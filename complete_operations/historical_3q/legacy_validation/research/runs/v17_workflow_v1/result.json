@@ -1,0 +1,45 @@
+{
+  "status": "ALL_SCIENTIFIC_ACCEPTANCE_STAGES_PASSED",
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\admin\\.qecvenv\\Scripts\\python.exe",
+        "D:\\Sync\\OneDrive\\My projects (QIP)\\Quantum Dynamics\\Composable Robust Quantum Control\\manuscript\\prx_quantum_20260929_v17\\research\\audit_v17_training.py"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 1.0001098000211641,
+      "source_sha256": "e89fd4c6316f8583ed2e441484a093f0a759e82966c9c6b8b8dbd6b9a034da0b"
+    },
+    {
+      "command": [
+        "C:\\Users\\admin\\.qecvenv\\Scripts\\python.exe",
+        "D:\\Sync\\OneDrive\\My projects (QIP)\\Quantum Dynamics\\Composable Robust Quantum Control\\manuscript\\prx_quantum_20260929_v17\\research\\check_v17_tradeoff.py"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 1.046870999969542,
+      "source_sha256": "f5992865016d11b1bcf85e4cde76f0947b75bac52de107c25650fc05ac3e9a19"
+    },
+    {
+      "command": [
+        "C:\\Users\\admin\\.qecvenv\\Scripts\\python.exe",
+        "D:\\Sync\\OneDrive\\My projects (QIP)\\Quantum Dynamics\\Composable Robust Quantum Control\\manuscript\\prx_quantum_20260929_v17\\research\\run_v17_validation.py"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 518.165957499994,
+      "source_sha256": "65285fb4ec9b4d404be3a90dcbfb93efb7a9e5cf22502ae6146fbb2032ab3b90"
+    },
+    {
+      "command": [
+        "C:\\Users\\admin\\.qecvenv\\Scripts\\python.exe",
+        "D:\\Sync\\OneDrive\\My projects (QIP)\\Quantum Dynamics\\Composable Robust Quantum Control\\manuscript\\prx_quantum_20260929_v17\\research\\replay_v17_controls.py",
+        "--out",
+        "D:\\Sync\\OneDrive\\My projects (QIP)\\Quantum Dynamics\\Composable Robust Quantum Control\\manuscript\\prx_quantum_20260929_v17\\research\\runs\\v17_replay_v1",
+        "--full-ode"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 6.028635599999689,
+      "source_sha256": "b78aaefc4f19692726d8fc896c1ad2505f184e5946db2741cc6985951e025bb5"
+    }
+  ],
+  "elapsed_s": 664.2841235999949
+}

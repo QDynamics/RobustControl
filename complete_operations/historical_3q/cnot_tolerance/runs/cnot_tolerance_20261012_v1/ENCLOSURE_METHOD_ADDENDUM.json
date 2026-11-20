@@ -1,0 +1,12 @@
+{
+  "change": "Replace inter-pulse rectangles by operator-norm coefficient balls with exact unitary zeroth-order norm. Local elementary operations remain outward-rounded rectangles.",
+  "reason": "The first enclosure wrapped to nominal error upper 1.345 despite physical residual about 1e-14.",
+  "unchanged": [
+    "all controls and continuation points",
+    "target and metrics",
+    "noise domain and tolerance",
+    "polynomial orders and stopping limits",
+    "primary success criterion"
+  ],
+  "evidence_status": "Method repair before accepted continuous bound, not task selection"
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "n2-q1-exact-chart-manifest-20260917-v1",
+  "created_utc": "2026-09-17T00:54:16.881312+00:00",
+  "files": [
+    {
+      "path": "runs/n2_q1_exact_chart_20260917_v1/config.json",
+      "bytes": 3765,
+      "sha256": "16c89c74f801919b6d04768e21914376a95351f03015b14d6771dff4aefbdf86"
+    },
+    {
+      "path": "runs/n2_q1_exact_chart_20260917_v1/selected_columns.json",
+      "bytes": 322071,
+      "sha256": "f5e527dd72d45ebc807c9907df3580060dbfb9cb09b1fee8c92088a0eaa22d1a"
+    },
+    {
+      "path": "runs/n2_q1_exact_chart_20260917_v1/minor_certificate.json",
+      "bytes": 228948,
+      "sha256": "1f514feddab98fc0d8cd40ec051ef58bb55f6ae2bb7322cd74970526735104ff"
+    },
+    {
+      "path": "runs/n2_q1_exact_chart_20260917_v1/resource_certificate.json",
+      "bytes": 1281,
+      "sha256": "6029f8cf65435282077ec91cd5d70ac2740d869a20475054717c4c2eda60211a"
+    },
+    {
+      "path": "runs/n2_q1_exact_chart_20260917_v1/result.json",
+      "bytes": 12682,
+      "sha256": "4fdf61d866caab656ea0dbfcf40eed00fdd19cb9530b0971735c5d8a2b730899"
+    }
+  ],
+  "self_hash_excluded": true
+}

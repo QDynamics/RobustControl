@@ -1,4 +1,4 @@
-Core code for *Reachability of complete quantum operations under dynamical error correction* is in [complete_operations](complete_operations/README.md). That directory includes finite-order response propagation, four/five-qubit compilation and held-out circuit replay, together with the small inputs needed to run it.
+Code and selected numerical data for *Reachability of complete quantum operations under dynamical error correction* is in [complete_operations](complete_operations/README.md). That directory includes final pulse parameters, figure/table values, interval inputs and outputs, verification code and documented bounded replay, with a claim-to-data map. Its documented commands require no separate manuscript data attachment.
 
 This repository also contains the data of robust control pulses and code demo in the paper
 *Universal Robust Quantum Gates by Geometric Correspondence*.

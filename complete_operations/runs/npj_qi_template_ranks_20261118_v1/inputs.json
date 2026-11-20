@@ -1,0 +1,33 @@
+{
+  "input_sha256": {
+    "tools/npj_qi_template_ranks_20261118_v1.py": "69bd843f356278e1a0035d54c98c89256f3674b4b4d54d00144cac7a56deb03d",
+    "docs/NPJ_QI_TEMPLATE_RANKS_20261118_v1.md": "959c80666e76503dafeffb3fa59f709f4db4343ea4a68dfb4c2478f5ee3a8d8b",
+    "runs/npj_qi_register_depth_20261118_v1/n4_corrected.npy": "7ff5a2720b3a8fdfc1350f5822213c78fe21ee03367b7e5a4bd7064d9d156446",
+    "runs/npj_qi_register_depth_20261118_v1/n5_corrected.npy": "3d51043361221b87e659a67b3028531157ee339ee42ed25f49d5db11025c9657"
+  },
+  "started_utc": "2026-11-18T15:17:54.098421+00:00",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "executable": "C:\\Users\\admin\\.qecvenv\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "numpy": "2.4.6",
+  "scipy": "1.18.0",
+  "blas_threads_requested": 1,
+  "precision": "float64/complex128",
+  "physical_pairs_by_N": {
+    "4": 48,
+    "5": 72
+  },
+  "steps": [
+    0.0002,
+    0.0001
+  ],
+  "relative_rank_thresholds": [
+    1e-06,
+    1e-08,
+    1e-09,
+    1e-10,
+    1e-12
+  ],
+  "reported_relative_threshold": 1e-09,
+  "log_series_degree": 8
+}

@@ -1,0 +1,11 @@
+Family,Start,$J$,$T_g/t_0$,Steps,Stop
+$F_P$,P,$2.8597\times10^{-4}$,13.1564,110,90-s limit
+$F_P$,C,$3.0626\times10^{-4}$,16.3416,105,90-s limit
+$F_P$,Old $F_P$,$3.5768\times10^{-4}$,14.4331,100,90-s limit
+$F_P$,N,$3.7847\times10^{-4}$,13.5969,107,90-s limit
+$F_P$,New R,$8.7820\times10^{-4}$,57.9669,93,90-s limit
+$F_C$,C,$2.9323\times10^{-4}$,16.1496,106,90-s limit
+$F_C$,New R,$8.6030\times10^{-4}$,56.4865,100,90-s limit
+$F_C$,New M,$1.1025\times10^{-3}$,72.5014,103,90-s limit
+$F_C$,Old $F_C$,$3.0216\times10^{-4}$,14.4793,116,90-s limit
+$F_C$,N,$2.8577\times10^{-4}$,14.2245,120,120-step limit

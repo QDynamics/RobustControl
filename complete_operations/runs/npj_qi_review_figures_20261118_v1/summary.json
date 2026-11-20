@@ -1,0 +1,64 @@
+{
+  "phase": {
+    "equality_distance_max_difference": 2.7755575615628914e-16,
+    "sampled_lower_bound_violation": 0.0
+  },
+  "clocks": {
+    "shorter_gate_t0": 41.984095999999994,
+    "depth32": [
+      {
+        "clock": "original",
+        "method": "direct",
+        "depth": 32,
+        "duration_t0": 4666.464801283872,
+        "probability_any_jump": 0.08910650270452125,
+        "coherent_D": 0.1853286830712877,
+        "mixture_lower": 0.13785068722338176,
+        "readout_lower": 0.10181941454742827,
+        "lower": 0.13785068722338176,
+        "upper": 0.2579211949764919
+      },
+      {
+        "clock": "shorter",
+        "method": "direct",
+        "depth": 32,
+        "duration_t0": 1343.5220719999998,
+        "probability_any_jump": 0.026512643025359838,
+        "coherent_D": 0.1853286830712877,
+        "mixture_lower": 0.1700789682766751,
+        "readout_lower": null,
+        "lower": 0.1700789682766751,
+        "upper": 0.20692777288001843
+      },
+      {
+        "clock": "original",
+        "method": "refined",
+        "depth": 32,
+        "duration_t0": 4666.464801283872,
+        "probability_any_jump": 0.08910650270452125,
+        "coherent_D": 0.04955862984912107,
+        "mixture_lower": 0.02042520106273668,
+        "readout_lower": 0.08184570467401409,
+        "lower": 0.08184570467401409,
+        "upper": 0.13424913636895924
+      },
+      {
+        "clock": "shorter",
+        "method": "refined",
+        "depth": 32,
+        "duration_t0": 1343.5220719999998,
+        "probability_any_jump": 0.026512643025359838,
+        "coherent_D": 0.04955862984912107,
+        "mixture_lower": 0.037406004421557844,
+        "readout_lower": null,
+        "lower": 0.037406004421557844,
+        "upper": 0.07475734261246522
+      }
+    ]
+  },
+  "mixture_check_violation": 0.0,
+  "quadratic_term": 0.0027805593864485656,
+  "upper_envelope": 0.0028969784752560734,
+  "quadratic_fraction": 0.9598136162205289,
+  "elapsed_s": 2.819508799992036
+}

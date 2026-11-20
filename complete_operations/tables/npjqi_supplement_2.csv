@@ -1,0 +1,8 @@
+,$N=4$,$N=5$
+Physical parameters $m$,143,215
+Response rank $\operatorname{rank}D\mathcal R$,64,103
+"Full joint rank $\operatorname{rank}D(\mathcal R,\Theta)$",96,156
+Full target rank on the response kernel,32,53
+"Response and fixed-complement rank $\operatorname{rank}D(\mathcal R,\Theta_\perp)$",81,141
+Logical target rank on the latter kernel,15,15
+Fixed-complete-target nullity,47,59

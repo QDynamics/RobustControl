@@ -1,0 +1,6 @@
+{
+  "kind": "noise_complete",
+  "initialization": "random12092703",
+  "accepted": false,
+  "stopping_reason": "restoration_failed"
+}

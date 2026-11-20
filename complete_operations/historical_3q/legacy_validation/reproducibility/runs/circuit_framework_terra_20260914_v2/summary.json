@@ -1,0 +1,34 @@
+{
+  "status": "CIRCUIT_FRAMEWORK_NUMERICAL_SUPPORT_PENDING_INDEPENDENT_AUDIT",
+  "claim_level": "bounded double-precision numerical support only, pending independent audit",
+  "checks": {
+    "all_three_source_pairs_noncommuting_at_1e-6": true,
+    "all_robust_word_first_order_generators_cancel_at_1e-8": true,
+    "target_time_ablation_available_for_all_labels": true,
+    "resolved_robust_small_error_cases": 80,
+    "resolved_robust_quadratic_cases_at_1p75": 80
+  },
+  "boundaries": [
+    "finite grid is not a continuous error-domain certificate",
+    "finite depths 1,2,4,8,16 are not arbitrary-depth fault tolerance",
+    "the deterministic profile is not fully independent per-module noise",
+    "target/time ablation is not a strong optimized or global baseline",
+    "no waveform, N4, device, submission, or external action occurred"
+  ],
+  "elapsed_seconds": 4.3187041000055615,
+  "call_ledger": {
+    "module_propagations": 5173,
+    "module_cache_hits": 52958,
+    "control_derivative_calls": 24,
+    "scientific_api_calls": 5197,
+    "maximum_single_call_seconds": 0.005119799985550344,
+    "time_by_api_seconds": {
+      "module_control_derivatives": 0.09050059999572113,
+      "module_propagator": 2.7177748002577573
+    },
+    "caps": {
+      "module_propagations": 12000,
+      "single_call_seconds": 30.0
+    }
+  }
+}

@@ -1,0 +1,1589 @@
+{
+  "selected": {
+    "projected": {
+      "source": "runs\\v12_library_v1\\projected.npz",
+      "sha256": "f9d4d0b043842881445e600a505200887d44184c6c12661ccb8ee6e7cd6e6100",
+      "audit": {
+        "projected_target_fro": 1.857266024964138e-14,
+        "complete_target_fro": 4.811909685791965,
+        "projected_response_fro": [
+          1.000499486928986e-14,
+          5.159376109313218e-15
+        ],
+        "complete_response_fro": [
+          0.6222377121356462,
+          0.1606189288561246
+        ],
+        "module_response_fro": [
+          [
+            4.858060768699468,
+            2.954694127467673
+          ],
+          [
+            6.739626126961124,
+            1.5009715375313466
+          ],
+          [
+            7.071782182735154,
+            4.079475073250942
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          0.9486006757322752,
+          1.3761013115349938,
+          0.9793629062578444
+        ],
+        "required_max": 1.857266024964138e-14,
+        "accepted": true,
+        "gate_time_t0": 13.922439475966971,
+        "cycle_time_t0": 15.084322998070121,
+        "rectangular_time_t0": 6.054073202669133
+      },
+      "physical": {
+        "target_full_fro": 5.506917690227122,
+        "target_projected_fro": 1.3949046165058073e-14,
+        "responses_full_fro": [
+          0.8799770115222302,
+          0.1854667636240712
+        ],
+        "responses_projected_fro": [
+          7.883092666880175e-14,
+          5.788048999241415e-14
+        ],
+        "module_responses_fro": [
+          [
+            4.969772521177215,
+            2.9839965057491318
+          ],
+          [
+            7.019168499812176,
+            1.5137449770413554
+          ],
+          [
+            7.183381517538649,
+            4.140136065907596
+          ]
+        ],
+        "required_max": 7.883092666880175e-14,
+        "leakage_unitary_fro": 3.0766495461127054e-15,
+        "passed": true,
+        "module_hidden_nonscalar_fro": [
+          1.341523940896872,
+          1.9461011379721946,
+          1.3850283045149774
+        ]
+      },
+      "training_objective": 0.00033286182315448934
+    },
+    "nominal_projected": {
+      "source": "runs\\v12_library_v1\\nominal_projected.npz",
+      "sha256": "df64921a4664070c1cb101aabeb49f7009d1059d243d22fe0f7890ca02413ef3",
+      "audit": {
+        "projected_target_fro": 1.814952576437268e-14,
+        "complete_target_fro": 2.1466950750039813e-14,
+        "projected_response_fro": [
+          2.05264378034478e-14,
+          9.66863770513081e-15
+        ],
+        "complete_response_fro": [
+          3.8907470756189584,
+          1.1005819934563048e-14
+        ],
+        "module_response_fro": [
+          [
+            12.429005583493495,
+            6.688590064307305
+          ],
+          [
+            8.312552330215585,
+            6.426038410962401
+          ],
+          [
+            12.506693336198898,
+            2.1659682986169786
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          1.156545024026503,
+          0.9003767279946275,
+          1.011428468642446
+        ],
+        "required_max": 2.1466950750039813e-14,
+        "accepted": true,
+        "gate_time_t0": 19.74832665220237,
+        "cycle_time_t0": 20.910210174305515,
+        "rectangular_time_t0": 9.063567278765765
+      },
+      "physical": {
+        "target_full_fro": 1.9890302918990204e-14,
+        "target_projected_fro": 1.0495973439916468e-14,
+        "responses_full_fro": [
+          5.502347282103843,
+          6.137200831815342e-14
+        ],
+        "responses_projected_fro": [
+          1.3972201702687672e-13,
+          6.038115770334599e-14
+        ],
+        "module_responses_fro": [
+          [
+            12.68442836941722,
+            6.71194607580457
+          ],
+          [
+            9.01128037440962,
+            6.492977409004978
+          ],
+          [
+            12.924997259386965,
+            2.1974260750162404
+          ]
+        ],
+        "required_max": 1.3972201702687672e-13,
+        "leakage_unitary_fro": 3.2993674699770377e-15,
+        "passed": true,
+        "module_hidden_nonscalar_fro": [
+          1.6356016584734028,
+          1.2733249799751225,
+          1.4303758577244008
+        ]
+      },
+      "training_objective": 0.0006916023619578987
+    },
+    "whole": {
+      "source": "runs\\v12_library_v1\\whole.npz",
+      "sha256": "2411dc26fb10e5ce1b68db5906d7092aafa1b7bf29a17f3869e79664f7b521ee",
+      "audit": {
+        "projected_target_fro": 1.821615906760646e-14,
+        "complete_target_fro": 2.0574787867230122e-14,
+        "projected_response_fro": [
+          1.8056097828622038e-14,
+          1.337763708422822e-14
+        ],
+        "complete_response_fro": [
+          1.9675402746051187e-14,
+          1.566276998988441e-14
+        ],
+        "module_response_fro": [
+          [
+            7.502363736873665,
+            4.189281217156338
+          ],
+          [
+            6.734023820543832,
+            3.86887655663241
+          ],
+          [
+            3.9985149628252987,
+            3.2225720550567414
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          1.2562377489343688,
+          1.3979819668735323,
+          0.8881674317994995
+        ],
+        "required_max": 2.0574787867230122e-14,
+        "accepted": true,
+        "gate_time_t0": 17.270321883009462,
+        "cycle_time_t0": 18.432205405112608,
+        "rectangular_time_t0": 7.789738448632244
+      },
+      "physical": {
+        "target_full_fro": 1.4676020848714342e-14,
+        "target_projected_fro": 1.0555896996959135e-14,
+        "responses_full_fro": [
+          7.660344130299561e-14,
+          4.828799780665308e-14
+        ],
+        "responses_projected_fro": [
+          7.292937330182751e-14,
+          4.5996220796334414e-14
+        ],
+        "module_responses_fro": [
+          [
+            7.843668492418688,
+            4.285838931170764
+          ],
+          [
+            7.175083044895269,
+            3.9884331439315894
+          ],
+          [
+            4.112769530632381,
+            3.2232195284430945
+          ]
+        ],
+        "required_max": 7.660344130299561e-14,
+        "leakage_unitary_fro": 3.2272663339357516e-15,
+        "passed": true,
+        "module_hidden_nonscalar_fro": [
+          1.7765884621080317,
+          1.9770450575055667,
+          1.2560584277089382
+        ]
+      },
+      "training_objective": 0.0003216492253483803
+    },
+    "module_response": {
+      "source": "runs\\v17_revision_v1\\module_response_local17092803\\final.npz",
+      "sha256": "14b35f806268e78d6d71b97c01432375431d7152a3842d2b2a5ddf8d2b3a2915",
+      "audit": {
+        "projected_target_fro": 1.8675918893756647e-14,
+        "complete_target_fro": 2.247692512320788e-14,
+        "projected_response_fro": [
+          3.53971442970798e-14,
+          2.7160333748333288e-14
+        ],
+        "complete_response_fro": [
+          3.6932232994364746e-14,
+          5.593429095689083e-14
+        ],
+        "module_response_fro": [
+          [
+            1.7646083007399245e-14,
+            2.487650577958124e-14
+          ],
+          [
+            2.984889885220077e-14,
+            2.0904525631097478e-14
+          ],
+          [
+            1.2549227985564457e-14,
+            1.8539228666200127e-14
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          0.5003666233050666,
+          0.5822435697414189,
+          0.3619061671023344
+        ],
+        "required_max": 2.984889885220077e-14,
+        "accepted": true,
+        "gate_time_t0": 59.618873777111205,
+        "cycle_time_t0": 60.78075729921436,
+        "rectangular_time_t0": 29.2202603753006
+      },
+      "physical": {
+        "target_full_fro": 2.2621090937272714e-14,
+        "target_projected_fro": 1.4909628983550584e-14,
+        "responses_full_fro": [
+          1.5034711686365504e-13,
+          7.029663231808238e-14
+        ],
+        "responses_projected_fro": [
+          1.3977744806390812e-13,
+          6.043773052557045e-14
+        ],
+        "module_responses_fro": [
+          [
+            8.093765771304186e-14,
+            4.7793830402743616e-14
+          ],
+          [
+            6.124079974649644e-14,
+            3.0941476684635906e-14
+          ],
+          [
+            6.618712046459832e-14,
+            4.108918227688233e-14
+          ]
+        ],
+        "required_max": 8.093765771304186e-14,
+        "leakage_unitary_fro": 3.887268537167211e-15,
+        "passed": true,
+        "module_hidden_nonscalar_fro": [
+          0.7076252648368576,
+          0.8234167529328406,
+          0.5118126098225843
+        ]
+      },
+      "training_objective": 0.0008970545637718873
+    },
+    "modular": {
+      "source": "runs\\v17_revision_v1\\modular_local17092803\\final.npz",
+      "sha256": "169cb1a524cd8129dd9a5744a102a66a0b71aab624c91c85fde51843f533fa5a",
+      "audit": {
+        "projected_target_fro": 2.2887082393318035e-14,
+        "complete_target_fro": 4.968266336911593e-14,
+        "projected_response_fro": [
+          9.199520362525538e-14,
+          1.032798288714854e-13
+        ],
+        "complete_response_fro": [
+          9.351862452211729e-14,
+          1.2524426239643937e-13
+        ],
+        "module_response_fro": [
+          [
+            8.493343696304908e-14,
+            7.284948190022531e-14
+          ],
+          [
+            2.9678703345843594e-14,
+            5.323236772813575e-14
+          ],
+          [
+            2.3247162858449382e-14,
+            2.4614903416338524e-14
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          1.2311358109218698e-15,
+          2.5124685748622478e-15,
+          7.971873315109131e-16
+        ],
+        "required_max": 8.493343696304908e-14,
+        "accepted": true,
+        "gate_time_t0": 76.78813796553433,
+        "cycle_time_t0": 77.95002148763749,
+        "rectangular_time_t0": 37.90292079817745
+      },
+      "physical": {
+        "target_full_fro": 5.682943049165857e-14,
+        "target_projected_fro": 1.7876298617306352e-14,
+        "responses_full_fro": [
+          1.288083613261286e-13,
+          1.3251599484277734e-13
+        ],
+        "responses_projected_fro": [
+          1.066048793323097e-13,
+          1.2339188717680368e-13
+        ],
+        "module_responses_fro": [
+          [
+            9.777699049812715e-14,
+            8.6535579565452e-14
+          ],
+          [
+            5.22429950519755e-14,
+            5.913547047173848e-14
+          ],
+          [
+            4.1877488158309255e-14,
+            6.604034681377226e-14
+          ]
+        ],
+        "required_max": 9.777699049812715e-14,
+        "leakage_unitary_fro": 4.028906330884498e-15,
+        "passed": true,
+        "module_hidden_nonscalar_fro": [
+          6.695685638618081e-15,
+          6.069620840638809e-15,
+          4.966625132618382e-15
+        ]
+      },
+      "training_objective": 0.001154431639473619
+    },
+    "noise_projected": {
+      "source": "runs\\v17_revision_v1\\noise_projected_P\\final.npz",
+      "sha256": "c1c627d365d8c23cdc08354986dd86c9a1ba7edb0dba5cfd7618da0fab19ddbb",
+      "audit": {
+        "projected_target_fro": 1.734109537382477e-14,
+        "complete_target_fro": 4.83446991891769,
+        "projected_response_fro": [
+          1.1230190927242885,
+          1.7034264645816404
+        ],
+        "complete_response_fro": [
+          1.3013771309801163,
+          1.704484008290186
+        ],
+        "module_response_fro": [
+          [
+            3.9928866367103057,
+            2.5785931815763354
+          ],
+          [
+            5.069823911995848,
+            1.4965714869658324
+          ],
+          [
+            5.708106167816473,
+            3.41449902981258
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          0.8812346095255518,
+          1.20018466689807,
+          0.7056387769178124
+        ],
+        "required_max": 1.734109537382477e-14,
+        "accepted": true,
+        "gate_time_t0": 13.156418555691394,
+        "cycle_time_t0": 14.318302077794543,
+        "rectangular_time_t0": 5.5948829649411405
+      },
+      "physical": {
+        "target_full_fro": 5.544961798764808,
+        "target_projected_fro": 8.97395513277648e-15,
+        "responses_full_fro": [
+          1.4580785271900762,
+          1.7048363770785226
+        ],
+        "responses_projected_fro": [
+          1.1230190927242845,
+          1.7034264645816268
+        ],
+        "module_responses_fro": [
+          [
+            4.1049238716583085,
+            2.6135177618642094
+          ],
+          [
+            5.276993842128943,
+            1.516641834402629
+          ],
+          [
+            5.775007699619933,
+            3.4734258992393308
+          ]
+        ],
+        "required_max": 8.97395513277648e-15,
+        "leakage_unitary_fro": 2.942500712954421e-15,
+        "passed": true,
+        "module_hidden_nonscalar_fro": [
+          1.2462539364235956,
+          1.6973174332794891,
+          0.9979239284535345
+        ]
+      },
+      "training_objective": 0.0002859726828167859
+    },
+    "noise_complete": {
+      "source": "runs\\v17_revision_v1\\noise_complete_N\\final.npz",
+      "sha256": "9eee12a2e37d6c9b4e9ac581c448c117c4a9ae72fd3d17854ca1ad336869c4f2",
+      "audit": {
+        "projected_target_fro": 1.8855568264315868e-14,
+        "complete_target_fro": 2.1690631831068735e-14,
+        "projected_response_fro": [
+          2.1354494517154983,
+          3.37372008298092
+        ],
+        "complete_response_fro": [
+          2.191769626339927,
+          3.3737200829809204
+        ],
+        "module_response_fro": [
+          [
+            5.841494888929638,
+            2.981769739716499
+          ],
+          [
+            5.007587707040285,
+            2.3046231843097873
+          ],
+          [
+            4.549445675386403,
+            2.8292679769713045
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          1.3780263575069815,
+          1.1519536473987326,
+          1.3019014749895876
+        ],
+        "required_max": 2.1690631831068735e-14,
+        "accepted": true,
+        "gate_time_t0": 14.224547277718123,
+        "cycle_time_t0": 15.386430799821273,
+        "rectangular_time_t0": 6.124520442828347
+      },
+      "physical": {
+        "target_full_fro": 1.4687454583728828e-14,
+        "target_projected_fro": 1.0622146733261e-14,
+        "responses_full_fro": [
+          2.2466783991172896,
+          3.373720082980893
+        ],
+        "responses_projected_fro": [
+          2.135449451715443,
+          3.3737200829808933
+        ],
+        "module_responses_fro": [
+          [
+            6.15643156244108,
+            3.0344305253769135
+          ],
+          [
+            5.259394494782533,
+            2.3059841498316525
+          ],
+          [
+            4.8554660785093615,
+            2.8703094193308747
+          ]
+        ],
+        "required_max": 1.4687454583728828e-14,
+        "leakage_unitary_fro": 3.171733072576012e-15,
+        "passed": true,
+        "module_hidden_nonscalar_fro": [
+          1.9488235640939726,
+          1.6291084713764465,
+          1.841166722803815
+        ]
+      },
+      "training_objective": 0.0002857654623770728
+    },
+    "nominal": {
+      "source": "runs\\v12_library_v1\\nominal.npz",
+      "sha256": "4d5803b4ff8ab593328fa98ad53cb2af08e1fc70901e5fa897ba6c77b1dfb335",
+      "audit": {
+        "projected_target_fro": 1.864518308094693e-14,
+        "complete_target_fro": 2.1429308152184655e-14,
+        "projected_response_fro": [
+          11.045143192366208,
+          4.06916144315192
+        ],
+        "complete_response_fro": [
+          12.054104421828363,
+          4.069161443151921
+        ],
+        "module_response_fro": [
+          [
+            8.354536126387925,
+            2.099712769602858
+          ],
+          [
+            4.827577908810523,
+            2.9820477661694995
+          ],
+          [
+            4.726034822688179,
+            1.7204235795487743
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          1.4064371869535353,
+          1.2349110599339679,
+          1.2546854155854452
+        ],
+        "required_max": 2.1429308152184655e-14,
+        "accepted": true,
+        "gate_time_t0": 8.814653387050269,
+        "cycle_time_t0": 9.976536909153419,
+        "rectangular_time_t0": 3.4586899665023436
+      },
+      "physical": {
+        "target_full_fro": 1.4715070571170103e-14,
+        "target_projected_fro": 9.037815924376512e-15,
+        "responses_full_fro": [
+          12.984901951297442,
+          4.0691614431518826
+        ],
+        "responses_projected_fro": [
+          11.04514319236607,
+          4.069161443151883
+        ],
+        "module_responses_fro": [
+          [
+            8.746849996539508,
+            2.211275836646917
+          ],
+          [
+            5.169186857101945,
+            3.060135413177343
+          ],
+          [
+            4.964428581896392,
+            1.7204362854528832
+          ]
+        ],
+        "required_max": 1.4715070571170103e-14,
+        "leakage_unitary_fro": 3.3133084295333395e-15,
+        "passed": true,
+        "module_hidden_nonscalar_fro": [
+          1.9890025444155583,
+          1.7464279692831526,
+          1.7743931312326624
+        ]
+      },
+      "training_objective": 0.0012924493228514303
+    }
+  },
+  "all_trials": [
+    {
+      "kind": "module_response",
+      "accepted": true,
+      "audit": {
+        "projected_target_fro": 1.7400553594394634e-14,
+        "complete_target_fro": 2.1585439890804495e-14,
+        "projected_response_fro": [
+          2.0040409395773796e-14,
+          3.207143494957161e-14
+        ],
+        "complete_response_fro": [
+          2.321654602143621e-14,
+          5.5884507197039147e-14
+        ],
+        "module_response_fro": [
+          [
+            1.9714715829069614e-14,
+            3.300493342674507e-14
+          ],
+          [
+            1.2804799500868441e-14,
+            1.5630544252451436e-14
+          ],
+          [
+            9.954288917767242e-15,
+            1.479088194874576e-14
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          0.503074399326039,
+          0.5898829281459917,
+          0.36111348563530965
+        ],
+        "required_max": 3.300493342674507e-14,
+        "accepted": true,
+        "gate_time_t0": 59.63239282540563,
+        "cycle_time_t0": 60.794276347508784,
+        "rectangular_time_t0": 29.222807068538685
+      },
+      "iterations": 120,
+      "accepted_steps": 114,
+      "elapsed_s": 27.362172199995257,
+      "stopping_reason": "iteration_budget",
+      "global_optimum": false,
+      "training_objective": 0.0008972565869748203,
+      "final_sha256": "9e0a22d4999ef426c8ba3dfb705ddecf3fad47c9d99b7f73fb5284d907983c5f",
+      "source": "runs\\v17_revision_v1\\module_response_incumbent\\final.npz",
+      "label": "incumbent"
+    },
+    {
+      "kind": "module_response",
+      "accepted": true,
+      "audit": {
+        "projected_target_fro": 8.19626801393997e-14,
+        "complete_target_fro": 8.376957279406431e-14,
+        "projected_response_fro": [
+          2.8812975033009925e-13,
+          3.0562089788850757e-13
+        ],
+        "complete_response_fro": [
+          2.8986562869571636e-13,
+          3.0857371859256966e-13
+        ],
+        "module_response_fro": [
+          [
+            2.522436790427289e-13,
+            2.824897293542779e-13
+          ],
+          [
+            9.409588234340104e-14,
+            4.1988900466563795e-14
+          ],
+          [
+            1.0205856755170457e-13,
+            5.712167059359129e-14
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          0.8196499326978887,
+          0.9582722399986847,
+          0.3453036223230828
+        ],
+        "required_max": 2.824897293542779e-13,
+        "accepted": true,
+        "gate_time_t0": 61.69913239334137,
+        "cycle_time_t0": 62.861015915444526,
+        "rectangular_time_t0": 30.28979652989423
+      },
+      "iterations": 120,
+      "accepted_steps": 120,
+      "elapsed_s": 19.072191799990833,
+      "stopping_reason": "iteration_budget",
+      "global_optimum": false,
+      "training_objective": 0.0009273254350568018,
+      "final_sha256": "ba2cbc23b525bc5974da92a4cc0fa90e51c5232d524d31d7b3639c5368f206f7",
+      "source": "runs\\v17_revision_v1\\module_response_common_warm\\final.npz",
+      "label": "common_warm"
+    },
+    {
+      "kind": "module_response",
+      "accepted": true,
+      "audit": {
+        "projected_target_fro": 1.8836933414423064e-14,
+        "complete_target_fro": 2.2228633513355977e-14,
+        "projected_response_fro": [
+          3.021575921730766e-14,
+          1.6617659361423706e-14
+        ],
+        "complete_response_fro": [
+          3.1655526521259525e-14,
+          5.0224001938150104e-14
+        ],
+        "module_response_fro": [
+          [
+            2.595747373886302e-14,
+            2.5453219309857267e-14
+          ],
+          [
+            1.533007790261473e-14,
+            2.022605526859248e-14
+          ],
+          [
+            1.0633791871718322e-14,
+            1.495193432129672e-14
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          0.36475630467982634,
+          0.7592192476219699,
+          0.4282382408043339
+        ],
+        "required_max": 2.595747373886302e-14,
+        "accepted": true,
+        "gate_time_t0": 60.83834536355039,
+        "cycle_time_t0": 62.00022888565354,
+        "rectangular_time_t0": 29.845532786610768
+      },
+      "iterations": 120,
+      "accepted_steps": 115,
+      "elapsed_s": 44.29436960001476,
+      "stopping_reason": "iteration_budget",
+      "global_optimum": false,
+      "training_objective": 0.0009160827692950435,
+      "final_sha256": "dd9b146f71edcbd0f3dda4e9d725ae7fa6a1f64d75e4679ba39e0e8d3ce215eb",
+      "source": "runs\\v17_revision_v1\\module_response_local17092801\\final.npz",
+      "label": "local17092801"
+    },
+    {
+      "kind": "module_response",
+      "accepted": true,
+      "audit": {
+        "projected_target_fro": 5.623447658770302e-13,
+        "complete_target_fro": 5.718752956413236e-13,
+        "projected_response_fro": [
+          2.629164391654249e-12,
+          2.4034068154512935e-12
+        ],
+        "complete_response_fro": [
+          2.633750543528945e-12,
+          2.403784895246169e-12
+        ],
+        "module_response_fro": [
+          [
+            1.7731573376714047e-12,
+            2.3316072283745572e-12
+          ],
+          [
+            1.7743381413200966e-12,
+            8.176086139378611e-13
+          ],
+          [
+            6.00349977820088e-13,
+            6.592260015511568e-13
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          0.7884346926117146,
+          0.9477910069090275,
+          0.33425661035117304
+        ],
+        "required_max": 2.3316072283745572e-12,
+        "accepted": true,
+        "gate_time_t0": 61.67482409750373,
+        "cycle_time_t0": 62.836707619606884,
+        "rectangular_time_t0": 30.285565155074977
+      },
+      "iterations": 57,
+      "accepted_steps": 43,
+      "elapsed_s": 23.79178899998078,
+      "stopping_reason": "trust_limit",
+      "global_optimum": false,
+      "training_objective": 0.0009269470181443943,
+      "final_sha256": "d8311ea66f9f9740e5ae8dbda234270d516075b785700e1e34d3957e03cd8254",
+      "source": "runs\\v17_revision_v1\\module_response_local17092802\\final.npz",
+      "label": "local17092802"
+    },
+    {
+      "kind": "module_response",
+      "accepted": true,
+      "audit": {
+        "projected_target_fro": 1.8675918893756647e-14,
+        "complete_target_fro": 2.247692512320788e-14,
+        "projected_response_fro": [
+          3.53971442970798e-14,
+          2.7160333748333288e-14
+        ],
+        "complete_response_fro": [
+          3.6932232994364746e-14,
+          5.593429095689083e-14
+        ],
+        "module_response_fro": [
+          [
+            1.7646083007399245e-14,
+            2.487650577958124e-14
+          ],
+          [
+            2.984889885220077e-14,
+            2.0904525631097478e-14
+          ],
+          [
+            1.2549227985564457e-14,
+            1.8539228666200127e-14
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          0.5003666233050666,
+          0.5822435697414189,
+          0.3619061671023344
+        ],
+        "required_max": 2.984889885220077e-14,
+        "accepted": true,
+        "gate_time_t0": 59.618873777111205,
+        "cycle_time_t0": 60.78075729921436,
+        "rectangular_time_t0": 29.2202603753006
+      },
+      "iterations": 120,
+      "accepted_steps": 116,
+      "elapsed_s": 38.088837199960835,
+      "stopping_reason": "iteration_budget",
+      "global_optimum": false,
+      "training_objective": 0.0008970545637718873,
+      "final_sha256": "49a44d1631007dc2f687ce85a0cb31b222b763d6f1950dad4e7dae9c2c1d0d3a",
+      "source": "runs\\v17_revision_v1\\module_response_local17092803\\final.npz",
+      "label": "local17092803"
+    },
+    {
+      "kind": "modular",
+      "accepted": true,
+      "audit": {
+        "projected_target_fro": 1.863989849647497e-14,
+        "complete_target_fro": 4.480083273304561e-14,
+        "projected_response_fro": [
+          2.4670439172253257e-14,
+          8.667321195495136e-14
+        ],
+        "complete_response_fro": [
+          2.517413673248301e-14,
+          1.0772330220939253e-13
+        ],
+        "module_response_fro": [
+          [
+            2.0081217101630244e-14,
+            4.234662520847781e-14
+          ],
+          [
+            1.446175050192343e-14,
+            7.093161957257062e-14
+          ],
+          [
+            1.0720299430693871e-14,
+            2.7285691094932224e-14
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          6.108958992380695e-16,
+          1.1319611715921784e-15,
+          1.1146275789051322e-15
+        ],
+        "required_max": 7.093161957257062e-14,
+        "accepted": true,
+        "gate_time_t0": 76.78841344390757,
+        "cycle_time_t0": 77.95029696601073,
+        "rectangular_time_t0": 37.9030211539331
+      },
+      "iterations": 14,
+      "accepted_steps": 0,
+      "elapsed_s": 6.51247090002289,
+      "stopping_reason": "trust_limit",
+      "global_optimum": false,
+      "training_objective": 0.0011544400457635022,
+      "final_sha256": "57ccbf720807102a0ea4ec373c570f204cba7e303a67d36ff08412bddbce04a9",
+      "source": "runs\\v17_revision_v1\\modular_incumbent\\final.npz",
+      "label": "incumbent"
+    },
+    {
+      "kind": "modular",
+      "accepted": true,
+      "audit": {
+        "projected_target_fro": 1.863989849647497e-14,
+        "complete_target_fro": 4.480083273304561e-14,
+        "projected_response_fro": [
+          2.4670439172253257e-14,
+          8.667321195495136e-14
+        ],
+        "complete_response_fro": [
+          2.517413673248301e-14,
+          1.0772330220939253e-13
+        ],
+        "module_response_fro": [
+          [
+            2.0081217101630244e-14,
+            4.234662520847781e-14
+          ],
+          [
+            1.446175050192343e-14,
+            7.093161957257062e-14
+          ],
+          [
+            1.0720299430693871e-14,
+            2.7285691094932224e-14
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          6.108958992380695e-16,
+          1.1319611715921784e-15,
+          1.1146275789051322e-15
+        ],
+        "required_max": 7.093161957257062e-14,
+        "accepted": true,
+        "gate_time_t0": 76.78841344390757,
+        "cycle_time_t0": 77.95029696601073,
+        "rectangular_time_t0": 37.9030211539331
+      },
+      "iterations": 59,
+      "accepted_steps": 45,
+      "elapsed_s": 23.447766500001308,
+      "stopping_reason": "trust_limit",
+      "global_optimum": false,
+      "training_objective": 0.0011544400457635022,
+      "final_sha256": "f9d92f40e83f671fd5398a79cff12d00bc446c50df8ee0ecd4a4364e3d141ccd",
+      "source": "runs\\v17_revision_v1\\modular_common_warm\\final.npz",
+      "label": "common_warm"
+    },
+    {
+      "kind": "modular",
+      "accepted": true,
+      "audit": {
+        "projected_target_fro": 2.3902510007268743e-13,
+        "complete_target_fro": 2.4732235647440707e-13,
+        "projected_response_fro": [
+          1.832963985032951e-12,
+          1.295963011398264e-12
+        ],
+        "complete_response_fro": [
+          1.8394913850362198e-12,
+          1.297211913612492e-12
+        ],
+        "module_response_fro": [
+          [
+            1.9965456205409104e-12,
+            1.1618576742846935e-12
+          ],
+          [
+            3.6624687927014906e-13,
+            2.398282141646162e-13
+          ],
+          [
+            2.2243117453537965e-13,
+            2.40158278971287e-13
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          3.54963708964675e-14,
+          2.384158311833301e-14,
+          2.082404370325449e-14
+        ],
+        "required_max": 1.9965456205409104e-12,
+        "accepted": true,
+        "gate_time_t0": 76.78892743161735,
+        "cycle_time_t0": 77.9508109537205,
+        "rectangular_time_t0": 37.90328905924496
+      },
+      "iterations": 56,
+      "accepted_steps": 42,
+      "elapsed_s": 22.518552299996372,
+      "stopping_reason": "trust_limit",
+      "global_optimum": false,
+      "training_objective": 0.0011544508203709652,
+      "final_sha256": "b9fb57fad02924c4203f0e131fc5a10729b9be5fd3452439b21da0c60dfad7b9",
+      "source": "runs\\v17_revision_v1\\modular_local17092801\\final.npz",
+      "label": "local17092801"
+    },
+    {
+      "kind": "modular",
+      "accepted": true,
+      "audit": {
+        "projected_target_fro": 3.146308834019237e-13,
+        "complete_target_fro": 3.287696204461207e-13,
+        "projected_response_fro": [
+          1.9788813430771806e-12,
+          1.5814352978737279e-12
+        ],
+        "complete_response_fro": [
+          2.000959109938757e-12,
+          1.5824636675238849e-12
+        ],
+        "module_response_fro": [
+          [
+            1.927567385314106e-12,
+            1.0264143129824256e-12
+          ],
+          [
+            6.035675978537557e-13,
+            5.02199531317249e-13
+          ],
+          [
+            6.04304554999929e-13,
+            7.47827638705253e-13
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          4.243321539081003e-14,
+          3.9482158615669796e-14,
+          5.813027843490376e-14
+        ],
+        "required_max": 1.927567385314106e-12,
+        "accepted": true,
+        "gate_time_t0": 76.78954407882179,
+        "cycle_time_t0": 77.95142760092494,
+        "rectangular_time_t0": 37.903879212541206
+      },
+      "iterations": 53,
+      "accepted_steps": 39,
+      "elapsed_s": 19.936329399992246,
+      "stopping_reason": "trust_limit",
+      "global_optimum": false,
+      "training_objective": 0.001154448347209433,
+      "final_sha256": "b3eb51bab1e36138133d956df2fcda144e0e6ad2d7127a0a3f11c57df3aedd35",
+      "source": "runs\\v17_revision_v1\\modular_local17092802\\final.npz",
+      "label": "local17092802"
+    },
+    {
+      "kind": "modular",
+      "accepted": true,
+      "audit": {
+        "projected_target_fro": 2.2887082393318035e-14,
+        "complete_target_fro": 4.968266336911593e-14,
+        "projected_response_fro": [
+          9.199520362525538e-14,
+          1.032798288714854e-13
+        ],
+        "complete_response_fro": [
+          9.351862452211729e-14,
+          1.2524426239643937e-13
+        ],
+        "module_response_fro": [
+          [
+            8.493343696304908e-14,
+            7.284948190022531e-14
+          ],
+          [
+            2.9678703345843594e-14,
+            5.323236772813575e-14
+          ],
+          [
+            2.3247162858449382e-14,
+            2.4614903416338524e-14
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          1.2311358109218698e-15,
+          2.5124685748622478e-15,
+          7.971873315109131e-16
+        ],
+        "required_max": 8.493343696304908e-14,
+        "accepted": true,
+        "gate_time_t0": 76.78813796553433,
+        "cycle_time_t0": 77.95002148763749,
+        "rectangular_time_t0": 37.90292079817745
+      },
+      "iterations": 47,
+      "accepted_steps": 33,
+      "elapsed_s": 18.126806700020097,
+      "stopping_reason": "trust_limit",
+      "global_optimum": false,
+      "training_objective": 0.001154431639473619,
+      "final_sha256": "b930873ade55e4c42bcc5c2fbbabb465faacfeb441cf3b47799ead9edca9e22b",
+      "source": "runs\\v17_revision_v1\\modular_local17092803\\final.npz",
+      "label": "local17092803"
+    },
+    {
+      "kind": "noise_projected",
+      "accepted": true,
+      "audit": {
+        "projected_target_fro": 1.734109537382477e-14,
+        "complete_target_fro": 4.83446991891769,
+        "projected_response_fro": [
+          1.1230190927242885,
+          1.7034264645816404
+        ],
+        "complete_response_fro": [
+          1.3013771309801163,
+          1.704484008290186
+        ],
+        "module_response_fro": [
+          [
+            3.9928866367103057,
+            2.5785931815763354
+          ],
+          [
+            5.069823911995848,
+            1.4965714869658324
+          ],
+          [
+            5.708106167816473,
+            3.41449902981258
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          0.8812346095255518,
+          1.20018466689807,
+          0.7056387769178124
+        ],
+        "required_max": 1.734109537382477e-14,
+        "accepted": true,
+        "gate_time_t0": 13.156418555691394,
+        "cycle_time_t0": 14.318302077794543,
+        "rectangular_time_t0": 5.5948829649411405
+      },
+      "iterations": 110,
+      "accepted_steps": 110,
+      "elapsed_s": 90.71018080000067,
+      "stopping_reason": "wall_time_limit",
+      "global_optimum": false,
+      "training_objective": 0.0002859726828167859,
+      "final_sha256": "5c4aeaed465d4b19521331bc0220a85db5d1c8d0f30ff426049886adfd01c4e1",
+      "source": "runs\\v17_revision_v1\\noise_projected_P\\final.npz",
+      "label": "P"
+    },
+    {
+      "kind": "noise_projected",
+      "accepted": true,
+      "audit": {
+        "projected_target_fro": 1.996910807135188e-14,
+        "complete_target_fro": 1.2439402474256838,
+        "projected_response_fro": [
+          0.9249899475155856,
+          1.907144013236743
+        ],
+        "complete_response_fro": [
+          1.2472977680859927,
+          2.2498008212437255
+        ],
+        "module_response_fro": [
+          [
+            6.731924255552588,
+            3.8077394427015254
+          ],
+          [
+            5.474987610438102,
+            3.7091440927460035
+          ],
+          [
+            3.39923208101367,
+            3.151493687601258
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          1.2196830029376116,
+          1.4071611382006481,
+          0.8935470757638684
+        ],
+        "required_max": 1.996910807135188e-14,
+        "accepted": true,
+        "gate_time_t0": 16.341618434979324,
+        "cycle_time_t0": 17.50350195708247,
+        "rectangular_time_t0": 7.249273254337822
+      },
+      "iterations": 105,
+      "accepted_steps": 105,
+      "elapsed_s": 90.67848240002058,
+      "stopping_reason": "wall_time_limit",
+      "global_optimum": false,
+      "training_objective": 0.00030626071199370123,
+      "final_sha256": "432b2360a51e99423285fc5964f4bea7608a3a7f3d3217dc545d1718c8fa4349",
+      "source": "runs\\v17_revision_v1\\noise_projected_C\\final.npz",
+      "label": "C"
+    },
+    {
+      "kind": "noise_projected",
+      "accepted": true,
+      "audit": {
+        "projected_target_fro": 1.818366255036666e-14,
+        "complete_target_fro": 2.117615647572507,
+        "projected_response_fro": [
+          2.1661572212522437,
+          2.742947872761842
+        ],
+        "complete_response_fro": [
+          5.951119938928862,
+          2.81357272219582
+        ],
+        "module_response_fro": [
+          [
+            7.287231438310053,
+            4.8005535463390645
+          ],
+          [
+            5.885442292818955,
+            5.020294731174833
+          ],
+          [
+            4.674302090517611,
+            2.962989967051598
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          1.079738273422429,
+          1.4133254282800225,
+          1.3973567448902056
+        ],
+        "required_max": 1.818366255036666e-14,
+        "accepted": true,
+        "gate_time_t0": 14.43310565335664,
+        "cycle_time_t0": 15.594989175459789,
+        "rectangular_time_t0": 6.248443629025742
+      },
+      "iterations": 100,
+      "accepted_steps": 100,
+      "elapsed_s": 90.71740000002319,
+      "stopping_reason": "wall_time_limit",
+      "global_optimum": false,
+      "training_objective": 0.0003576769732677791,
+      "final_sha256": "96a5a18b37f354e300042b06c742a69c77ec5a14caf7829015de4fb1231f888d",
+      "source": "runs\\v17_revision_v1\\noise_projected_old_FP\\final.npz",
+      "label": "old_FP"
+    },
+    {
+      "kind": "noise_projected",
+      "accepted": true,
+      "audit": {
+        "projected_target_fro": 1.971377799431394e-14,
+        "complete_target_fro": 2.0031447357885805,
+        "projected_response_fro": [
+          2.0656780973297924,
+          3.2172614907325903
+        ],
+        "complete_response_fro": [
+          6.120149022155129,
+          3.3512646891197293
+        ],
+        "module_response_fro": [
+          [
+            8.623321856986138,
+            3.4581921625733933
+          ],
+          [
+            4.084460270831063,
+            3.0419582937232548
+          ],
+          [
+            7.427851281435963,
+            2.4306976718401745
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          1.3246733427340864,
+          1.0253644270963789,
+          1.3952137167310694
+        ],
+        "required_max": 1.971377799431394e-14,
+        "accepted": true,
+        "gate_time_t0": 13.596875648473725,
+        "cycle_time_t0": 14.758759170576875,
+        "rectangular_time_t0": 5.845653383103519
+      },
+      "iterations": 107,
+      "accepted_steps": 107,
+      "elapsed_s": 90.41143130004639,
+      "stopping_reason": "wall_time_limit",
+      "global_optimum": false,
+      "training_objective": 0.00037846845717379337,
+      "final_sha256": "fb021531a4a5b718789425d12f9e93de3c019af94a06bbe13b8670be406236b2",
+      "source": "runs\\v17_revision_v1\\noise_projected_N\\final.npz",
+      "label": "N"
+    },
+    {
+      "kind": "noise_projected",
+      "accepted": true,
+      "audit": {
+        "projected_target_fro": 1.7736327950681284e-14,
+        "complete_target_fro": 0.6851289641936033,
+        "projected_response_fro": [
+          0.37375848896509517,
+          0.6131720823024346
+        ],
+        "complete_response_fro": [
+          0.40428251431894324,
+          0.9199509686217189
+        ],
+        "module_response_fro": [
+          [
+            0.8323501752328374,
+            1.0398321853247394
+          ],
+          [
+            0.9447047025895593,
+            0.7630800484483183
+          ],
+          [
+            0.5622679859519049,
+            1.106111363123801
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          0.536950695139232,
+          0.6014985230206916,
+          0.4032074453215522
+        ],
+        "required_max": 1.7736327950681284e-14,
+        "accepted": true,
+        "gate_time_t0": 57.966888447092195,
+        "cycle_time_t0": 59.12877196919535,
+        "rectangular_time_t0": 28.382868668524893
+      },
+      "iterations": 93,
+      "accepted_steps": 93,
+      "elapsed_s": 90.47312410001177,
+      "stopping_reason": "wall_time_limit",
+      "global_optimum": false,
+      "training_objective": 0.0008781987220232208,
+      "final_sha256": "c587f11835a94422f3fbdd6665e0f56996dbcf2a1f1cfe0c940541b916cd0097",
+      "source": "runs\\v17_revision_v1\\noise_projected_new_R\\final.npz",
+      "label": "new_R"
+    },
+    {
+      "kind": "noise_complete",
+      "accepted": true,
+      "audit": {
+        "projected_target_fro": 1.7798998676063727e-14,
+        "complete_target_fro": 2.1222719029302714e-14,
+        "projected_response_fro": [
+          1.3381098298555045,
+          2.0879765690677003
+        ],
+        "complete_response_fro": [
+          1.3544424340236707,
+          2.0879765690677003
+        ],
+        "module_response_fro": [
+          [
+            6.52429295308423,
+            3.815549161265154
+          ],
+          [
+            5.463339930869028,
+            3.7196291474094867
+          ],
+          [
+            3.8431772588083692,
+            3.130596825563004
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          1.2575798924888884,
+          1.397073999554744,
+          0.8396073044397886
+        ],
+        "required_max": 2.1222719029302714e-14,
+        "accepted": true,
+        "gate_time_t0": 16.14961794346746,
+        "cycle_time_t0": 17.311501465570608,
+        "rectangular_time_t0": 7.183686525896187
+      },
+      "iterations": 106,
+      "accepted_steps": 106,
+      "elapsed_s": 90.25695369997993,
+      "stopping_reason": "wall_time_limit",
+      "global_optimum": false,
+      "training_objective": 0.0002932265690521286,
+      "final_sha256": "50421f6baf53e18c0c712ded5bee7a4dce5b252382249f45eccc50e2d6ae5375",
+      "source": "runs\\v17_revision_v1\\noise_complete_C\\final.npz",
+      "label": "C"
+    },
+    {
+      "kind": "noise_complete",
+      "accepted": true,
+      "audit": {
+        "projected_target_fro": 1.8699346854771212e-14,
+        "complete_target_fro": 2.1460004151722382e-14,
+        "projected_response_fro": [
+          0.8100460222355385,
+          1.300079574930725
+        ],
+        "complete_response_fro": [
+          0.822746183996178,
+          1.300079574930725
+        ],
+        "module_response_fro": [
+          [
+            2.0067811638326134,
+            1.7914368113038437
+          ],
+          [
+            2.3040441681957913,
+            1.7240500298786028
+          ],
+          [
+            1.3680262170287685,
+            1.6346942624802214
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          0.5312038908159149,
+          0.5965097192003388,
+          0.45216739273039147
+        ],
+        "required_max": 2.1460004151722382e-14,
+        "accepted": true,
+        "gate_time_t0": 56.486544307395704,
+        "cycle_time_t0": 57.64842782949886,
+        "rectangular_time_t0": 27.63974780456657
+      },
+      "iterations": 100,
+      "accepted_steps": 100,
+      "elapsed_s": 90.59334309998667,
+      "stopping_reason": "wall_time_limit",
+      "global_optimum": false,
+      "training_objective": 0.0008602969409573812,
+      "final_sha256": "452d8c9d7419d67af4d9710c6d97c48ab34f4525316202a21bcc0472b6dfad7f",
+      "source": "runs\\v17_revision_v1\\noise_complete_new_R\\final.npz",
+      "label": "new_R"
+    },
+    {
+      "kind": "noise_complete",
+      "accepted": true,
+      "audit": {
+        "projected_target_fro": 1.8140037700916945e-14,
+        "complete_target_fro": 2.1584243297081705e-14,
+        "projected_response_fro": [
+          0.6044673204480004,
+          1.133788062612965
+        ],
+        "complete_response_fro": [
+          0.6091614199571402,
+          1.133788062612965
+        ],
+        "module_response_fro": [
+          [
+            2.243976606082885,
+            2.5975903414936408
+          ],
+          [
+            2.076933893291768,
+            3.016766630870959
+          ],
+          [
+            1.9952302894113871,
+            1.6327551326263716
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          0.046546233443003626,
+          0.034341080785024125,
+          0.018044275002406858
+        ],
+        "required_max": 2.1584243297081705e-14,
+        "accepted": true,
+        "gate_time_t0": 72.50139987242774,
+        "cycle_time_t0": 73.6632833945309,
+        "rectangular_time_t0": 35.74153018829166
+      },
+      "iterations": 103,
+      "accepted_steps": 103,
+      "elapsed_s": 90.59589870000491,
+      "stopping_reason": "wall_time_limit",
+      "global_optimum": false,
+      "training_objective": 0.0011025277954926384,
+      "final_sha256": "a1ad27c60c35adcbac3202bb35f33a73df1f0a707f61a0ec1d2fb73ddf043d25",
+      "source": "runs\\v17_revision_v1\\noise_complete_new_M\\final.npz",
+      "label": "new_M"
+    },
+    {
+      "kind": "noise_complete",
+      "accepted": true,
+      "audit": {
+        "projected_target_fro": 1.411243575833867e-12,
+        "complete_target_fro": 1.4113455340073372e-12,
+        "projected_response_fro": [
+          2.286694854057049,
+          4.279933759625908
+        ],
+        "complete_response_fro": [
+          2.383855244952972,
+          4.279933759625908
+        ],
+        "module_response_fro": [
+          [
+            6.451858077463259,
+            3.2073960114005673
+          ],
+          [
+            4.4162961732281305,
+            1.028331649496163
+          ],
+          [
+            5.750638621785781,
+            2.574419716386083
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          1.411420301804476,
+          0.5957177630274185,
+          1.407314019190971
+        ],
+        "required_max": 1.4113455340073372e-12,
+        "accepted": true,
+        "gate_time_t0": 14.479263597059731,
+        "cycle_time_t0": 15.64114711916288,
+        "rectangular_time_t0": 6.220931900098579
+      },
+      "iterations": 116,
+      "accepted_steps": 116,
+      "elapsed_s": 90.1725099000032,
+      "stopping_reason": "wall_time_limit",
+      "global_optimum": false,
+      "training_objective": 0.00030215596744654033,
+      "final_sha256": "4aa16fe364ee503605e82ed79d5f398115b85877d80bbe78e5e20c3049e22260",
+      "source": "runs\\v17_revision_v1\\noise_complete_old_FC\\final.npz",
+      "label": "old_FC"
+    },
+    {
+      "kind": "noise_complete",
+      "accepted": true,
+      "audit": {
+        "projected_target_fro": 1.8855568264315868e-14,
+        "complete_target_fro": 2.1690631831068735e-14,
+        "projected_response_fro": [
+          2.1354494517154983,
+          3.37372008298092
+        ],
+        "complete_response_fro": [
+          2.191769626339927,
+          3.3737200829809204
+        ],
+        "module_response_fro": [
+          [
+            5.841494888929638,
+            2.981769739716499
+          ],
+          [
+            5.007587707040285,
+            2.3046231843097873
+          ],
+          [
+            4.549445675386403,
+            2.8292679769713045
+          ]
+        ],
+        "module_hidden_nonscalar_fro": [
+          1.3780263575069815,
+          1.1519536473987326,
+          1.3019014749895876
+        ],
+        "required_max": 2.1690631831068735e-14,
+        "accepted": true,
+        "gate_time_t0": 14.224547277718123,
+        "cycle_time_t0": 15.386430799821273,
+        "rectangular_time_t0": 6.124520442828347
+      },
+      "iterations": 120,
+      "accepted_steps": 120,
+      "elapsed_s": 79.77889180002967,
+      "stopping_reason": "iteration_budget",
+      "global_optimum": false,
+      "training_objective": 0.0002857654623770728,
+      "final_sha256": "a3c5404e806984a516b1c58150913741e485c8d0f40efab44d3f7cee4b97cb9c",
+      "source": "runs\\v17_revision_v1\\noise_complete_N\\final.npz",
+      "label": "N"
+    }
+  ],
+  "policy": "Fixed training/duration selection before fresh validation; known feasible incumbents retained.",
+  "protocol_sha256": "40420fd4843dded864271e722ff4c9bd4fde35711747f82246ebaff0ee193bec",
+  "elapsed_s": 1143.6995846999926
+}

@@ -1,0 +1,70 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "kind": "projected",
+      "physical_training_objective": 0.00033286182318185634,
+      "stored_training_objective": 0.00033286182315448934,
+      "difference": 2.736699755701011e-14
+    },
+    {
+      "kind": "nominal_projected",
+      "physical_training_objective": 0.000691602361955706,
+      "stored_training_objective": 0.0006916023619578987,
+      "difference": 2.192690473634684e-15
+    },
+    {
+      "kind": "whole",
+      "physical_training_objective": 0.00032164922534940724,
+      "stored_training_objective": 0.0003216492253483803,
+      "difference": 1.0269562977782698e-15
+    },
+    {
+      "kind": "module_response",
+      "physical_training_objective": 0.0008970545637813659,
+      "stored_training_objective": 0.0008970545637718873,
+      "difference": 9.478529072737274e-15
+    },
+    {
+      "kind": "modular",
+      "physical_training_objective": 0.0011544316394744934,
+      "stored_training_objective": 0.001154431639473619,
+      "difference": 8.743006318923108e-16
+    },
+    {
+      "kind": "noise_projected",
+      "physical_training_objective": 0.0002859726828329674,
+      "stored_training_objective": 0.0002859726828167859,
+      "difference": 1.6181500583911657e-14
+    },
+    {
+      "kind": "noise_complete",
+      "physical_training_objective": 0.0002857654623780859,
+      "stored_training_objective": 0.0002857654623770728,
+      "difference": 1.0130785099704553e-15
+    },
+    {
+      "kind": "nominal",
+      "physical_training_objective": 0.0012924493228551079,
+      "stored_training_objective": 0.0012924493228514303,
+      "difference": 3.677613769070831e-15
+    }
+  ],
+  "elapsed_s": 0.4118785000173375,
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "numpy": "2.4.6",
+  "bindings": {
+    "audit_v17_training.py": "e89fd4c6316f8583ed2e441484a093f0a759e82966c9c6b8b8dbd6b9a034da0b",
+    "v11_full8.py": "3893c2ecfe75b026c29d0754ac93125bb7bf43145632bb7199489112d2a6e3a8",
+    "v12_model.py": "520493dd7e1f5aab65d9882a8eac6eea985aaba2d5627f413b7784d1ca41a851",
+    "runs\\v17_library_v1\\result.json": "4ed3b1de35409b97d198ff787fe15a58607f6f974377d8e348c7f66460e90ac6",
+    "runs\\v17_library_v1\\modular.npz": "169cb1a524cd8129dd9a5744a102a66a0b71aab624c91c85fde51843f533fa5a",
+    "runs\\v17_library_v1\\module_response.npz": "14b35f806268e78d6d71b97c01432375431d7152a3842d2b2a5ddf8d2b3a2915",
+    "runs\\v17_library_v1\\noise_complete.npz": "9eee12a2e37d6c9b4e9ac581c448c117c4a9ae72fd3d17854ca1ad336869c4f2",
+    "runs\\v17_library_v1\\noise_projected.npz": "c1c627d365d8c23cdc08354986dd86c9a1ba7edb0dba5cfd7618da0fab19ddbb",
+    "runs\\v17_library_v1\\nominal.npz": "4d5803b4ff8ab593328fa98ad53cb2af08e1fc70901e5fa897ba6c77b1dfb335",
+    "runs\\v17_library_v1\\nominal_projected.npz": "df64921a4664070c1cb101aabeb49f7009d1059d243d22fe0f7890ca02413ef3",
+    "runs\\v17_library_v1\\projected.npz": "f9d4d0b043842881445e600a505200887d44184c6c12661ccb8ee6e7cd6e6100",
+    "runs\\v17_library_v1\\whole.npz": "2411dc26fb10e5ce1b68db5906d7092aafa1b7bf29a17f3869e79664f7b521ee"
+  }
+}

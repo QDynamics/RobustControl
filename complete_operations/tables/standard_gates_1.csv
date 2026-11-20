@@ -1,0 +1,7 @@
+Register,Target representative,Complete channel,Logical action on $P$
+Even $N$,$U^{\rm MS}_{\pi/2}$,Excluded,--
+Odd $N\ge3$,$e^{i\pi/8}U^{\rm MS}_{\pi/2}$,Allowed,--
+Physical $N=2$,CNOT local class,Excluded,--
+Physical $N=2$,"$i\,\mathrm{iSWAP}$",Allowed,--
+Encoded $N=3$,$\mathrm{CNOT}_L\oplus I_Q$,Excluded,$\mathrm{CNOT}_L$
+Encoded $N=3$,$e^{i\pi/4}\mathrm{CNOT}_L\oplus I_Q$,Allowed,$\mathrm{CNOT}_L$

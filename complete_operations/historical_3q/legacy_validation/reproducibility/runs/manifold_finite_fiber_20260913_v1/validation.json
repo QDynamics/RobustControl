@@ -1,0 +1,864 @@
+{
+  "sets_are_separate": true,
+  "registered_969_is_union_of_grid21_midpoint20_pcg64_128": true,
+  "legacy25_is_diagnostic_only": true,
+  "methods": {
+    "B0_source": {
+      "params_saved_in_arrays": "params_B0_source",
+      "sets": {
+        "grid21": {
+          "point_count": 441,
+          "max_half_diamond": 0.012113302285332533,
+          "worst_index": 420,
+          "worst_point": [
+            0.01,
+            -0.01
+          ],
+          "worst_metrics_and_input_state_witness": {
+            "half_diamond": 0.012113302285332533,
+            "one_minus_fmin": 0.00014673209225584237,
+            "minimal_covering_arc": 0.02422719707985177,
+            "average_gate_infidelity_aux": 3.846033920018588e-05,
+            "eigenphase_variance_aux": 4.326884511046062e-05,
+            "relative_unitarity_fro": 9.560226336789249e-15,
+            "witness_trace_distance": 0.012113302285332287,
+            "witness_gap_to_half_diamond": 2.463307335887066e-16,
+            "witness_state_real": [
+              0.896199524816826,
+              0.013044883047323912,
+              0.013044883047307642,
+              0.14689393254282365,
+              0.013044883047350879,
+              0.14689393254272476,
+              0.14689393254281483,
+              0.22013278744348116
+            ],
+            "witness_state_imag": [
+              0.0,
+              0.03060678444486718,
+              0.03060678444490184,
+              -0.01610360757285425,
+              0.030606784444934712,
+              -0.016103607572924332,
+              -0.0161036075729538,
+              0.2820206980753202
+            ],
+            "extreme_eigenphase_indices_in_sorted_order": [
+              4,
+              3
+            ]
+          },
+          "propagation": "direct FULL8 Pauli-tensor 8x8; one common global phase only"
+        },
+        "midpoint20": {
+          "point_count": 400,
+          "max_half_diamond": 0.010918367765996896,
+          "worst_index": 380,
+          "worst_point": [
+            0.0095,
+            -0.009500000000000001
+          ],
+          "worst_metrics_and_input_state_witness": {
+            "half_diamond": 0.010918367765996896,
+            "one_minus_fmin": 0.00011921075467356006,
+            "minimal_covering_arc": 0.02183716941755698,
+            "average_gate_infidelity_aux": 3.124102836260523e-05,
+            "eigenphase_variance_aux": 3.514679270050844e-05,
+            "relative_unitarity_fro": 8.018095876853638e-15,
+            "witness_trace_distance": 0.01091836776599627,
+            "witness_gap_to_half_diamond": 6.262351748276274e-16,
+            "witness_state_real": [
+              0.8966203113517845,
+              0.01284524168878722,
+              0.012845241688775112,
+              0.14652247083754627,
+              0.012845241688820487,
+              0.14652247083756273,
+              0.1465224708376168,
+              0.22065862837022596
+            ],
+            "witness_state_imag": [
+              0.0,
+              0.030125730340086858,
+              0.03012573034009783,
+              -0.015945508188141607,
+              0.030125730340098262,
+              -0.015945508188116398,
+              -0.015945508188140844,
+              0.28106018276219563
+            ],
+            "extreme_eigenphase_indices_in_sorted_order": [
+              4,
+              3
+            ]
+          },
+          "propagation": "direct FULL8 Pauli-tensor 8x8; one common global phase only"
+        },
+        "pcg64_128": {
+          "point_count": 128,
+          "max_half_diamond": 0.009082090390729809,
+          "worst_index": 83,
+          "worst_point": [
+            0.008167876101747075,
+            -0.008963644918921763
+          ],
+          "worst_metrics_and_input_state_witness": {
+            "half_diamond": 0.009082090390729809,
+            "one_minus_fmin": 8.248436586538674e-05,
+            "minimal_covering_arc": 0.018164430500884343,
+            "average_gate_infidelity_aux": 2.12827672917415e-05,
+            "eigenphase_variance_aux": 2.394341215917004e-05,
+            "relative_unitarity_fro": 8.98778074410456e-15,
+            "witness_trace_distance": 0.009082090390729342,
+            "witness_gap_to_half_diamond": 4.666406150377611e-16,
+            "witness_state_real": [
+              0.9031075470608017,
+              0.011764667578424629,
+              0.011764667578303065,
+              0.12849546178714874,
+              0.01176466757829231,
+              0.12849546178714488,
+              0.12849546178715804,
+              0.22403468272138863
+            ],
+            "witness_state_imag": [
+              0.0,
+              0.049264469869707436,
+              0.04926446986971466,
+              -0.028389662919374285,
+              0.04926446986973667,
+              -0.02838966291950102,
+              -0.028389662919479648,
+              0.2730528579116303
+            ],
+            "extreme_eigenphase_indices_in_sorted_order": [
+              4,
+              3
+            ]
+          },
+          "propagation": "direct FULL8 Pauli-tensor 8x8; one common global phase only"
+        },
+        "legacy25_diagnostic": {
+          "point_count": 25,
+          "max_half_diamond": 0.012113302285332533,
+          "worst_index": 22,
+          "worst_point": [
+            0.01,
+            -0.01
+          ],
+          "worst_metrics_and_input_state_witness": {
+            "half_diamond": 0.012113302285332533,
+            "one_minus_fmin": 0.00014673209225584237,
+            "minimal_covering_arc": 0.02422719707985177,
+            "average_gate_infidelity_aux": 3.846033920018588e-05,
+            "eigenphase_variance_aux": 4.326884511046062e-05,
+            "relative_unitarity_fro": 9.560226336789249e-15,
+            "witness_trace_distance": 0.012113302285332287,
+            "witness_gap_to_half_diamond": 2.463307335887066e-16,
+            "witness_state_real": [
+              0.896199524816826,
+              0.013044883047323912,
+              0.013044883047307642,
+              0.14689393254282365,
+              0.013044883047350879,
+              0.14689393254272476,
+              0.14689393254281483,
+              0.22013278744348116
+            ],
+            "witness_state_imag": [
+              0.0,
+              0.03060678444486718,
+              0.03060678444490184,
+              -0.01610360757285425,
+              0.030606784444934712,
+              -0.016103607572924332,
+              -0.0161036075729538,
+              0.2820206980753202
+            ],
+            "extreme_eigenphase_indices_in_sorted_order": [
+              4,
+              3
+            ]
+          },
+          "propagation": "direct FULL8 Pauli-tensor 8x8; one common global phase only"
+        }
+      },
+      "registered_969": {
+        "point_count": 969,
+        "max_half_diamond": 0.012113302285332533,
+        "owning_set": "grid21",
+        "owning_set_local_index": 420,
+        "worst_point": [
+          0.01,
+          -0.01
+        ]
+      },
+      "nominal_target_drift_half_diamond": 0.0,
+      "resources": {
+        "a_theta": 54.92845514045383,
+        "a_chi_old_hzz": 43.15494390954503,
+        "dimensionless_gmax_time": {
+          "1": 98.08339904999886,
+          "10": 48.64778942359042,
+          "100": 43.70422846094957
+        },
+        "layer_count": 45,
+        "nonzero_segment_count": 90,
+        "internal_transition_count": 89,
+        "conditional_model": "T=A_theta/Omega_max+A_chi/g_max; eta=Omega_max/g_max; zero extra overhead"
+      },
+      "comparison_to_B0": {
+        "registered_969_D_decrease": 0.0,
+        "eta1_time_decrease": 0.0,
+        "eta10_time_decrease": 0.0,
+        "eta100_time_decrease": 0.0,
+        "passes_absolute_and_constraint_drift_numeric_thresholds": false,
+        "independent_recalculation_10x_margin": "NOT_APPLICABLE"
+      }
+    },
+    "h_0.001": {
+      "params_saved_in_arrays": "params_h_0.001",
+      "sets": {
+        "grid21": {
+          "point_count": 441,
+          "max_half_diamond": 0.012113044547336945,
+          "worst_index": 420,
+          "worst_point": [
+            0.01,
+            -0.01
+          ],
+          "worst_metrics_and_input_state_witness": {
+            "half_diamond": 0.012113044547336945,
+            "one_minus_fmin": 0.0001467258482057693,
+            "minimal_covering_arc": 0.0242266815660388,
+            "average_gate_infidelity_aux": 3.8457511124523336e-05,
+            "eigenphase_variance_aux": 4.326566337179849e-05,
+            "relative_unitarity_fro": 9.819061355477637e-15,
+            "witness_trace_distance": 0.012113044547337587,
+            "witness_gap_to_half_diamond": 6.418476861114186e-16,
+            "witness_state_real": [
+              0.895945581356975,
+              0.01280883598882273,
+              0.012808835988824457,
+              0.1471558547230295,
+              0.012808835988879391,
+              0.14715585472302573,
+              0.1471558547230867,
+              0.22020924595305802
+            ],
+            "witness_state_imag": [
+              0.0,
+              0.030478915725744984,
+              0.030478915725787967,
+              -0.016220439384606246,
+              0.03047891572584665,
+              -0.016220439384703113,
+              -0.016220439384736232,
+              0.2824118743869707
+            ],
+            "extreme_eigenphase_indices_in_sorted_order": [
+              4,
+              3
+            ]
+          },
+          "propagation": "direct FULL8 Pauli-tensor 8x8; one common global phase only"
+        },
+        "midpoint20": {
+          "point_count": 400,
+          "max_half_diamond": 0.010918138430915,
+          "worst_index": 380,
+          "worst_point": [
+            0.0095,
+            -0.009500000000000001
+          ],
+          "worst_metrics_and_input_state_witness": {
+            "half_diamond": 0.010918138430915,
+            "one_minus_fmin": 0.00011920574679662307,
+            "minimal_covering_arc": 0.02183671072005211,
+            "average_gate_infidelity_aux": 3.123875962296463e-05,
+            "eigenphase_variance_aux": 3.514424026896599e-05,
+            "relative_unitarity_fro": 8.458215347625401e-15,
+            "witness_trace_distance": 0.01091813843091432,
+            "witness_gap_to_half_diamond": 6.800116025829084e-16,
+            "witness_state_real": [
+              0.8963663398126167,
+              0.01260804966365761,
+              0.012608049663625559,
+              0.14678480852349945,
+              0.012608049663647678,
+              0.14678480852347023,
+              0.14678480852351555,
+              0.22073641515697356
+            ],
+            "witness_state_imag": [
+              0.0,
+              0.029998750678704535,
+              0.029998750678642026,
+              -0.016062902105596032,
+              0.029998750678766513,
+              -0.016062902105650506,
+              -0.01606290210573101,
+              0.2814511778031201
+            ],
+            "extreme_eigenphase_indices_in_sorted_order": [
+              4,
+              3
+            ]
+          },
+          "propagation": "direct FULL8 Pauli-tensor 8x8; one common global phase only"
+        },
+        "pcg64_128": {
+          "point_count": 128,
+          "max_half_diamond": 0.00908155090550072,
+          "worst_index": 83,
+          "worst_point": [
+            0.008167876101747075,
+            -0.008963644918921763
+          ],
+          "worst_metrics_and_input_state_witness": {
+            "half_diamond": 0.00908155090550072,
+            "one_minus_fmin": 8.247456684920096e-05,
+            "minimal_covering_arc": 0.01816335148592696,
+            "average_gate_infidelity_aux": 2.128013811875107e-05,
+            "eigenphase_variance_aux": 2.3940454260878334e-05,
+            "relative_unitarity_fro": 1.1477626261743075e-14,
+            "witness_trace_distance": 0.00908155090550058,
+            "witness_gap_to_half_diamond": 1.4051260155412137e-16,
+            "witness_state_real": [
+              0.9028681795983567,
+              0.011498688717013266,
+              0.011498688716943673,
+              0.1287624562449159,
+              0.01149868871708337,
+              0.12876245624503832,
+              0.1287624562451051,
+              0.22412448298013193
+            ],
+            "witness_state_imag": [
+              0.0,
+              0.04915929079836761,
+              0.04915929079848796,
+              -0.02852603747007092,
+              0.04915929079854302,
+              -0.028526037470155616,
+              -0.028526037470160446,
+              0.27344137287467635
+            ],
+            "extreme_eigenphase_indices_in_sorted_order": [
+              4,
+              3
+            ]
+          },
+          "propagation": "direct FULL8 Pauli-tensor 8x8; one common global phase only"
+        },
+        "legacy25_diagnostic": {
+          "point_count": 25,
+          "max_half_diamond": 0.012113044547336945,
+          "worst_index": 22,
+          "worst_point": [
+            0.01,
+            -0.01
+          ],
+          "worst_metrics_and_input_state_witness": {
+            "half_diamond": 0.012113044547336945,
+            "one_minus_fmin": 0.0001467258482057693,
+            "minimal_covering_arc": 0.0242266815660388,
+            "average_gate_infidelity_aux": 3.8457511124523336e-05,
+            "eigenphase_variance_aux": 4.326566337179849e-05,
+            "relative_unitarity_fro": 9.819061355477637e-15,
+            "witness_trace_distance": 0.012113044547337587,
+            "witness_gap_to_half_diamond": 6.418476861114186e-16,
+            "witness_state_real": [
+              0.895945581356975,
+              0.01280883598882273,
+              0.012808835988824457,
+              0.1471558547230295,
+              0.012808835988879391,
+              0.14715585472302573,
+              0.1471558547230867,
+              0.22020924595305802
+            ],
+            "witness_state_imag": [
+              0.0,
+              0.030478915725744984,
+              0.030478915725787967,
+              -0.016220439384606246,
+              0.03047891572584665,
+              -0.016220439384703113,
+              -0.016220439384736232,
+              0.2824118743869707
+            ],
+            "extreme_eigenphase_indices_in_sorted_order": [
+              4,
+              3
+            ]
+          },
+          "propagation": "direct FULL8 Pauli-tensor 8x8; one common global phase only"
+        }
+      },
+      "registered_969": {
+        "point_count": 969,
+        "max_half_diamond": 0.012113044547336945,
+        "owning_set": "grid21",
+        "owning_set_local_index": 420,
+        "worst_point": [
+          0.01,
+          -0.01
+        ]
+      },
+      "nominal_target_drift_half_diamond": 3.552713678800501e-15,
+      "resources": {
+        "a_theta": 54.931790702377285,
+        "a_chi_old_hzz": 43.154516801124714,
+        "dimensionless_gmax_time": {
+          "1": 98.086307503502,
+          "10": 48.647695871362444,
+          "100": 43.703834708148484
+        },
+        "layer_count": 45,
+        "nonzero_segment_count": 90,
+        "internal_transition_count": 89,
+        "conditional_model": "T=A_theta/Omega_max+A_chi/g_max; eta=Omega_max/g_max; zero extra overhead"
+      },
+      "comparison_to_B0": {
+        "registered_969_D_decrease": 2.5773799558828636e-07,
+        "eta1_time_decrease": -0.0029084535031387304,
+        "eta10_time_decrease": 9.355222797324814e-05,
+        "eta100_time_decrease": 0.0003937528010879987,
+        "passes_absolute_and_constraint_drift_numeric_thresholds": true,
+        "independent_recalculation_10x_margin": "PENDING_PARENT_AUDIT"
+      }
+    },
+    "h_0.003": {
+      "params_saved_in_arrays": "params_h_0.003",
+      "sets": {
+        "grid21": {
+          "point_count": 441,
+          "max_half_diamond": 0.01211253661700231,
+          "worst_index": 420,
+          "worst_point": [
+            0.01,
+            -0.01
+          ],
+          "worst_metrics_and_input_state_witness": {
+            "half_diamond": 0.01211253661700231,
+            "one_minus_fmin": 0.0001467135432982218,
+            "minimal_covering_arc": 0.024225665630837945,
+            "average_gate_infidelity_aux": 3.845182113892953e-05,
+            "eigenphase_variance_aux": 4.325926183233691e-05,
+            "relative_unitarity_fro": 1.0110494841985951e-14,
+            "witness_trace_distance": 0.012112536617001693,
+            "witness_gap_to_half_diamond": 6.175615574477433e-16,
+            "witness_state_real": [
+              0.8954375183028039,
+              0.012339341047274311,
+              0.01233934104734575,
+              0.147678235587065,
+              0.012339341047377958,
+              0.14767823558709725,
+              0.1476782355871336,
+              0.22036288853618605
+            ],
+            "witness_state_imag": [
+              0.0,
+              0.03022282705769023,
+              0.03022282705776844,
+              -0.016452753279367217,
+              0.030222827057820624,
+              -0.016452753279457104,
+              -0.016452753279481747,
+              0.2831892463766753
+            ],
+            "extreme_eigenphase_indices_in_sorted_order": [
+              4,
+              3
+            ]
+          },
+          "propagation": "direct FULL8 Pauli-tensor 8x8; one common global phase only"
+        },
+        "midpoint20": {
+          "point_count": 400,
+          "max_half_diamond": 0.010917686610506544,
+          "worst_index": 380,
+          "worst_point": [
+            0.0095,
+            -0.009500000000000001
+          ],
+          "worst_metrics_and_input_state_witness": {
+            "half_diamond": 0.010917686610506544,
+            "one_minus_fmin": 0.00011919588092523387,
+            "minimal_covering_arc": 0.021835807025373022,
+            "average_gate_infidelity_aux": 3.123419457573551e-05,
+            "eigenphase_variance_aux": 3.51391043920822e-05,
+            "relative_unitarity_fro": 9.39137265551658e-15,
+            "witness_trace_distance": 0.010917686610507168,
+            "witness_gap_to_half_diamond": 6.245004513516506e-16,
+            "witness_state_real": [
+              0.8958582054054667,
+              0.012136274516159227,
+              0.012136274516167216,
+              0.14730802334792278,
+              0.012136274516207272,
+              0.14730802334786022,
+              0.14730802334797727,
+              0.22089271415751044
+            ],
+            "witness_state_imag": [
+              0.0,
+              0.029744429094681633,
+              0.029744429094669445,
+              -0.01629634083831097,
+              0.02974442909471704,
+              -0.016296340838347426,
+              -0.01629634083837045,
+              0.2822281888361786
+            ],
+            "extreme_eigenphase_indices_in_sorted_order": [
+              4,
+              3
+            ]
+          },
+          "propagation": "direct FULL8 Pauli-tensor 8x8; one common global phase only"
+        },
+        "pcg64_128": {
+          "point_count": 128,
+          "max_half_diamond": 0.009080478779073987,
+          "worst_index": 83,
+          "worst_point": [
+            0.008167876101747075,
+            -0.008963644918921763
+          ],
+          "worst_metrics_and_input_state_witness": {
+            "half_diamond": 0.009080478779073987,
+            "one_minus_fmin": 8.245509485721301e-05,
+            "minimal_covering_arc": 0.0181612071446553,
+            "average_gate_infidelity_aux": 2.1274865410259025e-05,
+            "eigenphase_variance_aux": 2.3934522306810878e-05,
+            "relative_unitarity_fro": 8.749539828353679e-15,
+            "witness_trace_distance": 0.009080478779074145,
+            "witness_gap_to_half_diamond": 1.5785983631388945e-16,
+            "witness_state_real": [
+              0.9023887568174722,
+              0.010969225784035965,
+              0.010969225784034592,
+              0.12929553555022333,
+              0.010969225784119161,
+              0.1292955355502265,
+              0.1292955355503199,
+              0.22430499001496565
+            ],
+            "witness_state_imag": [
+              0.0,
+              0.04894794761639025,
+              0.04894794761644615,
+              -0.02879720618264004,
+              0.0489479476164874,
+              -0.028797206182746365,
+              -0.028797206182750505,
+              0.2742139361189367
+            ],
+            "extreme_eigenphase_indices_in_sorted_order": [
+              4,
+              3
+            ]
+          },
+          "propagation": "direct FULL8 Pauli-tensor 8x8; one common global phase only"
+        },
+        "legacy25_diagnostic": {
+          "point_count": 25,
+          "max_half_diamond": 0.01211253661700231,
+          "worst_index": 22,
+          "worst_point": [
+            0.01,
+            -0.01
+          ],
+          "worst_metrics_and_input_state_witness": {
+            "half_diamond": 0.01211253661700231,
+            "one_minus_fmin": 0.0001467135432982218,
+            "minimal_covering_arc": 0.024225665630837945,
+            "average_gate_infidelity_aux": 3.845182113892953e-05,
+            "eigenphase_variance_aux": 4.325926183233691e-05,
+            "relative_unitarity_fro": 1.0110494841985951e-14,
+            "witness_trace_distance": 0.012112536617001693,
+            "witness_gap_to_half_diamond": 6.175615574477433e-16,
+            "witness_state_real": [
+              0.8954375183028039,
+              0.012339341047274311,
+              0.01233934104734575,
+              0.147678235587065,
+              0.012339341047377958,
+              0.14767823558709725,
+              0.1476782355871336,
+              0.22036288853618605
+            ],
+            "witness_state_imag": [
+              0.0,
+              0.03022282705769023,
+              0.03022282705776844,
+              -0.016452753279367217,
+              0.030222827057820624,
+              -0.016452753279457104,
+              -0.016452753279481747,
+              0.2831892463766753
+            ],
+            "extreme_eigenphase_indices_in_sorted_order": [
+              4,
+              3
+            ]
+          },
+          "propagation": "direct FULL8 Pauli-tensor 8x8; one common global phase only"
+        }
+      },
+      "registered_969": {
+        "point_count": 969,
+        "max_half_diamond": 0.01211253661700231,
+        "owning_set": "grid21",
+        "owning_set_local_index": 420,
+        "worst_point": [
+          0.01,
+          -0.01
+        ]
+      },
+      "nominal_target_drift_half_diamond": 4.884981308350689e-15,
+      "resources": {
+        "a_theta": 54.93846917369481,
+        "a_chi_old_hzz": 43.15365932401576,
+        "dimensionless_gmax_time": {
+          "1": 98.09212849771058,
+          "10": 48.647506241385244,
+          "100": 43.70304401575271
+        },
+        "layer_count": 45,
+        "nonzero_segment_count": 90,
+        "internal_transition_count": 89,
+        "conditional_model": "T=A_theta/Omega_max+A_chi/g_max; eta=Omega_max/g_max; zero extra overhead"
+      },
+      "comparison_to_B0": {
+        "registered_969_D_decrease": 7.656683302225548e-07,
+        "eta1_time_decrease": -0.008729447711715466,
+        "eta10_time_decrease": 0.0002831822051732047,
+        "eta100_time_decrease": 0.0011844451968627823,
+        "passes_absolute_and_constraint_drift_numeric_thresholds": true,
+        "independent_recalculation_10x_margin": "PENDING_PARENT_AUDIT"
+      }
+    },
+    "h_0.01": {
+      "params_saved_in_arrays": "params_h_0.01",
+      "sets": {
+        "grid21": {
+          "point_count": 441,
+          "max_half_diamond": 0.012110834396920641,
+          "worst_index": 420,
+          "worst_point": [
+            0.01,
+            -0.01
+          ],
+          "worst_metrics_and_input_state_witness": {
+            "half_diamond": 0.012110834396920641,
+            "one_minus_fmin": 0.00014667230978963614,
+            "minimal_covering_arc": 0.024222260940943485,
+            "average_gate_infidelity_aux": 3.8431537406902194e-05,
+            "eigenphase_variance_aux": 4.3236441568503785e-05,
+            "relative_unitarity_fro": 7.698274328852295e-15,
+            "witness_trace_distance": 0.012110834396919743,
+            "witness_gap_to_half_diamond": 8.98586760555986e-16,
+            "witness_state_real": [
+              0.893657749327642,
+              0.010723563229079195,
+              0.010723563229103296,
+              0.1494915155278627,
+              0.010723563229129849,
+              0.1494915155278687,
+              0.14949151552793002,
+              0.22090856098252046
+            ],
+            "witness_state_imag": [
+              0.0,
+              0.029322840864666324,
+              0.02932284086468228,
+              -0.017251766902983866,
+              0.029322840864771896,
+              -0.017251766903044984,
+              -0.017251766903044186,
+              0.28585792504121066
+            ],
+            "extreme_eigenphase_indices_in_sorted_order": [
+              4,
+              3
+            ]
+          },
+          "propagation": "direct FULL8 Pauli-tensor 8x8; one common global phase only"
+        },
+        "midpoint20": {
+          "point_count": 400,
+          "max_half_diamond": 0.010916173794176092,
+          "worst_index": 380,
+          "worst_point": [
+            0.0095,
+            -0.009500000000000001
+          ],
+          "worst_metrics_and_input_state_witness": {
+            "half_diamond": 0.010916173794176092,
+            "one_minus_fmin": 0.00011916285030465687,
+            "minimal_covering_arc": 0.02183278121239951,
+            "average_gate_infidelity_aux": 3.121791629800974e-05,
+            "eigenphase_variance_aux": 3.512079063141264e-05,
+            "relative_unitarity_fro": 1.0550358467976278e-14,
+            "witness_trace_distance": 0.010916173794176103,
+            "witness_gap_to_half_diamond": 1.0408340855860843e-17,
+            "witness_state_real": [
+              0.894078032082121,
+              0.010512619373175864,
+              0.010512619373178376,
+              0.1491242498027549,
+              0.010512619373161145,
+              0.14912424980274638,
+              0.1491242498028426,
+              0.22144767855406305
+            ],
+            "witness_state_imag": [
+              0.0,
+              0.028850512971714898,
+              0.028850512971733737,
+              -0.01709929748005192,
+              0.028850512971774874,
+              -0.01709929748005286,
+              -0.01709929748016376,
+              0.2848956174742956
+            ],
+            "extreme_eigenphase_indices_in_sorted_order": [
+              4,
+              3
+            ]
+          },
+          "propagation": "direct FULL8 Pauli-tensor 8x8; one common global phase only"
+        },
+        "pcg64_128": {
+          "point_count": 128,
+          "max_half_diamond": 0.009076795350872805,
+          "worst_index": 83,
+          "worst_point": [
+            0.008167876101747075,
+            -0.008963644918921763
+          ],
+          "worst_metrics_and_input_state_witness": {
+            "half_diamond": 0.009076795350872805,
+            "one_minus_fmin": 8.238821384162617e-05,
+            "minimal_covering_arc": 0.01815383998463993,
+            "average_gate_infidelity_aux": 2.125625144677734e-05,
+            "eigenphase_variance_aux": 2.391358104992664e-05,
+            "relative_unitarity_fro": 9.164896884570639e-15,
+            "witness_trace_distance": 0.0090767953508733,
+            "witness_gap_to_half_diamond": 4.9439619065339e-16,
+            "witness_state_real": [
+              0.9007038617591492,
+              0.00914254586701922,
+              0.009142545867021968,
+              0.13115198570644385,
+              0.009142545867019928,
+              0.13115198570654032,
+              0.13115198570655226,
+              0.22494654966672983
+            ],
+            "witness_state_imag": [
+              0.0,
+              0.048197961088366534,
+              0.048197961088445734,
+              -0.029729798980475217,
+              0.048197961088431183,
+              -0.029729798980554653,
+              -0.02972979898053497,
+              0.2768710918543249
+            ],
+            "extreme_eigenphase_indices_in_sorted_order": [
+              4,
+              3
+            ]
+          },
+          "propagation": "direct FULL8 Pauli-tensor 8x8; one common global phase only"
+        },
+        "legacy25_diagnostic": {
+          "point_count": 25,
+          "max_half_diamond": 0.012110834396920641,
+          "worst_index": 22,
+          "worst_point": [
+            0.01,
+            -0.01
+          ],
+          "worst_metrics_and_input_state_witness": {
+            "half_diamond": 0.012110834396920641,
+            "one_minus_fmin": 0.00014667230978963614,
+            "minimal_covering_arc": 0.024222260940943485,
+            "average_gate_infidelity_aux": 3.8431537406902194e-05,
+            "eigenphase_variance_aux": 4.3236441568503785e-05,
+            "relative_unitarity_fro": 7.698274328852295e-15,
+            "witness_trace_distance": 0.012110834396919743,
+            "witness_gap_to_half_diamond": 8.98586760555986e-16,
+            "witness_state_real": [
+              0.893657749327642,
+              0.010723563229079195,
+              0.010723563229103296,
+              0.1494915155278627,
+              0.010723563229129849,
+              0.1494915155278687,
+              0.14949151552793002,
+              0.22090856098252046
+            ],
+            "witness_state_imag": [
+              0.0,
+              0.029322840864666324,
+              0.02932284086468228,
+              -0.017251766902983866,
+              0.029322840864771896,
+              -0.017251766903044984,
+              -0.017251766903044186,
+              0.28585792504121066
+            ],
+            "extreme_eigenphase_indices_in_sorted_order": [
+              4,
+              3
+            ]
+          },
+          "propagation": "direct FULL8 Pauli-tensor 8x8; one common global phase only"
+        }
+      },
+      "registered_969": {
+        "point_count": 969,
+        "max_half_diamond": 0.012110834396920641,
+        "owning_set": "grid21",
+        "owning_set_local_index": 420,
+        "worst_point": [
+          0.01,
+          -0.01
+        ]
+      },
+      "nominal_target_drift_half_diamond": 3.1086244689504383e-15,
+      "resources": {
+        "a_theta": 54.96191991130903,
+        "a_chi_old_hzz": 43.150625119825236,
+        "dimensionless_gmax_time": {
+          "1": 98.11254503113426,
+          "10": 48.646817110956135,
+          "100": 43.700244318938324
+        },
+        "layer_count": 45,
+        "nonzero_segment_count": 90,
+        "internal_transition_count": 89,
+        "conditional_model": "T=A_theta/Omega_max+A_chi/g_max; eta=Omega_max/g_max; zero extra overhead"
+      },
+      "comparison_to_B0": {
+        "registered_969_D_decrease": 2.4678884118917166e-06,
+        "eta1_time_decrease": -0.029145981135400234,
+        "eta10_time_decrease": 0.000972312634281991,
+        "eta100_time_decrease": 0.003984142011248082,
+        "passes_absolute_and_constraint_drift_numeric_thresholds": true,
+        "independent_recalculation_10x_margin": "PENDING_PARENT_AUDIT"
+      }
+    }
+  },
+  "provisional_joint_improvement_methods": [
+    "h_0.001",
+    "h_0.003",
+    "h_0.01"
+  ]
+}

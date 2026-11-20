@@ -1,0 +1,25 @@
+{
+  "status": "REPLAY_PASS_FOR_LISTED_CONTROLS",
+  "controls": {
+    "whole": {
+      "delivered_radius": 0.018249,
+      "fresh_upper_bound_at_radius": 0.009999367710906428,
+      "fresh_upper_bound_at_1percent": 0.0028969784752560734,
+      "absolute_difference_from_original_1percent_bound": 0.0
+    }
+  },
+  "elapsed_s": 2.7620992998126894,
+  "versions": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "numpy": "2.4.6"
+  },
+  "sha256": {
+    "tools\\replay_cnot_tolerance_20261012_v1.py": "fba6fa9da8f6da8a524bd2151919c45d6f6243823a21ccece08c43eeac9c9ebe",
+    "src\\cnot_tolerance_v1.py": "f3c937ec40d061bff443c914c09a694c1289cd21d30bb979bda3d5c2ed78116e",
+    "src\\cnot_interval_v1.py": "284c6aabd349c512eca308414714cb3d57cadc56934f5ff8abd2828acd96c1a6",
+    "src\\cnot_interval_ball_v2.py": "7cfd422b8e5fa52e8d860f97c3b03cc3bf6e418109a9c1fe584977220637ee5b",
+    "runs\\cnot_tolerance_20261012_v1\\numerical\\CONTROLS.npz": "1922e16d662c9fb14c2b6b9cca214f8f5a4029dd6311e9e6f3938b304f5971a4"
+  },
+  "scope": "Recomputes the continuous shared-error bounds for listed controls. The analytic interpolation and common-schedule proof are in the primary acceptance record.",
+  "failures": []
+}

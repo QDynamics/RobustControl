@@ -1,0 +1,6 @@
+"p{0.33\textwidth}p{0.36\textwidth}}
+Primary construction",Established result used here,Additional content in this work
+"Brown, Harrow, and Chuang, PRA \textbf{70}, 052318 (2004)",Fully compensating arbitrary-order composite pulses,"Exact gate inclusion/exclusion for the actual symmetry algebra and error profiles, with observable intersector phases."
+"Li and Khaneja, PRA \textbf{73}, 030302(R) (2006); Zhang and Li, SICON \textbf{59}, 3805 (2021)",Polynomial response generation; uniform approximate ensemble controllability under a primitive-cover condition,Exact finite-jet saturation and separation for arbitrary generating primitives and active correlated linear profiles; an explicit surviving central target set.
+"Khodjasteh and Viola, PRL \textbf{102}, 080501 (2009)",Corrected gates for general inputs with bounded controls and system--bath errors,A closed-system calibration target classification. It does not subsume the system--bath guarantee.
+"Marvian, Nature Physics \textbf{18}, 283 (2022)","Sector-trace restrictions on symmetric nominal dynamics, also studied for permutation-equivariant gates by Kazi et al.~\cite{Kazi2024}",Calibration ties nominal and error-phase coordinates through \(E=C_0(\bigcap_\mu\ker C_\mu)\).

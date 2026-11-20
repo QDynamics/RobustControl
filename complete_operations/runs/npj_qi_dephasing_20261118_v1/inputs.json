@@ -1,0 +1,25 @@
+{
+  "utc": "2026-11-18T11:08:15.687583+00:00",
+  "numpy": "2.4.6",
+  "scipy": "1.18.0",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "interpreter": "C:\\Users\\admin\\.qecvenv\\Scripts\\python.exe",
+  "precision": "float64/complex128",
+  "gamma_t0": [
+    0.0,
+    1e-05
+  ],
+  "hashes": {
+    "docs\\NPJ_QI_CONFIRMATION_PROTOCOL_20261118_v1.md": "24657bddcda1d82fab3484442100c0eefe664e1fe584a58bb1158bbf172f8987",
+    "tools\\npj_qi_dephasing_20261118_v1.py": "3db5a94adf0079f2e074bf24cb7c9fb26b89fbeb02163653765fa004e2a8db6d",
+    "tools\\npj_qi_register_depth_20261118_v1.py": "ae8035cda79064b03e8c9d1858edface6b972607e914ecd3efd884253d3e6be0",
+    "tools\\npj_qi_register_depth_matched_20261118_v1.py": "677ff26c1ac74efc45c813468c17a68009b483a4d20775f8bb989523e99af018",
+    "src\\manifold_schur_v1.py": "5324cbd9167984c655257f3ab4c3a5d9c61558c7bd3d5a2491309b4a076f8d82",
+    "src\\cnot_tolerance_v1.py": "f3c937ec40d061bff443c914c09a694c1289cd21d30bb979bda3d5c2ed78116e",
+    "runs\\npj_qi_register_depth_report_20261118_v1\\summary.json": "04f3cca81ae57d1bd6d143521b885d995172362cf3bd0d4b3d359517582bcb48",
+    "runs\\npj_qi_register_depth_20261118_v1\\n4_summary.json": "9acfabbd84d28764462c2111fd5a196d76f3b1d02c41ca3dcf80c6fc69a6b131",
+    "runs\\npj_qi_register_depth_20261118_v1\\n5_summary.json": "bc15adf859cbb14c0d9f8422099bb131e3d23dd857434880f9a4727a6b406603",
+    "runs\\npj_qi_register_depth_projection_20261118_v1\\n4_nominal_restored.npy": "6300a4a9266fabbc41eee2012b3731da31e5e2d7a0177dd5561cf546663c339e",
+    "runs\\npj_qi_register_depth_projection_20261118_v1\\n4_corrected_restored.npy": "23e390d16b060ac57907de60fc1f558de5f41785e89e6598cc324ddeefd5fd18"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "trig_exact_rational_Taylor_comparisons": 14,
+  "radicals_exact_rational_squares": 2,
+  "complex_matrix_products_exact_rational_entries": 90,
+  "verified_SVD_factorization_proposals": 10,
+  "known_spectral_norm": true
+}

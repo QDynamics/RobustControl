@@ -1,0 +1,9 @@
+{
+  "status": "FAILED_ENCLOSURE_TOO_WIDE_NO_RADIUS_DELIVERED",
+  "exception": "AssertionError at radius(0): nominal interval bound exceeds tolerance",
+  "nominal_operator_upper": 1.3451716923111303,
+  "nominal_rectangle_max_width": 0.2915158621835825,
+  "cause": "Entrywise rectangle propagation accumulates wrapping growth despite exact primitive unitarity. This is a bound-construction failure, not a failed physical CNOT.",
+  "planned_successor": "Use coefficient matrix norm balls, with exact unitary norm 1 at zero Taylor degree, and rigorously enclosed local rounding errors. Preserve protocol, controls, domains and acceptance criteria.",
+  "diagnostic_elapsed_s": 2.1181338001042604
+}

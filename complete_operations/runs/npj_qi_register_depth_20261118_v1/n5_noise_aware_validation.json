@@ -1,0 +1,1052 @@
+[
+  {
+    "x": -0.01,
+    "y": -0.01,
+    "depth": 1,
+    "half_diamond": 0.007489248654766979,
+    "average_gate_infidelity": 5.509213260243982e-06
+  },
+  {
+    "x": -0.01,
+    "y": -0.01,
+    "depth": 2,
+    "half_diamond": 0.011790549349413421,
+    "average_gate_infidelity": 1.2601405935807827e-05
+  },
+  {
+    "x": -0.01,
+    "y": -0.01,
+    "depth": 4,
+    "half_diamond": 0.01766827172107622,
+    "average_gate_infidelity": 3.046088029085519e-05
+  },
+  {
+    "x": -0.01,
+    "y": -0.01,
+    "depth": 8,
+    "half_diamond": 0.028805577406362012,
+    "average_gate_infidelity": 9.805169490325245e-05
+  },
+  {
+    "x": -0.01,
+    "y": -0.01,
+    "depth": 16,
+    "half_diamond": 0.047284394856555445,
+    "average_gate_infidelity": 0.0003160162121935302
+  },
+  {
+    "x": -0.01,
+    "y": -0.01,
+    "depth": 32,
+    "half_diamond": 0.08930939554144436,
+    "average_gate_infidelity": 0.0011951416873204385
+  },
+  {
+    "x": -0.01,
+    "y": -0.005,
+    "depth": 1,
+    "half_diamond": 0.005490081923552814,
+    "average_gate_infidelity": 3.0856933603021472e-06
+  },
+  {
+    "x": -0.01,
+    "y": -0.005,
+    "depth": 2,
+    "half_diamond": 0.008336821290919916,
+    "average_gate_infidelity": 6.422719261484582e-06
+  },
+  {
+    "x": -0.01,
+    "y": -0.005,
+    "depth": 4,
+    "half_diamond": 0.013372518874904888,
+    "average_gate_infidelity": 1.61530004329317e-05
+  },
+  {
+    "x": -0.01,
+    "y": -0.005,
+    "depth": 8,
+    "half_diamond": 0.02143726473077023,
+    "average_gate_infidelity": 5.296251028324815e-05
+  },
+  {
+    "x": -0.01,
+    "y": -0.005,
+    "depth": 16,
+    "half_diamond": 0.036788865495002404,
+    "average_gate_infidelity": 0.0001666247884224829
+  },
+  {
+    "x": -0.01,
+    "y": -0.005,
+    "depth": 32,
+    "half_diamond": 0.06818842684999313,
+    "average_gate_infidelity": 0.0006170962493376402
+  },
+  {
+    "x": -0.01,
+    "y": 0.0,
+    "depth": 1,
+    "half_diamond": 0.00521985562256953,
+    "average_gate_infidelity": 2.6146128495675e-06
+  },
+  {
+    "x": -0.01,
+    "y": 0.0,
+    "depth": 2,
+    "half_diamond": 0.0075917816289666545,
+    "average_gate_infidelity": 5.480415691362271e-06
+  },
+  {
+    "x": -0.01,
+    "y": 0.0,
+    "depth": 4,
+    "half_diamond": 0.01185763373658404,
+    "average_gate_infidelity": 1.3528932554927245e-05
+  },
+  {
+    "x": -0.01,
+    "y": 0.0,
+    "depth": 8,
+    "half_diamond": 0.019020158140981968,
+    "average_gate_infidelity": 4.095691712503356e-05
+  },
+  {
+    "x": -0.01,
+    "y": 0.0,
+    "depth": 16,
+    "half_diamond": 0.034388123522891514,
+    "average_gate_infidelity": 0.00012438340840955934
+  },
+  {
+    "x": -0.01,
+    "y": 0.0,
+    "depth": 32,
+    "half_diamond": 0.06328055594184089,
+    "average_gate_infidelity": 0.0004489177627743469
+  },
+  {
+    "x": -0.01,
+    "y": 0.004999999999999999,
+    "depth": 1,
+    "half_diamond": 0.006530534400319327,
+    "average_gate_infidelity": 3.952598354745208e-06
+  },
+  {
+    "x": -0.01,
+    "y": 0.004999999999999999,
+    "depth": 2,
+    "half_diamond": 0.009429996811358898,
+    "average_gate_infidelity": 8.698334657643933e-06
+  },
+  {
+    "x": -0.01,
+    "y": 0.004999999999999999,
+    "depth": 4,
+    "half_diamond": 0.013641775577065713,
+    "average_gate_infidelity": 2.2219670705336476e-05
+  },
+  {
+    "x": -0.01,
+    "y": 0.004999999999999999,
+    "depth": 8,
+    "half_diamond": 0.02444279411377317,
+    "average_gate_infidelity": 6.826466257853718e-05
+  },
+  {
+    "x": -0.01,
+    "y": 0.004999999999999999,
+    "depth": 16,
+    "half_diamond": 0.044239596158174195,
+    "average_gate_infidelity": 0.0002156849040008696
+  },
+  {
+    "x": -0.01,
+    "y": 0.004999999999999999,
+    "depth": 32,
+    "half_diamond": 0.08209063240461124,
+    "average_gate_infidelity": 0.000797387935334392
+  },
+  {
+    "x": -0.01,
+    "y": 0.01,
+    "depth": 1,
+    "half_diamond": 0.009812907029511077,
+    "average_gate_infidelity": 9.100733698762621e-06
+  },
+  {
+    "x": -0.01,
+    "y": 0.01,
+    "depth": 2,
+    "half_diamond": 0.01378180034830568,
+    "average_gate_infidelity": 1.826132382462626e-05
+  },
+  {
+    "x": -0.01,
+    "y": 0.01,
+    "depth": 4,
+    "half_diamond": 0.020466405036657937,
+    "average_gate_infidelity": 5.1996337501710364e-05
+  },
+  {
+    "x": -0.01,
+    "y": 0.01,
+    "depth": 8,
+    "half_diamond": 0.03789266841896216,
+    "average_gate_infidelity": 0.00017352938144091812
+  },
+  {
+    "x": -0.01,
+    "y": 0.01,
+    "depth": 16,
+    "half_diamond": 0.06615456394223118,
+    "average_gate_infidelity": 0.0005593264736278791
+  },
+  {
+    "x": -0.01,
+    "y": 0.01,
+    "depth": 32,
+    "half_diamond": 0.12558012214048545,
+    "average_gate_infidelity": 0.002123777214726802
+  },
+  {
+    "x": -0.005,
+    "y": -0.01,
+    "depth": 1,
+    "half_diamond": 0.0033229602229331904,
+    "average_gate_infidelity": 1.087694764963358e-06
+  },
+  {
+    "x": -0.005,
+    "y": -0.01,
+    "depth": 2,
+    "half_diamond": 0.0047190363648626455,
+    "average_gate_infidelity": 2.469177482222414e-06
+  },
+  {
+    "x": -0.005,
+    "y": -0.01,
+    "depth": 4,
+    "half_diamond": 0.0058107788795708215,
+    "average_gate_infidelity": 5.651452127500878e-06
+  },
+  {
+    "x": -0.005,
+    "y": -0.01,
+    "depth": 8,
+    "half_diamond": 0.009210054067241286,
+    "average_gate_infidelity": 1.4970735726756967e-05
+  },
+  {
+    "x": -0.005,
+    "y": -0.01,
+    "depth": 16,
+    "half_diamond": 0.012258676231076807,
+    "average_gate_infidelity": 4.31348005151628e-05
+  },
+  {
+    "x": -0.005,
+    "y": -0.01,
+    "depth": 32,
+    "half_diamond": 0.023806657194158032,
+    "average_gate_infidelity": 0.0001602953331031298
+  },
+  {
+    "x": -0.005,
+    "y": -0.005,
+    "depth": 1,
+    "half_diamond": 0.0015234168892259553,
+    "average_gate_infidelity": 2.453759181566001e-07
+  },
+  {
+    "x": -0.005,
+    "y": -0.005,
+    "depth": 2,
+    "half_diamond": 0.00213113139723864,
+    "average_gate_infidelity": 5.276763536828226e-07
+  },
+  {
+    "x": -0.005,
+    "y": -0.005,
+    "depth": 4,
+    "half_diamond": 0.0028951230617998134,
+    "average_gate_infidelity": 1.3625056978688035e-06
+  },
+  {
+    "x": -0.005,
+    "y": -0.005,
+    "depth": 8,
+    "half_diamond": 0.00556020406722742,
+    "average_gate_infidelity": 4.7451071343161715e-06
+  },
+  {
+    "x": -0.005,
+    "y": -0.005,
+    "depth": 16,
+    "half_diamond": 0.008940145947018212,
+    "average_gate_infidelity": 1.5245839886007975e-05
+  },
+  {
+    "x": -0.005,
+    "y": -0.005,
+    "depth": 32,
+    "half_diamond": 0.01741964580712601,
+    "average_gate_infidelity": 5.881046014342005e-05
+  },
+  {
+    "x": -0.005,
+    "y": 0.0,
+    "depth": 1,
+    "half_diamond": 0.0012798983358458316,
+    "average_gate_infidelity": 1.5167630642374455e-07
+  },
+  {
+    "x": -0.005,
+    "y": 0.0,
+    "depth": 2,
+    "half_diamond": 0.0018054477338281928,
+    "average_gate_infidelity": 2.748524182660469e-07
+  },
+  {
+    "x": -0.005,
+    "y": 0.0,
+    "depth": 4,
+    "half_diamond": 0.002756227944293578,
+    "average_gate_infidelity": 7.641621632036401e-07
+  },
+  {
+    "x": -0.005,
+    "y": 0.0,
+    "depth": 8,
+    "half_diamond": 0.004717814411428103,
+    "average_gate_infidelity": 2.5382138187351853e-06
+  },
+  {
+    "x": -0.005,
+    "y": 0.0,
+    "depth": 16,
+    "half_diamond": 0.007855712405173883,
+    "average_gate_infidelity": 7.312524481051241e-06
+  },
+  {
+    "x": -0.005,
+    "y": 0.0,
+    "depth": 32,
+    "half_diamond": 0.015256167348379857,
+    "average_gate_infidelity": 2.8178531204026808e-05
+  },
+  {
+    "x": -0.005,
+    "y": 0.004999999999999999,
+    "depth": 1,
+    "half_diamond": 0.0012385705793417703,
+    "average_gate_infidelity": 1.9193085940762764e-07
+  },
+  {
+    "x": -0.005,
+    "y": 0.004999999999999999,
+    "depth": 2,
+    "half_diamond": 0.0017115116471307405,
+    "average_gate_infidelity": 4.052415825128719e-07
+  },
+  {
+    "x": -0.005,
+    "y": 0.004999999999999999,
+    "depth": 4,
+    "half_diamond": 0.0025433868148301234,
+    "average_gate_infidelity": 1.1308741380370673e-06
+  },
+  {
+    "x": -0.005,
+    "y": 0.004999999999999999,
+    "depth": 8,
+    "half_diamond": 0.004603092093354027,
+    "average_gate_infidelity": 3.286227249917188e-06
+  },
+  {
+    "x": -0.005,
+    "y": 0.004999999999999999,
+    "depth": 16,
+    "half_diamond": 0.007212128795329124,
+    "average_gate_infidelity": 1.0277881692496404e-05
+  },
+  {
+    "x": -0.005,
+    "y": 0.004999999999999999,
+    "depth": 32,
+    "half_diamond": 0.013604572922748035,
+    "average_gate_infidelity": 3.8021132576506204e-05
+  },
+  {
+    "x": -0.005,
+    "y": 0.01,
+    "depth": 1,
+    "half_diamond": 0.00424817606814355,
+    "average_gate_infidelity": 1.9256718414598337e-06
+  },
+  {
+    "x": -0.005,
+    "y": 0.01,
+    "depth": 2,
+    "half_diamond": 0.005366637805244967,
+    "average_gate_infidelity": 2.9827536039736957e-06
+  },
+  {
+    "x": -0.005,
+    "y": 0.01,
+    "depth": 4,
+    "half_diamond": 0.009516170836313167,
+    "average_gate_infidelity": 9.952342856527622e-06
+  },
+  {
+    "x": -0.005,
+    "y": 0.01,
+    "depth": 8,
+    "half_diamond": 0.01731749949770315,
+    "average_gate_infidelity": 3.5084863795795876e-05
+  },
+  {
+    "x": -0.005,
+    "y": 0.01,
+    "depth": 16,
+    "half_diamond": 0.03005212063496496,
+    "average_gate_infidelity": 0.00010930399048393896
+  },
+  {
+    "x": -0.005,
+    "y": 0.01,
+    "depth": 32,
+    "half_diamond": 0.05963001537453809,
+    "average_gate_infidelity": 0.0004191375169116637
+  },
+  {
+    "x": 0.0,
+    "y": -0.01,
+    "depth": 1,
+    "half_diamond": 0.002810037657230433,
+    "average_gate_infidelity": 9.77202941003718e-07
+  },
+  {
+    "x": 0.0,
+    "y": -0.01,
+    "depth": 2,
+    "half_diamond": 0.0034517908715481515,
+    "average_gate_infidelity": 1.4492687940780729e-06
+  },
+  {
+    "x": 0.0,
+    "y": -0.01,
+    "depth": 4,
+    "half_diamond": 0.005866119233406447,
+    "average_gate_infidelity": 4.054908636957731e-06
+  },
+  {
+    "x": 0.0,
+    "y": -0.01,
+    "depth": 8,
+    "half_diamond": 0.009563388979465357,
+    "average_gate_infidelity": 1.096859020580351e-05
+  },
+  {
+    "x": 0.0,
+    "y": -0.01,
+    "depth": 16,
+    "half_diamond": 0.01408344439930635,
+    "average_gate_infidelity": 2.3990815014854256e-05
+  },
+  {
+    "x": 0.0,
+    "y": -0.01,
+    "depth": 32,
+    "half_diamond": 0.026010927667188412,
+    "average_gate_infidelity": 8.034098430464314e-05
+  },
+  {
+    "x": 0.0,
+    "y": -0.005,
+    "depth": 1,
+    "half_diamond": 0.002427402609857166,
+    "average_gate_infidelity": 5.269269334936174e-07
+  },
+  {
+    "x": 0.0,
+    "y": -0.005,
+    "depth": 2,
+    "half_diamond": 0.0035571398290984045,
+    "average_gate_infidelity": 1.1618345916856883e-06
+  },
+  {
+    "x": 0.0,
+    "y": -0.005,
+    "depth": 4,
+    "half_diamond": 0.0054489446707863985,
+    "average_gate_infidelity": 2.771471153852362e-06
+  },
+  {
+    "x": 0.0,
+    "y": -0.005,
+    "depth": 8,
+    "half_diamond": 0.009176312358399927,
+    "average_gate_infidelity": 8.730682051309934e-06
+  },
+  {
+    "x": 0.0,
+    "y": -0.005,
+    "depth": 16,
+    "half_diamond": 0.01651087454405937,
+    "average_gate_infidelity": 2.661079191743497e-05
+  },
+  {
+    "x": 0.0,
+    "y": -0.005,
+    "depth": 32,
+    "half_diamond": 0.030621103206438,
+    "average_gate_infidelity": 9.7103813156018e-05
+  },
+  {
+    "x": 0.0,
+    "y": 0.0,
+    "depth": 1,
+    "half_diamond": 0.002971742569027075,
+    "average_gate_infidelity": 7.388955220068455e-07
+  },
+  {
+    "x": 0.0,
+    "y": 0.0,
+    "depth": 2,
+    "half_diamond": 0.004440933961946541,
+    "average_gate_infidelity": 1.6303507115927032e-06
+  },
+  {
+    "x": 0.0,
+    "y": 0.0,
+    "depth": 4,
+    "half_diamond": 0.006833820643832919,
+    "average_gate_infidelity": 4.028768916912661e-06
+  },
+  {
+    "x": 0.0,
+    "y": 0.0,
+    "depth": 8,
+    "half_diamond": 0.01174961905459235,
+    "average_gate_infidelity": 1.3450865179009952e-05
+  },
+  {
+    "x": 0.0,
+    "y": 0.0,
+    "depth": 16,
+    "half_diamond": 0.02132300693415397,
+    "average_gate_infidelity": 4.2709869126716086e-05
+  },
+  {
+    "x": 0.0,
+    "y": 0.0,
+    "depth": 32,
+    "half_diamond": 0.040134543777754154,
+    "average_gate_infidelity": 0.00016048730736517916
+  },
+  {
+    "x": 0.0,
+    "y": 0.004999999999999999,
+    "depth": 1,
+    "half_diamond": 0.0024174472538044714,
+    "average_gate_infidelity": 5.203192074101494e-07
+  },
+  {
+    "x": 0.0,
+    "y": 0.004999999999999999,
+    "depth": 2,
+    "half_diamond": 0.003667027571420211,
+    "average_gate_infidelity": 1.1802392904338845e-06
+  },
+  {
+    "x": 0.0,
+    "y": 0.004999999999999999,
+    "depth": 4,
+    "half_diamond": 0.005566448545080629,
+    "average_gate_infidelity": 2.7351836396602183e-06
+  },
+  {
+    "x": 0.0,
+    "y": 0.004999999999999999,
+    "depth": 8,
+    "half_diamond": 0.009141373822865017,
+    "average_gate_infidelity": 8.389879493256903e-06
+  },
+  {
+    "x": 0.0,
+    "y": 0.004999999999999999,
+    "depth": 16,
+    "half_diamond": 0.016630571541096244,
+    "average_gate_infidelity": 2.5873020561885017e-05
+  },
+  {
+    "x": 0.0,
+    "y": 0.004999999999999999,
+    "depth": 32,
+    "half_diamond": 0.030926445243629877,
+    "average_gate_infidelity": 9.466570074581878e-05
+  },
+  {
+    "x": 0.0,
+    "y": 0.01,
+    "depth": 1,
+    "half_diamond": 0.0027659051975254738,
+    "average_gate_infidelity": 9.728451381578673e-07
+  },
+  {
+    "x": 0.0,
+    "y": 0.01,
+    "depth": 2,
+    "half_diamond": 0.0038589739682520197,
+    "average_gate_infidelity": 1.596834956465252e-06
+  },
+  {
+    "x": 0.0,
+    "y": 0.01,
+    "depth": 4,
+    "half_diamond": 0.006336677475609112,
+    "average_gate_infidelity": 4.017834859105347e-06
+  },
+  {
+    "x": 0.0,
+    "y": 0.01,
+    "depth": 8,
+    "half_diamond": 0.009498476709071273,
+    "average_gate_infidelity": 1.0535331766469584e-05
+  },
+  {
+    "x": 0.0,
+    "y": 0.01,
+    "depth": 16,
+    "half_diamond": 0.016261142713703942,
+    "average_gate_infidelity": 2.5212615676952225e-05
+  },
+  {
+    "x": 0.0,
+    "y": 0.01,
+    "depth": 32,
+    "half_diamond": 0.030092342257459312,
+    "average_gate_infidelity": 8.793194520283588e-05
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": -0.01,
+    "depth": 1,
+    "half_diamond": 0.004273463761112779,
+    "average_gate_infidelity": 1.9215668795406296e-06
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": -0.01,
+    "depth": 2,
+    "half_diamond": 0.005456820580014707,
+    "average_gate_infidelity": 2.918452231989132e-06
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": -0.01,
+    "depth": 4,
+    "half_diamond": 0.009542605184210996,
+    "average_gate_infidelity": 9.187351915092753e-06
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": -0.01,
+    "depth": 8,
+    "half_diamond": 0.017595410591386272,
+    "average_gate_infidelity": 3.384330108063995e-05
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": -0.01,
+    "depth": 16,
+    "half_diamond": 0.030416300673967677,
+    "average_gate_infidelity": 0.00010035121721491629
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": -0.01,
+    "depth": 32,
+    "half_diamond": 0.0601695686445175,
+    "average_gate_infidelity": 0.00038210485794885267
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": -0.005,
+    "depth": 1,
+    "half_diamond": 0.0012753113502983054,
+    "average_gate_infidelity": 1.935506974625627e-07
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": -0.005,
+    "depth": 2,
+    "half_diamond": 0.0017772610367263447,
+    "average_gate_infidelity": 3.8363207635532515e-07
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": -0.005,
+    "depth": 4,
+    "half_diamond": 0.0024976281748746625,
+    "average_gate_infidelity": 9.758275691603668e-07
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": -0.005,
+    "depth": 8,
+    "half_diamond": 0.004473492675693454,
+    "average_gate_infidelity": 2.924333746254647e-06
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": -0.005,
+    "depth": 16,
+    "half_diamond": 0.006780918504142922,
+    "average_gate_infidelity": 8.374343195890443e-06
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": -0.005,
+    "depth": 32,
+    "half_diamond": 0.012888463995458219,
+    "average_gate_infidelity": 3.0436082163559473e-05
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": 0.0,
+    "depth": 1,
+    "half_diamond": 0.001300974128680163,
+    "average_gate_infidelity": 1.5288079812204491e-07
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": 0.0,
+    "depth": 2,
+    "half_diamond": 0.001864360405066722,
+    "average_gate_infidelity": 2.857829287425816e-07
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": 0.0,
+    "depth": 4,
+    "half_diamond": 0.0028121208971568297,
+    "average_gate_infidelity": 7.68270906825068e-07
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": 0.0,
+    "depth": 8,
+    "half_diamond": 0.004916186749984546,
+    "average_gate_infidelity": 2.5676671948772447e-06
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": 0.0,
+    "depth": 16,
+    "half_diamond": 0.008349715067251245,
+    "average_gate_infidelity": 7.527376807042236e-06
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": 0.0,
+    "depth": 32,
+    "half_diamond": 0.016223260949318332,
+    "average_gate_infidelity": 2.85840548547805e-05
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": 0.004999999999999999,
+    "depth": 1,
+    "half_diamond": 0.0014473436469859995,
+    "average_gate_infidelity": 2.2560928069844632e-07
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": 0.004999999999999999,
+    "depth": 2,
+    "half_diamond": 0.001999380113650244,
+    "average_gate_infidelity": 4.4125115058098646e-07
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": 0.004999999999999999,
+    "depth": 4,
+    "half_diamond": 0.0027268957651180857,
+    "average_gate_infidelity": 1.098814808300679e-06
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": 0.004999999999999999,
+    "depth": 8,
+    "half_diamond": 0.005213345640628217,
+    "average_gate_infidelity": 3.983313951706715e-06
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": 0.004999999999999999,
+    "depth": 16,
+    "half_diamond": 0.008315712158696684,
+    "average_gate_infidelity": 1.212770087097724e-05
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": 0.004999999999999999,
+    "depth": 32,
+    "half_diamond": 0.01623235749666392,
+    "average_gate_infidelity": 4.685271371832645e-05
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": 0.01,
+    "depth": 1,
+    "half_diamond": 0.0033193974684727102,
+    "average_gate_infidelity": 1.0431735544336858e-06
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": 0.01,
+    "depth": 2,
+    "half_diamond": 0.0045988825633896295,
+    "average_gate_infidelity": 2.198788830901666e-06
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": 0.01,
+    "depth": 4,
+    "half_diamond": 0.0055623324379684026,
+    "average_gate_infidelity": 4.654216251832498e-06
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": 0.01,
+    "depth": 8,
+    "half_diamond": 0.009187418176260127,
+    "average_gate_infidelity": 1.2483883251213753e-05
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": 0.01,
+    "depth": 16,
+    "half_diamond": 0.012127464782436303,
+    "average_gate_infidelity": 3.283108614213299e-05
+  },
+  {
+    "x": 0.004999999999999999,
+    "y": 0.01,
+    "depth": 32,
+    "half_diamond": 0.023750230251463843,
+    "average_gate_infidelity": 0.00012079316916905707
+  },
+  {
+    "x": 0.01,
+    "y": -0.01,
+    "depth": 1,
+    "half_diamond": 0.009701766800469419,
+    "average_gate_infidelity": 8.907354872006277e-06
+  },
+  {
+    "x": 0.01,
+    "y": -0.01,
+    "depth": 2,
+    "half_diamond": 0.013991482551910272,
+    "average_gate_infidelity": 1.8283285225889454e-05
+  },
+  {
+    "x": 0.01,
+    "y": -0.01,
+    "depth": 4,
+    "half_diamond": 0.020267559052622848,
+    "average_gate_infidelity": 4.8016614462675236e-05
+  },
+  {
+    "x": 0.01,
+    "y": -0.01,
+    "depth": 8,
+    "half_diamond": 0.039201971412432556,
+    "average_gate_infidelity": 0.00017120123151508955
+  },
+  {
+    "x": 0.01,
+    "y": -0.01,
+    "depth": 16,
+    "half_diamond": 0.0669189237475481,
+    "average_gate_infidelity": 0.0005426235460459573
+  },
+  {
+    "x": 0.01,
+    "y": -0.01,
+    "depth": 32,
+    "half_diamond": 0.13197460520330698,
+    "average_gate_infidelity": 0.0020754116435087026
+  },
+  {
+    "x": 0.01,
+    "y": -0.005,
+    "depth": 1,
+    "half_diamond": 0.006390219814870817,
+    "average_gate_infidelity": 3.853141272713856e-06
+  },
+  {
+    "x": 0.01,
+    "y": -0.005,
+    "depth": 2,
+    "half_diamond": 0.00922347457768193,
+    "average_gate_infidelity": 8.573624476929698e-06
+  },
+  {
+    "x": 0.01,
+    "y": -0.005,
+    "depth": 4,
+    "half_diamond": 0.012463613234824544,
+    "average_gate_infidelity": 2.0757358895540428e-05
+  },
+  {
+    "x": 0.01,
+    "y": -0.005,
+    "depth": 8,
+    "half_diamond": 0.02302425249458224,
+    "average_gate_infidelity": 6.589019741973992e-05
+  },
+  {
+    "x": 0.01,
+    "y": -0.005,
+    "depth": 16,
+    "half_diamond": 0.04036995973662926,
+    "average_gate_infidelity": 0.0002022869581349663
+  },
+  {
+    "x": 0.01,
+    "y": -0.005,
+    "depth": 32,
+    "half_diamond": 0.07874109115120079,
+    "average_gate_infidelity": 0.0007589267673501244
+  },
+  {
+    "x": 0.01,
+    "y": 0.0,
+    "depth": 1,
+    "half_diamond": 0.005126095696074276,
+    "average_gate_infidelity": 2.600476241077627e-06
+  },
+  {
+    "x": 0.01,
+    "y": 0.0,
+    "depth": 2,
+    "half_diamond": 0.007439297929573338,
+    "average_gate_infidelity": 5.5859992017279625e-06
+  },
+  {
+    "x": 0.01,
+    "y": 0.0,
+    "depth": 4,
+    "half_diamond": 0.011291311173650096,
+    "average_gate_infidelity": 1.3275042822201474e-05
+  },
+  {
+    "x": 0.01,
+    "y": 0.0,
+    "depth": 8,
+    "half_diamond": 0.018137363279888682,
+    "average_gate_infidelity": 3.980847906883823e-05
+  },
+  {
+    "x": 0.01,
+    "y": 0.0,
+    "depth": 16,
+    "half_diamond": 0.03251049364487695,
+    "average_gate_infidelity": 0.00011754130621958214
+  },
+  {
+    "x": 0.01,
+    "y": 0.0,
+    "depth": 32,
+    "half_diamond": 0.06172982110636673,
+    "average_gate_infidelity": 0.00043072214100684886
+  },
+  {
+    "x": 0.01,
+    "y": 0.004999999999999999,
+    "depth": 1,
+    "half_diamond": 0.005408295179641234,
+    "average_gate_infidelity": 3.0942830391962395e-06
+  },
+  {
+    "x": 0.01,
+    "y": 0.004999999999999999,
+    "depth": 2,
+    "half_diamond": 0.008229832079068237,
+    "average_gate_infidelity": 6.486692721764622e-06
+  },
+  {
+    "x": 0.01,
+    "y": 0.004999999999999999,
+    "depth": 4,
+    "half_diamond": 0.013011165664109899,
+    "average_gate_infidelity": 1.571462779410963e-05
+  },
+  {
+    "x": 0.01,
+    "y": 0.004999999999999999,
+    "depth": 8,
+    "half_diamond": 0.021009856293859368,
+    "average_gate_infidelity": 5.1774988474199177e-05
+  },
+  {
+    "x": 0.01,
+    "y": 0.004999999999999999,
+    "depth": 16,
+    "half_diamond": 0.0361341210426605,
+    "average_gate_infidelity": 0.00016164212759653995
+  },
+  {
+    "x": 0.01,
+    "y": 0.004999999999999999,
+    "depth": 32,
+    "half_diamond": 0.06828730627205233,
+    "average_gate_infidelity": 0.0006005763182349409
+  },
+  {
+    "x": 0.01,
+    "y": 0.01,
+    "depth": 1,
+    "half_diamond": 0.007429852617170064,
+    "average_gate_infidelity": 5.486844729727919e-06
+  },
+  {
+    "x": 0.01,
+    "y": 0.01,
+    "depth": 2,
+    "half_diamond": 0.011409013906659427,
+    "average_gate_infidelity": 1.2027844399979545e-05
+  },
+  {
+    "x": 0.01,
+    "y": 0.01,
+    "depth": 4,
+    "half_diamond": 0.017194150543833133,
+    "average_gate_infidelity": 2.823799267207247e-05
+  },
+  {
+    "x": 0.01,
+    "y": 0.01,
+    "depth": 8,
+    "half_diamond": 0.028739755747021405,
+    "average_gate_infidelity": 9.484686577508658e-05
+  },
+  {
+    "x": 0.01,
+    "y": 0.01,
+    "depth": 16,
+    "half_diamond": 0.04765731238626993,
+    "average_gate_infidelity": 0.0003041743472601521
+  },
+  {
+    "x": 0.01,
+    "y": 0.01,
+    "depth": 32,
+    "half_diamond": 0.09106228884500228,
+    "average_gate_infidelity": 0.001139964205455957
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-12",
+  "status": "REGISTERED_BEFORE_NEW_PROPAGATION",
+  "owner": "Primary agent; all scientific evaluation and acceptance remain with the primary agent",
+  "source": "submission/SCPMA_20261008_v1/01_upload/reproducibility_archive.zip: research/runs/v17_library_v1",
+  "new_run": "runs/cnot_tolerance_20261012_v1",
+  "objective": "Quantify continuous shared-calibration error radii and control-parameter neighborhoods for actual encoded-CNOT implementations, without treating numerical roots as exact robust points.",
+  "task": {
+    "N": 3,
+    "d": 8,
+    "inputs": "All eight-dimensional states, including entanglement with an arbitrary reference",
+    "target": "The archived phase-specified encoded CNOT on the symmetric spin-3/2 sector, with the declared identity action on both hidden spin-1/2 multiplicity copies; one full-register global phase is immaterial",
+    "output": "Full physical channel; no projection, postselection or renormalization",
+    "continuations": "Any common subsequent quantum channel contracts the stated half-diamond distance; no intermediate reusable-module guarantee is inferred for C",
+    "signal": "None",
+    "errors": "Two shared quasistatic fractional calibration offsets x and y, constant across all 90 slots, in the closed square |x|,|y| <= r",
+    "excluded_errors": "Unknown actuator transfer function, intra-slot fluctuations, local gain inhomogeneity, leakage-inducing couplings and module-independent gain offsets",
+    "metric": "sup half diamond distance to the fixed complete target, bounded via operator-norm error of full eight-dimensional unitaries",
+    "secondary_noise": "Optional known local Markov dephasing at gamma*t0=1e-5, charged by a separately derived 3*gamma*T/2 channel-distance bound"
+  },
+  "controls": {
+    "library": ["whole", "module_response", "modular", "noise_complete", "nominal"],
+    "labels": {"whole": "C", "module_response": "R", "modular": "M", "noise_complete": "F_C", "nominal": "N"},
+    "selection": "Use all five pre-existing complete-target candidates; no selection based on the new radius results",
+    "strong_baseline": "Archived finite-noise optimized F_C and nominal-duration N; their optimization objectives and budgets remain as originally recorded, so radius differences are library comparisons only",
+    "parametrization": "3 blocks of 44 real parameters; 45 rotation areas theta, 42 free axes phi, 45 twisting areas chi; physical schedule is modules 2,1,0, each twisting then rotation",
+    "constraints": "Signed controls, |theta|,|chi|<=4*pi, |phi|<=8*pi; original known actuator tau_b=0.02*t0, caps 10/t0 and 1/t0, minimum slot 0.04*t0, all 89 switches at 0.001*t0",
+    "control_distance": "Weighted l1 radius W = 1.5 sum|Delta theta| + 1.5 sum|theta_base| |Delta phi| + 3 sum|Delta chi|. Also report the conservative equal per-area tolerance W/202.5 with axes fixed.",
+    "local_family": "C only: numerical continuation at s=-0.04,-0.02,0,0.02,0.04 in a seeded area-only null direction of the joint target/response Jacobian; fixed axes; weighted l2 area coordinates (weights 1.5 and 3), plus a fixed gauge v dot (z-z0)=s",
+    "family_stopping": "At most 15 minimum-norm Newton corrections per point, at most 8 step halvings, target constraint residual <=1e-10; record failures without changing the registered s values",
+    "family_budget": "All candidates <=120*t0; the local C family and its delivered neighborhoods additionally require <=20*t0"
+  },
+  "bounds": {
+    "polynomial_orders": [2,4,6,8],
+    "maximum_order": 8,
+    "construction": "Bivariate full-unitary Taylor coefficients obtained by ordered product convolution; keep actual nominal and first-order residuals; remainder <= ((S_R+S_T)*r)^(K+1)/(K+1)! with S_R=1.5 sum|theta|, S_T=3 sum|chi|",
+    "coefficient_verification": "Outward-rounded real/imaginary interval matrix arithmetic; elementary pulse sin/cos enclosed by directed Decimal Taylor arithmetic; SVD is only a proposed factorization and its norm bound must be verified by interval residuals and Gram bounds",
+    "control_neighborhood": "For base bound B(r), the full-control neighborhood satisfies error <= B(r)+(1+r)W. Intersect with admissible controls and account for duration changes.",
+    "noise_radius_search": "Monotone bisection of the verified polynomial-plus-remainder upper bound on 0<=r<=0.05, 60 iterations; final returned radius must pass an outward-rounded inequality",
+    "no_exact_root_claim": "Residuals are bounded, not replaced by zero. Numerically continued controls are not called interval-certified manifold roots."
+  },
+  "registered_evaluation": {
+    "channel_tolerances": [0.001,0.01,0.05],
+    "noise_radii": [0.001,0.005,0.01,0.02],
+    "primary": "delta=0.01, r=0.01; test whether C has positive residual control budget W>=0.001",
+    "secondary": "Report all prescribed radii/tolerances and all failures. A smaller radius is not a replacement success criterion.",
+    "grid": "41x41 error grid at r=0.01 for each candidate; corners and center at other registered radii; finite samples are diagnostics only",
+    "independent_propagation": "Tensor-product single-qubit rotations and diagonal twisting versus direct scipy.linalg.expm on Pauli-tensor Hamiltonians; deterministic points and finite-difference derivative checks",
+    "geometry": "Report ranks and singular values of response-only, target-only and joint Jacobians in fixed coordinates, directional checks, and continuation residuals",
+    "seed": 26101219,
+    "wall_budget_seconds": 1800,
+    "no_hardware_or_external_submission": true
+  },
+  "acceptance": [
+    "No archived source/control bytes change",
+    "Full8 physical target and all symmetry-sector actions verified independently",
+    "The analytic remainder and Duhamel neighborhood arguments are personally audited",
+    "Every delivered continuous-domain number is backed by outward-rounded arithmetic; grids remain labeled diagnostics",
+    "The primary result is reported whether positive or negative",
+    "Practical usefulness is tied to the declared dimensionless calibration and control tolerances, not an unspecified device or a fault-tolerance threshold"
+  ]
+}

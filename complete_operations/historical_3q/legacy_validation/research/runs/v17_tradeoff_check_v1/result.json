@@ -1,0 +1,42 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "kind": "whole",
+      "full8_dephasing_slope": 25.905470485421134,
+      "predicted_slope": 25.905482824514195,
+      "relative_error": 4.763120280415478e-07,
+      "module_drift_quadratic_coefficient": 7.274374322845468,
+      "source_sha256": "2411dc26fb10e5ce1b68db5906d7092aafa1b7bf29a17f3869e79664f7b521ee"
+    },
+    {
+      "kind": "module_response",
+      "full8_dephasing_slope": 89.42830052593997,
+      "predicted_slope": 89.4283106656668,
+      "relative_error": 1.1338385741410661e-07,
+      "module_drift_quadratic_coefficient": 8.17167542051425e-28,
+      "source_sha256": "14b35f806268e78d6d71b97c01432375431d7152a3842d2b2a5ddf8d2b3a2915"
+    },
+    {
+      "kind": "modular",
+      "full8_dephasing_slope": 115.18220145445568,
+      "predicted_slope": 115.1822069483015,
+      "relative_error": 4.7697000793434086e-08,
+      "module_drift_quadratic_coefficient": 1.2245888426352817e-27,
+      "source_sha256": "169cb1a524cd8129dd9a5744a102a66a0b71aab624c91c85fde51843f533fa5a"
+    },
+    {
+      "kind": "nominal",
+      "full8_dephasing_slope": 13.221943662156121,
+      "predicted_slope": 13.221980080575403,
+      "relative_error": 2.754384673009369e-06,
+      "module_drift_quadratic_coefficient": 6.045312473140501,
+      "source_sha256": "4d5803b4ff8ab593328fa98ad53cb2af08e1fc70901e5fa897ba6c77b1dfb335"
+    }
+  ],
+  "gamma_step": 1e-08,
+  "elapsed_s": 0.1522523000021465,
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "numpy": "2.4.6",
+  "source_sha256": "f5992865016d11b1bcf85e4cde76f0947b75bac52de107c25650fc05ac3e9a19"
+}

@@ -1,0 +1,16 @@
+{
+  "evaluations": 8,
+  "reason": "The maximum number of function evaluations is exceeded.",
+  "wall_s": 0.03416100004687905,
+  "objective_squared_history": [
+    1.933085978999899e-06,
+    1.0984849199724927e-06,
+    7.562026055636782e-07,
+    5.344895187607948e-07,
+    4.0461961713219915e-07,
+    3.0725945363367614e-07,
+    2.438830880233789e-07,
+    1.939263877421626e-07
+  ],
+  "best_squared_objective": 1.939263877421626e-07
+}

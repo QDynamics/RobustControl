@@ -1,0 +1,48 @@
+{
+  "schema": "manifold-finite-fiber-sol-result-v1",
+  "status": "SOL_FINITE_STEP_JOINT_IMPROVEMENT_NUMERICALLY_SUPPORTED_PENDING_INDEPENDENT_AUDIT",
+  "claim_level": "Sol double-precision numerical support pending independent parent FULL8 audit",
+  "task_interface": {
+    "N": 3,
+    "dimension": 8,
+    "inputs": "all FULL8 inputs including reference entanglement and cross-Schur coherence",
+    "output": "same fixed complete unitary channel as source, up to one global phase",
+    "allowed_continuations": "arbitrary operations on the complete output",
+    "signal_model": "none",
+    "error_model": "common quasistatic multiplicative rotation/twist scales",
+    "leakage": "included in direct FULL8 target, K, and closure checks"
+  },
+  "config_sha256": "1276bc84b62b515beae637cd7459e1fbfa2f7a0868126bdf6e044968d5ab9145",
+  "accepted_h_values": [
+    0.001,
+    0.003,
+    0.01
+  ],
+  "rejected_h_values": [],
+  "provisional_joint_improvement_methods": [
+    "h_0.001",
+    "h_0.003",
+    "h_0.01"
+  ],
+  "preflight_seconds": 0.07358479997492395,
+  "calculation_seconds": 7.9463963999878615,
+  "within_300_second_budget": true,
+  "maximum_recorded_call_seconds": 0.7198485000117216,
+  "all_calls_within_30_seconds": true,
+  "call_counts": {
+    "analytic_value_and_jacobian": 9,
+    "value_only": 6,
+    "candidate_full8_audit": 3,
+    "full8_validation_batch": 16,
+    "nominal_full8_drift": 4
+  },
+  "primitive_full8_module_propagations_in_validation": 11940,
+  "conclusion": "至少一个有限步候选在登记的 969 点集合上同时降低 max D 与 eta10 条件时间，并通过绝对阈值及约束漂移裕量；独立复算十倍裕量仍待主代理验收。",
+  "boundaries": [
+    "not an exact root",
+    "not interval certified",
+    "finite validation sets only",
+    "not device validated",
+    "not an M2 strong-baseline comparison"
+  ]
+}

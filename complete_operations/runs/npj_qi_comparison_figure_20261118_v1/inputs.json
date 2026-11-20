@@ -1,0 +1,15 @@
+{
+  "hashes": {
+    "tools/npj_qi_comparison_figure_20261118_v1.py": "11369d7fba6b4da59cb439eb495d2e6d04a26ad4dacbd06101ce0e805cdaf3ac",
+    "tools/npj_qi_review_figures_20261118_v1.py": "880bf8df5734296b485ec4142bd0f6078e2c6d15b14fde843ddb39799cf22eca",
+    "docs/NPJ_QI_COMPARISON_FIGURE_20261118_v1.md": "c26dc5f957459de4bd1f7e29d4e6ead5e43e13ea679207caa38ac41ccd71f412",
+    "runs/npj_qi_full_range_review_20261118_v2/paired_results.csv": "d227915e0d4736ef452e1eb549ca8ac8ccbf65d671c7ed21854120b1ee5494a4",
+    "runs/npj_qi_full_range_review_20261118_v2/development_leakage_maxima.csv": "117a0c5c87c598eb1dad39548b2d8317784ef6fd8a93db4ff5accece5e9ed5c3"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "numpy": "2.4.6",
+  "matplotlib": "3.11.0",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "utc": "2026-11-18T15:06:00.429053+00:00",
+  "precision": "binary64"
+}

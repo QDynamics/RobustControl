@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-18T10:37:59.582707+00:00",
+  "protocol": "Alternate endpoint restoration registered before running this script.\n\nReuse the byte-identical 82-evaluation finite-noise endpoints from the matched\nprotocol. Its generic eight-evaluation trust-region restoration missed the fixed\naccuracy requirement at both widths. Keep the start set, target, error domain,\nfive training points, ranking, eight endpoint evaluations, seven-second budget,\nfour validation circuits and acceptance thresholds fixed. Replace only the\nendpoint restoration by a minimum-norm Newton step on the analytic nominal\nJacobian, discarding singular values <= 1e-8 of its largest. Freeze any coordinate\nwhose proposed full step would violate the original box and solve again. Halve\na step until the nominal residual norm drops. Stop at residual norm 1e-11 or\nthe original budget. Preserve all previous results. No further fitting is part\nof this diagnostic. Compare all four methods at matched physical times.\n",
+  "hashes": {
+    "tools\\npj_qi_register_depth_projection_20261118_v1.py": "28a924cda52f2346b4a216c7d9c5bab7aa16dcd44ee9d45b6ae3d4250103ee04",
+    "tools\\npj_qi_register_depth_matched_20261118_v1.py": "677ff26c1ac74efc45c813468c17a68009b483a4d20775f8bb989523e99af018",
+    "tools\\npj_qi_register_depth_20261118_v1.py": "ae8035cda79064b03e8c9d1858edface6b972607e914ecd3efd884253d3e6be0",
+    "docs\\NPJ_QI_REGISTER_DEPTH_PROTOCOL_20261118_v1.md": "3ed9091de8ce3a02dc5c6722f4cada356ae58bd7ce9ec17aed20ebdc6a2f3e3b",
+    "docs\\NPJ_QI_REGISTER_DEPTH_PROTOCOL_20261118_v2.md": "a4dbc1273499c38fb23e57c9249728712250e992871f6e9e26f2da4e4dd7c2f4",
+    "runs\\npj_qi_register_depth_20261118_v1\\sha256.json": "2e789f7ef3662f3de0b17eabea83aece20eb39e95714d5aabc1e49bce763101f",
+    "runs\\npj_qi_register_depth_matched_20261118_v1\\sha256.json": "dd2384604587eb7116884df1fe755a32cb18f1374147804d19796f041b86e7a0",
+    "src\\manifold_schur_v1.py": "5324cbd9167984c655257f3ab4c3a5d9c61558c7bd3d5a2491309b4a076f8d82",
+    "src\\cnot_tolerance_v1.py": "f3c937ec40d061bff443c914c09a694c1289cd21d30bb979bda3d5c2ed78116e"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "interpreter": "C:\\Users\\admin\\.qecvenv\\Scripts\\python.exe",
+  "numpy": "2.4.6",
+  "scipy": "1.18.0",
+  "precision": "float64/complex128"
+}

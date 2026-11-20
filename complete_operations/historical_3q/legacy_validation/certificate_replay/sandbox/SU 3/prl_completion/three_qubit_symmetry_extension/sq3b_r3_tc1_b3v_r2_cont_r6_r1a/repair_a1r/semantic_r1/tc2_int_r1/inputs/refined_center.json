@@ -1,0 +1,16 @@
+{
+  "schema": "sq3b-tc2-int-refined-center-v1",
+  "center": [
+    "30.897615604617853470308441605439876286961177353702422834235824030077993936032758",
+    "-11.759602528631617047382293671218288864435236470675273471838538288775195069241898",
+    "3.7419628680943427271191888303481339301173331361836945321259234974653942063757511"
+  ],
+  "radius": "1e-20",
+  "meaning": "Exact decimal rational center used only to design and certify the new interval box",
+  "numerical_history_source": {
+    "path": "prl_completion/three_qubit_symmetry_extension/sq3b_r3_theorem_close_r2/certificates/krawczyk_strict_inclusion.json",
+    "bytes": 945,
+    "sha256": "A77D4A833F7F750D4EE73E63BD4A35AB3778E592E955BC3494D9BB35BA2924F3",
+    "classification": "POINTWISE_NEWTON_INVERSE_ONLY"
+  }
+}

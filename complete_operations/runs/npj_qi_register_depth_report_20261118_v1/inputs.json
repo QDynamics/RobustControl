@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-18T10:39:58.740988+00:00",
+  "precision": "float64/complex128",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "numpy": "2.4.6",
+  "scipy": "1.18.0",
+  "hashes": {
+    "tools\\report_npj_qi_register_depth_20261118_v1.py": "fbef6422159343b09c6f0cd3bcaf66b674117f4828d05e9b1569f8ea5bfad5c8",
+    "tools\\npj_qi_register_depth_20261118_v1.py": "ae8035cda79064b03e8c9d1858edface6b972607e914ecd3efd884253d3e6be0",
+    "tools\\npj_qi_register_depth_matched_20261118_v1.py": "677ff26c1ac74efc45c813468c17a68009b483a4d20775f8bb989523e99af018",
+    "runs\\npj_qi_register_depth_20261118_v1\\sha256.json": "2e789f7ef3662f3de0b17eabea83aece20eb39e95714d5aabc1e49bce763101f",
+    "runs\\npj_qi_register_depth_matched_20261118_v1\\sha256.json": "dd2384604587eb7116884df1fe755a32cb18f1374147804d19796f041b86e7a0",
+    "runs\\npj_qi_register_depth_projection_20261118_v1\\sha256.json": "8f82239af8c76d5ce3bd6057fffd127403e0c07778b5c4dd3aa150cac11b7099"
+  }
+}

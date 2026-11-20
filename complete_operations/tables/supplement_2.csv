@@ -1,0 +1,26 @@
+\(j\),chronological conjugator word \(h_j\),\(\mathsf P_j\),depth
+0,\(I\),\(\mathsf X\),0
+1,\(I\),\(\mathsf Y\),0
+2,\(I\),\(\mathsf Z\),0
+3,\(X_+\),\(\mathsf Y\),1
+4,\(X_+\),\(\mathsf Z\),1
+5,\(X_-\),\(\mathsf Y\),1
+6,\(X_-\),\(\mathsf Z\),1
+7,\(Y_+\),\(\mathsf X\),1
+8,\(Y_+\),\(\mathsf Z\),1
+9,\(Y_-\),\(\mathsf Z\),1
+10,\(Z_+\),\(\mathsf X\),1
+11,\(Z_+\),\(\mathsf Y\),1
+12,\(Z_-\),\(\mathsf X\),1
+13,\(Z_-\),\(\mathsf Y\),1
+14,"\(X_+,X_+\)",\(\mathsf Y\),2
+15,"\(X_+,X_+\)",\(\mathsf Z\),2
+16,"\(X_+,Y_+\)",\(\mathsf Z\),2
+17,"\(X_+,Y_-\)",\(\mathsf Z\),2
+18,"\(X_+,Z_+\)",\(\mathsf Y\),2
+19,"\(X_+,Z_+\)",\(\mathsf Z\),2
+20,"\(Z_+,X_+\)",\(\mathsf X\),2
+21,"\(Z_+,X_+\)",\(\mathsf Y\),2
+22,"\(Z_+,Y_+\)",\(\mathsf X\),2
+23,"\(Z_+,Y_+\)",\(\mathsf Y\),2
+24,"\(X_+,X_+,Y_+\)",\(\mathsf Z\),3

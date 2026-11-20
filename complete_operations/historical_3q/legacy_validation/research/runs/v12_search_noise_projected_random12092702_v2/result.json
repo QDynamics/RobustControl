@@ -1,0 +1,47 @@
+{
+  "kind": "noise_projected",
+  "accepted": true,
+  "audit": {
+    "projected_target_fro": 9.999057708405635e-09,
+    "complete_target_fro": 4.210347395110878,
+    "projected_response_fro": [
+      19.724272539917585,
+      11.430860260804026
+    ],
+    "complete_response_fro": [
+      21.051769583210227,
+      11.552598531692414
+    ],
+    "module_response_fro": [
+      [
+        14.695189378911142,
+        8.485702582376637
+      ],
+      [
+        19.290249081060075,
+        4.96532206373634
+      ],
+      [
+        14.04407599551172,
+        6.288560035447861
+      ]
+    ],
+    "module_hidden_nonscalar_fro": [
+      0.5344923233828313,
+      0.8316451078774122,
+      1.3855431509143483
+    ],
+    "required_max": 9.999057708405635e-09,
+    "accepted": true,
+    "gate_time_t0": 53.927137558117806,
+    "cycle_time_t0": 55.08902108022096,
+    "rectangular_time_t0": 26.436761491804923
+  },
+  "iterations": 23,
+  "accepted_steps": 9,
+  "elapsed_s": 12.248686100007035,
+  "stopping_reason": "trust_limit",
+  "global_optimum": false,
+  "training_objective": 0.007497203363228715,
+  "final_sha256": "a63c4a48e38bb3814121292e1203e9e4449934c7a34609e62a70c567f5f8c1d7"
+}

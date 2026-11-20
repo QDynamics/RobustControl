@@ -1,0 +1,20 @@
+[
+  {
+    "command": [
+      "pdflatex",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "CNOT_TOLERANCE_NOTE.tex"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "pdflatex",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "CNOT_TOLERANCE_NOTE.tex"
+    ],
+    "exit_code": 0
+  }
+]

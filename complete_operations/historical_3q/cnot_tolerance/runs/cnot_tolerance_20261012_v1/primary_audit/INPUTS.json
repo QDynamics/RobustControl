@@ -1,0 +1,12 @@
+{
+  "role": "Primary agent, not delegated",
+  "sha256": {
+    "tools\\audit_cnot_tolerance_20261012_v1.py": "930711672bcd2d9b9de4d7499456ca53c1490b9b03de45443e522b0b11bf7b07",
+    "src\\cnot_interval_v1.py": "284c6aabd349c512eca308414714cb3d57cadc56934f5ff8abd2828acd96c1a6",
+    "src\\cnot_interval_ball_v2.py": "7cfd422b8e5fa52e8d860f97c3b03cc3bf6e418109a9c1fe584977220637ee5b",
+    "src\\cnot_tolerance_v1.py": "f3c937ec40d061bff443c914c09a694c1289cd21d30bb979bda3d5c2ed78116e",
+    "runs\\cnot_tolerance_20261012_v1\\interval_v2\\RESULTS.json": "3c33401ccf2cc7a38114d7ad9b99fc94d798ca93f4783df4409b43290212a06a",
+    "runs\\cnot_tolerance_20261012_v1\\interval_v2\\COEFFICIENT_BALLS.npz": "38adf12ea5a68ea2e69280f5dc137dbaba3416a1e5d9f22aa3f6e02ef7b38bfc",
+    "runs\\cnot_tolerance_20261012_v1\\numerical\\CONTROLS.npz": "1922e16d662c9fb14c2b6b9cca214f8f5a4029dd6311e9e6f3938b304f5971a4"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-18T11:05:32.461472+00:00",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "interpreter": "C:\\Users\\admin\\.qecvenv\\Scripts\\python.exe",
+  "numpy": "2.4.6",
+  "scipy": "1.18.0",
+  "precision": "float64/complex128",
+  "seed_bases": [
+    6111900,
+    6112000,
+    6112100,
+    6112200
+  ],
+  "threads": 1,
+  "hashes": {
+    "docs\\NPJ_QI_CONFIRMATION_PROTOCOL_20261118_v1.md": "24657bddcda1d82fab3484442100c0eefe664e1fe584a58bb1158bbf172f8987",
+    "tools\\npj_qi_confirm_starts_20261118_v1.py": "79499453463476ad04ae424d36bb1bd5a0137b9a5c5e900c3ec3da626f51fece",
+    "tools\\npj_qi_register_depth_20261118_v1.py": "ae8035cda79064b03e8c9d1858edface6b972607e914ecd3efd884253d3e6be0",
+    "tools\\npj_qi_register_depth_matched_20261118_v1.py": "677ff26c1ac74efc45c813468c17a68009b483a4d20775f8bb989523e99af018",
+    "tools\\npj_qi_register_depth_projection_20261118_v1.py": "28a924cda52f2346b4a216c7d9c5bab7aa16dcd44ee9d45b6ae3d4250103ee04",
+    "src\\manifold_schur_v1.py": "5324cbd9167984c655257f3ab4c3a5d9c61558c7bd3d5a2491309b4a076f8d82",
+    "src\\cnot_tolerance_v1.py": "f3c937ec40d061bff443c914c09a694c1289cd21d30bb979bda3d5c2ed78116e"
+  }
+}

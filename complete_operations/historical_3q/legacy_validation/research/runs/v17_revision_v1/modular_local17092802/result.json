@@ -1,0 +1,47 @@
+{
+  "kind": "modular",
+  "accepted": true,
+  "audit": {
+    "projected_target_fro": 3.146308834019237e-13,
+    "complete_target_fro": 3.287696204461207e-13,
+    "projected_response_fro": [
+      1.9788813430771806e-12,
+      1.5814352978737279e-12
+    ],
+    "complete_response_fro": [
+      2.000959109938757e-12,
+      1.5824636675238849e-12
+    ],
+    "module_response_fro": [
+      [
+        1.927567385314106e-12,
+        1.0264143129824256e-12
+      ],
+      [
+        6.035675978537557e-13,
+        5.02199531317249e-13
+      ],
+      [
+        6.04304554999929e-13,
+        7.47827638705253e-13
+      ]
+    ],
+    "module_hidden_nonscalar_fro": [
+      4.243321539081003e-14,
+      3.9482158615669796e-14,
+      5.813027843490376e-14
+    ],
+    "required_max": 1.927567385314106e-12,
+    "accepted": true,
+    "gate_time_t0": 76.78954407882179,
+    "cycle_time_t0": 77.95142760092494,
+    "rectangular_time_t0": 37.903879212541206
+  },
+  "iterations": 53,
+  "accepted_steps": 39,
+  "elapsed_s": 19.936329399992246,
+  "stopping_reason": "trust_limit",
+  "global_optimum": false,
+  "training_objective": 0.001154448347209433,
+  "final_sha256": "b3eb51bab1e36138133d956df2fcda144e0e6ad2d7127a0a3f11c57df3aedd35"
+}

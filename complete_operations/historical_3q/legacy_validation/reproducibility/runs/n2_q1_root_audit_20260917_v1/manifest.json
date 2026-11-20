@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "path": "runs/n2_q1_root_audit_20260917_v1/config.json",
+      "bytes": 1656,
+      "sha256": "f33bd4f33416bd9ff2db43e45d73b3d994096174bfaf7bbe87b6bc77a5ca12ac"
+    },
+    {
+      "path": "runs/n2_q1_root_audit_20260917_v1/inverse_bound.json",
+      "bytes": 19782,
+      "sha256": "ee9371be0b9051abc73127ea1ac3cdb435379851b08bb226b6452afb7e0fac84"
+    },
+    {
+      "path": "runs/n2_q1_root_audit_20260917_v1/result.json",
+      "bytes": 684,
+      "sha256": "21781d1d599109f8e40d6cd40e4f85bd44c072f652d37b90578f3a21c3e17cae"
+    }
+  ]
+}

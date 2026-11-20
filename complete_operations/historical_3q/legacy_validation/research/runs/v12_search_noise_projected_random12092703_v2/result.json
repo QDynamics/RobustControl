@@ -1,0 +1,47 @@
+{
+  "kind": "noise_projected",
+  "accepted": true,
+  "audit": {
+    "projected_target_fro": 1.8039266202800924e-14,
+    "complete_target_fro": 1.5280355123493785,
+    "projected_response_fro": [
+      1.8510198100806794,
+      3.5323495173901915
+    ],
+    "complete_response_fro": [
+      6.2902585287561665,
+      8.256845259465038
+    ],
+    "module_response_fro": [
+      [
+        10.058748568621791,
+        10.292332655170942
+      ],
+      [
+        10.223002392488603,
+        11.938621514244856
+      ],
+      [
+        12.33186023873935,
+        7.0569130353140315
+      ]
+    ],
+    "module_hidden_nonscalar_fro": [
+      1.3743596911458842,
+      0.6139236519276745,
+      1.2555349397807278
+    ],
+    "required_max": 1.8039266202800924e-14,
+    "accepted": true,
+    "gate_time_t0": 83.82447883119568,
+    "cycle_time_t0": 84.98636235329883,
+    "rectangular_time_t0": 41.41742320892367
+  },
+  "iterations": 120,
+  "accepted_steps": 120,
+  "elapsed_s": 82.92645930004073,
+  "stopping_reason": "iteration_budget",
+  "global_optimum": false,
+  "training_objective": 0.0016068006945197907,
+  "final_sha256": "92fb4c92f6d4840af5290a0d89df88db3e7144e5ad750944da667dd8296c55d8"
+}

@@ -1,0 +1,18 @@
+{
+  "hashes": {
+    "tools\\npj_qi_article_figures_20261118_v2.py": "c9bc3950d9a652fa51034ac8f2158fcd6a2814e370d9b49c2f5adbcfbe046beb",
+    "tools\\npj_qi_article_figures_20261118_v1.py": "0b7088cec7c9535f04307287b2621188a52cdd98d0b12cb087f586d8d05ff43a",
+    "submission\\NatureCommunications_20261013_v1\\04_source\\main.tex": "7906a4a617e96c38748ffb29e3c72746e4a909b59da8822b9eb02b1f45f4da85",
+    "submission\\NatureCommunications_20261013_v1\\04_source\\supplement.tex": "2db08a9516d3287b7f05fb6ecccfd82c54443d525563a05cb92ad7496e889b2c",
+    "runs\\npj_qi_register_depth_report_20261118_v1\\all_validation_points.csv": "9cff2a948dd911de4d3b5367d7e0288146806eb18487093e4962c550a3f80670",
+    "runs\\npj_qi_register_depth_report_20261118_v1\\summary.json": "04f3cca81ae57d1bd6d143521b885d995172362cf3bd0d4b3d359517582bcb48",
+    "runs\\npj_qi_confirm_starts_20261118_v1\\summary.json": "5be241f6573ff524ac7758460472bd63a7922e7df9a41411bb19ff65d3655d41",
+    "runs\\npj_qi_dephasing_20261118_v1\\summary.json": "cd248945f0bf73c3b8d85502633f0ee221fbadf20e1a556f7125c13c38a7b2c6"
+  },
+  "utc": "2026-11-18T11:18:46.900475+00:00",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "matplotlib": "3.11.0",
+  "numpy": "2.4.6",
+  "precision": "float64 plotted data; vector PDF"
+}

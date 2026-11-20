@@ -1,0 +1,5567 @@
+{
+  "scope": "finite grid and fixed small-error rays only; no continuous-domain certificate",
+  "source": {
+    "common": {
+      "grid": [
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "point_count": 441,
+          "max_grid_half_diamond": 0.006627313761039287,
+          "worst_grid_index": 440,
+          "worst_epsilon": [
+            0.01,
+            0.01
+          ],
+          "worst_metrics": {
+            "half_diamond": 0.006627313761039287,
+            "one_minus_fmin": 4.39212876872607e-05,
+            "minimal_covering_arc": 0.013254724550714414,
+            "average_gate_infidelity_aux": 1.1158673868805202e-05,
+            "eigenphase_variance_aux": 1.2553588676009831e-05,
+            "relative_unitarity_fro": 5.7150383930216624e-15
+          },
+          "worst_phase_aligned_fro": 0.01002139611053794
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "point_count": 441,
+          "max_grid_half_diamond": 0.008944844625048368,
+          "worst_grid_index": 420,
+          "worst_epsilon": [
+            0.01,
+            -0.01
+          ],
+          "worst_metrics": {
+            "half_diamond": 0.008944844625048368,
+            "one_minus_fmin": 8.001024536625668e-05,
+            "minimal_covering_arc": 0.017889927818424134,
+            "average_gate_infidelity_aux": 2.245215415763724e-05,
+            "eigenphase_variance_aux": 2.525898370906123e-05,
+            "relative_unitarity_fro": 7.574275055017728e-15
+          },
+          "worst_phase_aligned_fro": 0.014215156117315851
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "point_count": 441,
+          "max_grid_half_diamond": 0.0140836423859617,
+          "worst_grid_index": 420,
+          "worst_epsilon": [
+            0.01,
+            -0.01
+          ],
+          "worst_metrics": {
+            "half_diamond": 0.0140836423859617,
+            "one_minus_fmin": 0.000198348982855657,
+            "minimal_covering_arc": 0.02816821601375974,
+            "average_gate_infidelity_aux": 5.40294722198853e-05,
+            "eigenphase_variance_aux": 6.0785018416693634e-05,
+            "relative_unitarity_fro": 1.2275095243088807e-14
+          },
+          "worst_phase_aligned_fro": 0.022051590405182547
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "point_count": 441,
+          "max_grid_half_diamond": 0.02708520068255073,
+          "worst_grid_index": 420,
+          "worst_epsilon": [
+            0.01,
+            -0.01
+          ],
+          "worst_metrics": {
+            "half_diamond": 0.02708520068255073,
+            "one_minus_fmin": 0.0007336080960140466,
+            "minimal_covering_arc": 0.05417702686006809,
+            "average_gate_infidelity_aux": 0.00021243112054614155,
+            "eigenphase_variance_aux": 0.0002390131707901572,
+            "relative_unitarity_fro": 1.8387861826902726e-14
+          },
+          "worst_phase_aligned_fro": 0.04372635734027755
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "point_count": 441,
+          "max_grid_half_diamond": 0.0518094511756596,
+          "worst_grid_index": 420,
+          "worst_epsilon": [
+            0.01,
+            -0.01
+          ],
+          "worst_metrics": {
+            "half_diamond": 0.0518094511756596,
+            "one_minus_fmin": 0.0026842192311230554,
+            "minimal_covering_arc": 0.10366531440933269,
+            "average_gate_infidelity_aux": 0.0008164769120513338,
+            "eigenphase_variance_aux": 0.000918949403157908,
+            "relative_unitarity_fro": 3.4709056839582154e-14
+          },
+          "worst_phase_aligned_fro": 0.08573202670305657
+        }
+      ],
+      "small_error_scaling": [
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.4734244935254992e-09,
+            1.4734307463015686e-07,
+            1.4734876018795683e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.000009300450452,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.4734231612578697e-09,
+            1.4734171349672867e-07,
+            1.4733514544751216e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9999894318826055,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            3.909756074449433e-09,
+            3.909587893424671e-07,
+            3.9078847583963085e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9998960425186194,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            3.9097933779430605e-09,
+            3.9099603466040804e-07,
+            3.911609227881837e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0001008276471977,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            6.612245861958854e-09,
+            6.612009268990933e-07,
+            6.609549911990419e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9999114465061294,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            6.612296932217987e-09,
+            6.61253158895599e-07,
+            6.614772994656476e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0000812984487406,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            6.3262239891059835e-09,
+            6.326444292880783e-07,
+            6.32855937476308e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0000801471733123,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            6.32617602747132e-09,
+            6.325953565422116e-07,
+            6.323652205524174e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9999133520282375,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.961466988831262e-09,
+            1.9615831892138986e-07,
+            1.9627393215221245e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.000140809896941,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.9614412316570906e-09,
+            1.9613243695815059e-07,
+            1.9601511387434163e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9998571294002918,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            5.2149853324579e-09,
+            5.215050786766304e-07,
+            5.215658783519557e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0000280400785457,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            5.2149715656923945e-09,
+            5.214905329786509e-07,
+            5.2142041057210965e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9999680412295522,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            8.48446291001892e-09,
+            8.484043370059572e-07,
+            8.479683194514094e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9998776358025339,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            8.484553948306939e-09,
+            8.484969473697793e-07,
+            8.488943869418769e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0001123232569857,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            8.831924525054546e-09,
+            8.830760100940711e-07,
+            8.818986400686439e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9996816619238935,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            8.832182984974679e-09,
+            8.833343980717518e-07,
+            8.844822344325624e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0003105279912554,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.22193552446015e-09,
+            2.2222897344548004e-07,
+            2.225830781859512e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.000380345798345,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.221856476580797e-09,
+            2.221502537480528e-07,
+            2.2179591444750962e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9996187701456842,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            6.576807543012819e-09,
+            6.577221389747004e-07,
+            6.581374909054356e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.00015074893174,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            6.57671517245717e-09,
+            6.576302085114586e-07,
+            6.572180780682286e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9998502337069417,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.1751561057593563e-08,
+            1.1753580055892734e-06,
+            0.00011773178065091614
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.00039907561419,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.1751110307045565e-08,
+            1.1749077102327161e-06,
+            0.00011728156704851705
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9995754285709453,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.3436398660360283e-08,
+            1.343024794042287e-06,
+            0.00013368455938482854
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.998899184016062,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.3437765122858991e-08,
+            1.3443912214579471e-06,
+            0.0001350508864843899
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.001085196719036,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            3.764294653763045e-09,
+            3.765433764790682e-07,
+            3.7767790425649825e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0007189833090475,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            3.76404285518106e-09,
+            3.7629012306083175e-07,
+            3.751453982667108e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9992725320630744,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.2276772487496146e-08,
+            1.2278060115275237e-06,
+            0.00012291000610360414
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0002515163223755,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.2276486049955793e-08,
+            1.2275201743957823e-06,
+            0.00012262414660613145
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9997509616471332,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.13159436768251e-08,
+            2.1318940976994776e-06,
+            0.00021348263458677815
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.000328994877492,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.1315275766653485e-08,
+            2.131226115585413e-06,
+            0.00021281534282410267
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9996559896511938,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.5783731150141872e-08,
+            2.5771326193051785e-06,
+            0.0002564670687985536
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9988429220602337,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.5786485391421362e-08,
+            2.579887976136755e-06,
+            0.0002592222355358706
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0011400491604343,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            6.742625568989524e-09,
+            6.744330085516936e-07,
+            6.767222473089337e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0007907055277356,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            6.742247649071942e-09,
+            6.740543820881784e-07,
+            6.723446712883362e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9993936333376068,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.3191017550772127e-08,
+            2.3193236176034826e-06,
+            0.00023215609451336953
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0002301422965725,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.3190524167659984e-08,
+            2.3188311470946667e-06,
+            0.00023166352392763975
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9997735466626416,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            4.049962054608612e-08,
+            4.050556691825883e-06,
+            0.00040565320394578773
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.000351978149595,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            4.049829760432998e-08,
+            4.049235465586368e-06,
+            0.00040433536726528033
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9996524816457175,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            4.9184682548997196e-08,
+            4.915970372090423e-06,
+            0.000489088854541544
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9987789467294816,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            4.919023055549585e-08,
+            4.921519088687659e-06,
+            0.0004946372922857535
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0012039989989847,
+          "quadratic_at_1p75_if_resolved": true
+        }
+      ]
+    },
+    "profile": {
+      "grid": [
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "point_count": 441,
+          "max_grid_half_diamond": 0.003526110836950929,
+          "worst_grid_index": 420,
+          "worst_epsilon": [
+            0.01,
+            -0.01
+          ],
+          "worst_metrics": {
+            "half_diamond": 0.003526110836950929,
+            "one_minus_fmin": 1.2433457634462781e-05,
+            "minimal_covering_arc": 0.007052236287900193,
+            "average_gate_infidelity_aux": 2.883266808528795e-06,
+            "eigenphase_variance_aux": 3.2436810310463508e-06,
+            "relative_unitarity_fro": 5.417660714485613e-15
+          },
+          "worst_phase_aligned_fro": 0.005094057549961891
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "point_count": 441,
+          "max_grid_half_diamond": 0.0059360863526885825,
+          "worst_grid_index": 0,
+          "worst_epsilon": [
+            -0.01,
+            -0.01
+          ],
+          "worst_metrics": {
+            "half_diamond": 0.0059360863526885825,
+            "one_minus_fmin": 3.5237121186575635e-05,
+            "minimal_covering_arc": 0.011872242430014168,
+            "average_gate_infidelity_aux": 8.826870355971295e-06,
+            "eigenphase_variance_aux": 9.930280299988501e-06,
+            "relative_unitarity_fro": 7.452905281402782e-15
+          },
+          "worst_phase_aligned_fro": 0.008913025884675447
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "point_count": 441,
+          "max_grid_half_diamond": 0.006573679412656717,
+          "worst_grid_index": 20,
+          "worst_epsilon": [
+            -0.01,
+            0.01
+          ],
+          "worst_metrics": {
+            "half_diamond": 0.006573679412656717,
+            "one_minus_fmin": 4.321326102038676e-05,
+            "minimal_covering_arc": 0.013147453517196261,
+            "average_gate_infidelity_aux": 1.3327628299197869e-05,
+            "eigenphase_variance_aux": 1.4993682101697557e-05,
+            "relative_unitarity_fro": 1.2183146775975998e-14
+          },
+          "worst_phase_aligned_fro": 0.01095212784426657
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "point_count": 441,
+          "max_grid_half_diamond": 0.01297049370472838,
+          "worst_grid_index": 0,
+          "worst_epsilon": [
+            -0.01,
+            -0.01
+          ],
+          "worst_metrics": {
+            "half_diamond": 0.01297049370472838,
+            "one_minus_fmin": 0.00016823370694439853,
+            "minimal_covering_arc": 0.025941714822605988,
+            "average_gate_infidelity_aux": 4.401863256753291e-05,
+            "eigenphase_variance_aux": 4.952219696089088e-05,
+            "relative_unitarity_fro": 2.1901148682492635e-14
+          },
+          "worst_phase_aligned_fro": 0.019904084954345758
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "point_count": 441,
+          "max_grid_half_diamond": 0.021793075884899704,
+          "worst_grid_index": 0,
+          "worst_epsilon": [
+            -0.01,
+            -0.01
+          ],
+          "worst_metrics": {
+            "half_diamond": 0.021793075884899704,
+            "one_minus_fmin": 0.000474938156524997,
+            "minimal_covering_arc": 0.04358960262847056,
+            "average_gate_infidelity_aux": 0.00012895576260796293,
+            "eigenphase_variance_aux": 0.0001450855419526527,
+            "relative_unitarity_fro": 4.0834479474393726e-14
+          },
+          "worst_phase_aligned_fro": 0.03406822508070386
+        }
+      ],
+      "small_error_scaling": [
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.4734244935254992e-09,
+            1.4734307463015686e-07,
+            1.4734876018795683e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.000009300450452,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.4734231612578697e-09,
+            1.4734171349672867e-07,
+            1.4733514544751216e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9999894318826055,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            9.774461240397159e-10,
+            9.774668585649222e-08,
+            9.776746668976557e-06
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.000050766634467,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            9.774416831476174e-10,
+            9.774203046930536e-08,
+            9.772091033988142e-06
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9999483242210399,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.805482068879428e-09,
+            2.8054857459380485e-07,
+            2.805494351397223e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.000000950677617,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.8054834011470575e-09,
+            2.8054796707976577e-07,
+            2.8054335598920835e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9999961422023942,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            3.5101437312334838e-09,
+            3.509975257109871e-07,
+            3.5082661326588544e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9998838154602714,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            3.510181478816321e-09,
+            3.5103490825249385e-07,
+            3.5120043837874204e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.000112739480732,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.573988051006836e-09,
+            1.5741255321444148e-07,
+            1.5754946521410107e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0002077511358447,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.5739574088513564e-09,
+            1.5738205050297372e-07,
+            1.572444425003853e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.999791164440676,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            3.87585208372343e-09,
+            3.875851897205865e-07,
+            3.875844553664573e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.999999578122936,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            3.87585119554501e-09,
+            3.8758502540757886e-07,
+            3.875828107398014e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9999987064667595,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            5.93595350650844e-09,
+            5.936057729804751e-07,
+            5.936995901144035e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0000381292148908,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            5.935929969780318e-09,
+            5.935823823577031e-07,
+            5.9346569028198005e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9999534238732988,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            5.496173294261553e-09,
+            5.496642483393267e-07,
+            5.501315643986022e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0002030731092013,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            5.496068489208028e-09,
+            5.495598784932277e-07,
+            5.49087962528592e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.99979489343967,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.9764669900723675e-09,
+            1.9765203340682417e-07,
+            1.9770479000635792e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0000638130910047,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.976456331931331e-09,
+            1.9764036895963825e-07,
+            1.975881404230547e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9999368252547272,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            3.995757946739786e-09,
+            3.995782611454395e-07,
+            3.9960024491604407e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.000013286941407,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            3.995753061758478e-09,
+            3.9957301956049564e-07,
+            3.995478171206475e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9999850606938478,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            6.4930461007861595e-09,
+            6.492562487636176e-07,
+            6.487617337059655e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9998183696635572,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            6.4931557908209925e-09,
+            6.493638302628822e-07,
+            6.498375486785801e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0001744894599596,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            6.444281108741734e-09,
+            6.44527848869769e-07,
+            6.455428193953905e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0003752889842974,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            6.444059508226019e-09,
+            6.443065601046792e-07,
+            6.433299494460418e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9996371138142377,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.2852524317329426e-09,
+            2.2855545278588153e-07,
+            2.2885612616319725e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0003141813186374,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.2851875947083045e-09,
+            2.2848869640767845e-07,
+            2.2818858046909424e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9996860244385457,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            7.249566280620456e-09,
+            7.249679612186175e-07,
+            7.250841756608909e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0000382011446542,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            7.2495422998031245e-09,
+            7.249431885902244e-07,
+            7.248364258142378e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9999647109745244,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.2773003543742334e-08,
+            1.2775037618869412e-06,
+            0.0001279511855999789
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0003756408813715,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.2772553681372756e-08,
+            1.277051538739124e-06,
+            0.00012749898351145146
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9996144928600408,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.0963076668701888e-08,
+            1.0963192371702426e-06,
+            0.00010964153098640113
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.000021319956403,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.0963050467438507e-08,
+            1.096292700619508e-06,
+            0.00010961498401704912
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9999692557603421,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            3.904886636263427e-09,
+            3.905493310973796e-07,
+            3.9115058555934096e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.000367777221995,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            3.904755629946521e-09,
+            3.90415229034592e-07,
+            3.898095888466909e-05
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.999629329140635,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.283450101752237e-08,
+            1.283533100692938e-06,
+            0.00012843671698397304
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0001551035703597,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.2834320273213962e-08,
+            1.2833495128813184e-06,
+            0.00012825312265774452
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9998475376419076,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.1504136249461677e-08,
+            2.150723704018039e-06,
+            0.0002153773623094563
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.000339025434389,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.1503453240256928e-08,
+            2.150034581037139e-06,
+            0.0002146882832853371
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9996500671874247,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.834869323147359e-08,
+            1.834732402449327e-06,
+            0.00018333305120972124
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.9998178133097981,
+          "quadratic_at_1p75_if_resolved": true
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.8348997432582337e-08,
+            1.835035388974085e-06,
+            0.00018363598769740162
+          ],
+          "nominal_half_diamond": 0.0,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 2.0001727276506247,
+          "quadratic_at_1p75_if_resolved": true
+        }
+      ]
+    }
+  },
+  "baseline": {
+    "common": {
+      "grid": [
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "point_count": 441,
+          "max_grid_half_diamond": 0.006978106947723942,
+          "worst_grid_index": 0,
+          "worst_epsilon": [
+            -0.01,
+            -0.01
+          ],
+          "worst_metrics": {
+            "half_diamond": 0.006978106947723942,
+            "one_minus_fmin": 4.8693976573873156e-05,
+            "minimal_covering_arc": 0.013956327161855242,
+            "average_gate_infidelity_aux": 1.1987919944278502e-05,
+            "eigenphase_variance_aux": 1.3486505365605028e-05,
+            "relative_unitarity_fro": 5.7710980308267844e-15
+          },
+          "worst_phase_aligned_fro": 0.010387090221589948
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "point_count": 441,
+          "max_grid_half_diamond": 0.009648128662497372,
+          "worst_grid_index": 20,
+          "worst_epsilon": [
+            -0.01,
+            0.01
+          ],
+          "worst_metrics": {
+            "half_diamond": 0.009648128662497372,
+            "one_minus_fmin": 9.308638668810333e-05,
+            "minimal_covering_arc": 0.019296556707347534,
+            "average_gate_infidelity_aux": 2.577100760603468e-05,
+            "eigenphase_variance_aux": 2.8992798007102133e-05,
+            "relative_unitarity_fro": 8.634771776187094e-15
+          },
+          "worst_phase_aligned_fro": 0.015229601097719545
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "point_count": 441,
+          "max_grid_half_diamond": 0.01421133412122262,
+          "worst_grid_index": 420,
+          "worst_epsilon": [
+            0.01,
+            -0.01
+          ],
+          "worst_metrics": {
+            "half_diamond": 0.01421133412122262,
+            "one_minus_fmin": 0.0002019620175050263,
+            "minimal_covering_arc": 0.028423625045975065,
+            "average_gate_infidelity_aux": 5.4353114795180346e-05,
+            "eigenphase_variance_aux": 6.114914534861648e-05,
+            "relative_unitarity_fro": 1.1273090375674879e-14
+          },
+          "worst_phase_aligned_fro": 0.02211753854647058
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "point_count": 441,
+          "max_grid_half_diamond": 0.02684634484357247,
+          "worst_grid_index": 420,
+          "worst_epsilon": [
+            0.01,
+            -0.01
+          ],
+          "worst_metrics": {
+            "half_diamond": 0.02684634484357247,
+            "one_minus_fmin": 0.0007207262314600101,
+            "minimal_covering_arc": 0.053699141401477135,
+            "average_gate_infidelity_aux": 0.00020643418176746753,
+            "eigenphase_variance_aux": 0.0002322651742249047,
+            "relative_unitarity_fro": 1.7069766857985645e-14
+          },
+          "worst_phase_aligned_fro": 0.04310470412639404
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "point_count": 441,
+          "max_grid_half_diamond": 0.05111218477865404,
+          "worst_grid_index": 420,
+          "worst_epsilon": [
+            0.01,
+            -0.01
+          ],
+          "worst_metrics": {
+            "half_diamond": 0.05111218477865404,
+            "one_minus_fmin": 0.002612455432847274,
+            "minimal_covering_arc": 0.10226893139926929,
+            "average_gate_infidelity_aux": 0.0007956790951525461,
+            "eigenphase_variance_aux": 0.0008955284294079952,
+            "relative_unitarity_fro": 3.0991067991859864e-14
+          },
+          "worst_phase_aligned_fro": 0.08463282531972416
+        }
+      ],
+      "small_error_scaling": [
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            5.129128326508467e-07,
+            5.184876681306822e-06,
+            5.8979884847154585e-05
+          ],
+          "nominal_half_diamond": 1.3322676295501878e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0303301777046046,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            5.117174444180027e-07,
+            5.065376784663666e-06,
+            4.739682220035843e-05
+          ],
+          "nominal_half_diamond": 1.3322676295501878e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 0.9833595011740981,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            7.965088659744037e-07,
+            7.973156286671289e-06,
+            8.671575053455096e-05
+          ],
+          "nominal_half_diamond": 1.3322676295501878e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0184536864999711,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            7.965741835035668e-07,
+            7.981178504672038e-06,
+            9.337645942395237e-05
+          ],
+          "nominal_half_diamond": 1.3322676295501878e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0345055877955815,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.126844289433865e-06,
+            1.1464289706635052e-05,
+            0.00014749884167238798
+          ],
+          "nominal_half_diamond": 1.3322676295501878e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.058462350808892,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.1230472218845959e-06,
+            1.1089306482631493e-05,
+            0.0001223168459635055
+          ],
+          "nominal_half_diamond": 1.3322676295501878e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0185441280322622,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            6.713081881492606e-07,
+            6.863632716793089e-06,
+            9.88049058845399e-05
+          ],
+          "nominal_half_diamond": 1.3322676295501878e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.083928282188355,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            6.685022615470828e-07,
+            6.585547359835436e-06,
+            8.419938393487778e-05
+          ],
+          "nominal_half_diamond": 1.3322676295501878e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0501030165347802,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            7.544837865579973e-07,
+            7.62532074320248e-06,
+            8.636800311610434e-05
+          ],
+          "nominal_half_diamond": 2.220446049250313e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0293514835416966,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            7.527541021622852e-07,
+            7.452403815764026e-06,
+            6.952115896647718e-05
+          ],
+          "nominal_half_diamond": 2.220446049250313e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 0.9827319362994552,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.3848551065893681e-06,
+            1.3727462067083154e-05,
+            0.00013059916993941046
+          ],
+          "nominal_half_diamond": 2.220446049250313e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 0.9872680399353556,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.3876555211562712e-06,
+            1.4007332219442752e-05,
+            0.00015684011095021245
+          ],
+          "nominal_half_diamond": 2.220446049250313e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0265877364405627,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.4282838489693835e-06,
+            1.4473984535295692e-05,
+            0.000177574613313931
+          ],
+          "nominal_half_diamond": 2.220446049250313e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0472831762027803,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.4243829040689505e-06,
+            1.4083946878940675e-05,
+            0.0001397734970241725
+          ],
+          "nominal_half_diamond": 2.220446049250313e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 0.9958990392657115,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.7035673924850701e-06,
+            1.7518458011337336e-05,
+            0.00023216686421287792
+          ],
+          "nominal_half_diamond": 2.220446049250313e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.067220458401531,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.6931444810622491e-06,
+            1.647733158908029e-05,
+            0.00014073440009404925
+          ],
+          "nominal_half_diamond": 2.220446049250313e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 0.9598531234329546,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            7.897490887919535e-07,
+            7.89948294058318e-06,
+            8.1863809197769e-05
+          ],
+          "nominal_half_diamond": 2.6645352591003757e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0078014077035697,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            7.89776171128327e-07,
+            7.90225018346238e-06,
+            8.262766285462115e-05
+          ],
+          "nominal_half_diamond": 2.6645352591003757e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0098107212950813,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.8414463713856827e-06,
+            1.84167461204224e-05,
+            0.00018960667088830762
+          ],
+          "nominal_half_diamond": 2.6645352591003757e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.006347268789118,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.8415301461505857e-06,
+            1.8425268762124434e-05,
+            0.00019178798688488762
+          ],
+          "nominal_half_diamond": 2.6645352591003757e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.008821283928029,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.810126278644197e-06,
+            1.818724367141577e-05,
+            0.00022406513485958066
+          ],
+          "nominal_half_diamond": 2.6645352591003757e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0463327055360363,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.8089767572772157e-06,
+            1.8069041718320895e-05,
+            0.0002020115394052865
+          ],
+          "nominal_half_diamond": 2.6645352591003757e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0239715956507687,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.14666423880962e-06,
+            2.1600393349626772e-05,
+            0.00025554334539863277
+          ],
+          "nominal_half_diamond": 2.6645352591003757e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0378502272616785,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.144447147410266e-06,
+            2.13792452205353e-05,
+            0.0002388503219470618
+          ],
+          "nominal_half_diamond": 2.6645352591003757e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0234052420159216,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.0905959073601648e-06,
+            1.1031749292065802e-05,
+            0.00012464511942199226
+          ],
+          "nominal_half_diamond": 4.884981308350689e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.029005707218455,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.0878518965638038e-06,
+            1.0757458429614528e-05,
+            9.846470432815919e-05
+          ],
+          "nominal_half_diamond": 4.884981308350689e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 0.9783554039523946,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.344405823249202e-06,
+            2.351054847254856e-05,
+            0.0002620588298610934
+          ],
+          "nominal_half_diamond": 4.884981308350689e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0241830030182677,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.343415522074808e-06,
+            2.3411161235469017e-05,
+            0.00025002592593908503
+          ],
+          "nominal_half_diamond": 4.884981308350689e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0140678710375788,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.074439749753698e-06,
+            2.0655311998437707e-05,
+            0.0003093284924955141
+          ],
+          "nominal_half_diamond": 4.884981308350689e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0867595497025604,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.0777447597971104e-06,
+            2.0984360093359957e-05,
+            0.0003084468440247112
+          ],
+          "nominal_half_diamond": 4.884981308350689e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0857940676550792,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.950244708528499e-06,
+            2.990632526021454e-05,
+            0.0004163526999562737
+          ],
+          "nominal_half_diamond": 4.884981308350689e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0748016726047138,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.9436952737562314e-06,
+            2.925259873336718e-05,
+            0.00036944992281444215
+          ],
+          "nominal_half_diamond": 4.884981308350689e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0493313647916562,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.4989777405988107e-06,
+            1.5144061576187314e-05,
+            0.0001747597003238348
+          ],
+          "nominal_half_diamond": 8.881784197001252e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0333230537850477,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.4959132301756133e-06,
+            1.4839951028810406e-05,
+            0.0001550229808481554
+          ],
+          "nominal_half_diamond": 8.881784197001252e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0077448401224258,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.7050962159125595e-06,
+            2.7229171247277538e-05,
+            0.00035119126887079856
+          ],
+          "nominal_half_diamond": 8.881784197001252e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.056680496649718,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.702912576421119e-06,
+            2.7012088581736223e-05,
+            0.0003376073607863337
+          ],
+          "nominal_half_diamond": 8.881784197001252e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0482899539402226,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.4700663110418936e-06,
+            2.5980851874071526e-05,
+            0.0005599154813356706
+          ],
+          "nominal_half_diamond": 8.881784197001252e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.1777069316133242,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.4506345965822246e-06,
+            2.3948324235176917e-05,
+            0.0004331817294665988
+          ],
+          "nominal_half_diamond": 8.881784197001252e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.1236957852732203,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            3.630730757367767e-06,
+            3.796067316240511e-05,
+            0.0006878839629679785
+          ],
+          "nominal_half_diamond": 8.881784197001252e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.1387605701526937,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            3.6002029837256474e-06,
+            3.493468905491023e-05,
+            0.000533907329012961
+          ],
+          "nominal_half_diamond": 8.881784197001252e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0855694475083864,
+          "quadratic_at_1p75_if_resolved": false
+        }
+      ]
+    },
+    "profile": {
+      "grid": [
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "point_count": 441,
+          "max_grid_half_diamond": 0.003794585286422621,
+          "worst_grid_index": 20,
+          "worst_epsilon": [
+            -0.01,
+            0.01
+          ],
+          "worst_metrics": {
+            "half_diamond": 0.003794585286422621,
+            "one_minus_fmin": 1.4398877495935044e-05,
+            "minimal_covering_arc": 0.007589188785552814,
+            "average_gate_infidelity_aux": 3.3640162351300518e-06,
+            "eigenphase_variance_aux": 3.7845262211149624e-06,
+            "relative_unitarity_fro": 5.772823684092906e-15
+          },
+          "worst_phase_aligned_fro": 0.005502379009712742
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "point_count": 441,
+          "max_grid_half_diamond": 0.006284945818863606,
+          "worst_grid_index": 20,
+          "worst_epsilon": [
+            -0.01,
+            0.01
+          ],
+          "worst_metrics": {
+            "half_diamond": 0.006284945818863606,
+            "one_minus_fmin": 3.950054394605113e-05,
+            "minimal_covering_arc": 0.012569974392124372,
+            "average_gate_infidelity_aux": 1.0831271778921625e-05,
+            "eigenphase_variance_aux": 1.2185252470978192e-05,
+            "relative_unitarity_fro": 8.143791410837893e-15
+          },
+          "worst_phase_aligned_fro": 0.009873284305034409
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "point_count": 441,
+          "max_grid_half_diamond": 0.006990354988335826,
+          "worst_grid_index": 20,
+          "worst_epsilon": [
+            -0.01,
+            0.01
+          ],
+          "worst_metrics": {
+            "half_diamond": 0.006990354988335826,
+            "one_minus_fmin": 4.8865062862951566e-05,
+            "minimal_covering_arc": 0.013980823840554102,
+            "average_gate_infidelity_aux": 1.4717522012763773e-05,
+            "eigenphase_variance_aux": 1.655733548965148e-05,
+            "relative_unitarity_fro": 1.1669925653883218e-14
+          },
+          "worst_phase_aligned_fro": 0.011509050630159716
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "point_count": 441,
+          "max_grid_half_diamond": 0.01289142122307621,
+          "worst_grid_index": 0,
+          "worst_epsilon": [
+            -0.01,
+            -0.01
+          ],
+          "worst_metrics": {
+            "half_diamond": 0.01289142122307621,
+            "one_minus_fmin": 0.00016618874115077975,
+            "minimal_covering_arc": 0.025783556635919247,
+            "average_gate_infidelity_aux": 4.326920030406356e-05,
+            "eigenphase_variance_aux": 4.867903083802624e-05,
+            "relative_unitarity_fro": 1.5895067312566897e-14
+          },
+          "worst_phase_aligned_fro": 0.01973391856480599
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "point_count": 441,
+          "max_grid_half_diamond": 0.02147200326499006,
+          "worst_grid_index": 440,
+          "worst_epsilon": [
+            0.01,
+            0.01
+          ],
+          "worst_metrics": {
+            "half_diamond": 0.02147200326499006,
+            "one_minus_fmin": 0.00046104692421174387,
+            "minimal_covering_arc": 0.04294730708181582,
+            "average_gate_infidelity_aux": 0.00012360860343418878,
+            "eigenphase_variance_aux": 0.00013906941941298976,
+            "relative_unitarity_fro": 3.395293374242367e-14
+          },
+          "worst_phase_aligned_fro": 0.03335440164054286
+        }
+      ],
+      "small_error_scaling": [
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            5.129128326508467e-07,
+            5.184876681306822e-06,
+            5.8979884847154585e-05
+          ],
+          "nominal_half_diamond": 1.3322676295501878e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0303301777046046,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            5.117174444180027e-07,
+            5.065376784663666e-06,
+            4.739682220035843e-05
+          ],
+          "nominal_half_diamond": 1.3322676295501878e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 0.9833595011740981,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            3.982744676278466e-07,
+            3.9849927055862765e-06,
+            4.172715693006397e-05
+          ],
+          "nominal_half_diamond": 1.3322676295501878e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.010118164695508,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            3.982581664452206e-07,
+            3.983268683328003e-06,
+            4.0857062802947445e-05
+          ],
+          "nominal_half_diamond": 1.3322676295501878e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0055512261110493,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            4.04082805438566e-07,
+            4.110737388695687e-06,
+            5.1427297669694667e-05
+          ],
+          "nominal_half_diamond": 1.3322676295501878e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0523616667558526,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            4.0264855716286594e-07,
+            3.968078931649433e-06,
+            4.5268616499420796e-05
+          ],
+          "nominal_half_diamond": 1.3322676295501878e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0254355372920911,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            7.967002679797598e-07,
+            8.069521615273874e-06,
+            9.64037132419335e-05
+          ],
+          "nominal_half_diamond": 1.3322676295501878e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0413993994852817,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 1,
+          "chronological_labels": [
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            7.945932392060813e-07,
+            7.85915050452682e-06,
+            7.77776415323481e-05
+          ],
+          "nominal_half_diamond": 1.3322676295501878e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 0.9953549521334988,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            4.983224886067965e-07,
+            5.04515951680409e-06,
+            5.836277582255881e-05
+          ],
+          "nominal_half_diamond": 2.220446049250313e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0343127263477898,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            4.969991662662005e-07,
+            4.912938502668272e-06,
+            4.6132169853565056e-05
+          ],
+          "nominal_half_diamond": 2.220446049250313e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 0.9838241110969614,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            9.591916190208798e-07,
+            9.512739108286951e-06,
+            9.160475047554187e-05
+          ],
+          "nominal_half_diamond": 2.220446049250313e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 0.9900063103137274,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            9.610465228070038e-07,
+            9.698179282161619e-06,
+            0.00010952758576138601
+          ],
+          "nominal_half_diamond": 2.220446049250313e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0283895516075203,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            9.003885215185141e-07,
+            8.874554913934712e-06,
+            9.007539657078484e-05
+          ],
+          "nominal_half_diamond": 2.220446049250313e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0000881165139202,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            9.036252368587064e-07,
+            9.198170939454156e-06,
+            0.00012103027078175636
+          ],
+          "nominal_half_diamond": 2.220446049250313e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0634528266732015,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.2834085802989421e-06,
+            1.30844019286688e-05,
+            0.00016286967654924485
+          ],
+          "nominal_half_diamond": 2.220446049250313e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0517376477125966,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 2,
+          "chronological_labels": [
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.2780606222225617e-06,
+            1.2550012721161145e-05,
+            0.00011355828196109691
+          ],
+          "nominal_half_diamond": 2.220446049250313e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 0.9743336796052342,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            5.622393501880355e-07,
+            5.684824109200482e-06,
+            6.494692926137157e-05
+          ],
+          "nominal_half_diamond": 2.6645352591003757e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.031318692127473,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            5.609193052258082e-07,
+            5.553276249042106e-06,
+            5.509809378888554e-05
+          ],
+          "nominal_half_diamond": 2.6645352591003757e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 0.9961180932667097,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.1477048480476848e-06,
+            1.1377162406599389e-05,
+            0.00010698374206417102
+          ],
+          "nominal_half_diamond": 2.6645352591003757e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 0.9847437841825029,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.1500087642166387e-06,
+            1.1607665810947868e-05,
+            0.0001305505900370574
+          ],
+          "nominal_half_diamond": 2.6645352591003757e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0275388444391789,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.2114909360147287e-06,
+            1.2074877233798306e-05,
+            0.00013063750589793527
+          ],
+          "nominal_half_diamond": 2.6645352591003757e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0163738555602166,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.2129584736616872e-06,
+            1.2223406753137748e-05,
+            0.00015050759729382977
+          ],
+          "nominal_half_diamond": 2.6645352591003757e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0468562449601142,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.4176320894949383e-06,
+            1.4275373984199738e-05,
+            0.00016514440499223475
+          ],
+          "nominal_half_diamond": 2.6645352591003757e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.03315016463292,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 4,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.4157584273805913e-06,
+            1.4087898169346261e-05,
+            0.00014597217064723865
+          ],
+          "nominal_half_diamond": 2.6645352591003757e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0066404553417627,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            8.338692234487609e-07,
+            8.301972881501587e-06,
+            8.298017257304928e-05
+          ],
+          "nominal_half_diamond": 4.884981308350689e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 0.9989381942776493,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            8.347740503288488e-07,
+            8.39243856000234e-06,
+            9.179021001804037e-05
+          ],
+          "nominal_half_diamond": 4.884981308350689e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0206137116744953,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.3019344708982902e-06,
+            1.308708185295106e-05,
+            0.0001515826058268594
+          ],
+          "nominal_half_diamond": 4.884981308350689e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0330301214191218,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.300753396548859e-06,
+            1.2968211234723581e-05,
+            0.00013510890997964643
+          ],
+          "nominal_half_diamond": 4.884981308350689e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0082445108124924,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.5252313496632778e-06,
+            1.5294725077844452e-05,
+            0.00019666949149548655
+          ],
+          "nominal_half_diamond": 4.884981308350689e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0552006358417827,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.525609429008886e-06,
+            1.5333061403953564e-05,
+            0.0002040606265984958
+          ],
+          "nominal_half_diamond": 4.884981308350689e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0631579258433246,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.5537472748399638e-06,
+            1.596343593689355e-05,
+            0.0002124413200789001
+          ],
+          "nominal_half_diamond": 4.884981308350689e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0679293057338652,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 8,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.5446861234552041e-06,
+            1.5060274198716265e-05,
+            0.0001503497131036736
+          ],
+          "nominal_half_diamond": 4.884981308350689e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 0.9941311792996631,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.335477282093536e-06,
+            1.322971274226025e-05,
+            0.00012486339725299123
+          ],
+          "nominal_half_diamond": 8.881784197001252e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 0.9853993211656644,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            0.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.3383867418777396e-06,
+            1.3520689264666594e-05,
+            0.00015397525778791543
+          ],
+          "nominal_half_diamond": 8.881784197001252e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.030434657015939,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.6580352486520631e-06,
+            1.6575975379980217e-05,
+            0.00019850706392402956
+          ],
+          "nominal_half_diamond": 8.881784197001252e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0390911033741437,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            0.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.6591198681573819e-06,
+            1.6684177146622856e-05,
+            0.0002108500140120965
+          ],
+          "nominal_half_diamond": 8.881784197001252e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0520479350646912,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.9739451393428423e-06,
+            1.9640570174742224e-05,
+            0.0002655285622803186
+          ],
+          "nominal_half_diamond": 8.881784197001252e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.0643880827715428,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            1.9792873384703437e-06,
+            2.0182800575214497e-05,
+            0.0003210720950189267
+          ],
+          "nominal_half_diamond": 8.881784197001252e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.105046857686189,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": -1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.262097344550032e-06,
+            2.3612787250408357e-05,
+            0.0003495289919616732
+          ],
+          "nominal_half_diamond": 8.881784197001252e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 1.094485957273733,
+          "quadratic_at_1p75_if_resolved": false
+        },
+        {
+          "depth": 16,
+          "chronological_labels": [
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00",
+            "15",
+            "25",
+            "00"
+          ],
+          "ray": [
+            1.0,
+            -1.0
+          ],
+          "sign": 1.0,
+          "radii": [
+            1e-05,
+            0.0001,
+            0.001
+          ],
+          "half_diamond_values": [
+            2.2404533002155076e-06,
+            2.144959644447666e-05,
+            0.00019869218672013503
+          ],
+          "nominal_half_diamond": 8.881784197001252e-15,
+          "resolution_floor": 1e-14,
+          "resolved": true,
+          "loglog_exponent": 0.9739224467485611,
+          "quadratic_at_1p75_if_resolved": false
+        }
+      ]
+    }
+  }
+}

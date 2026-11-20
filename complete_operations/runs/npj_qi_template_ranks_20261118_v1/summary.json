@@ -1,0 +1,10 @@
+{
+  "status": "completed_fixed_control_diagnostic",
+  "unresolved_aggregate_maps": [],
+  "wall_s_by_register": {
+    "4": 0.24184930004412308,
+    "5": 0.6527934999903664
+  },
+  "wall_s": 0.955651999975089,
+  "failures": []
+}

@@ -1,0 +1,83 @@
+{
+  "schema": "n2-q1-exact-chart-resources-20260917-v1",
+  "status": "EXACT_RESOURCE_ACCOUNT",
+  "selected_depths": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3
+  ],
+  "sum_conjugator_depths": 34,
+  "raw_primitive_count": 93,
+  "nonzero_pair_primitive_count": 118,
+  "raw_axis_counts": {
+    "X": 38,
+    "Y": 25,
+    "Z": 30
+  },
+  "nonzero_pair_axis_counts": {
+    "X": 44,
+    "Y": 34,
+    "Z": 40
+  },
+  "fixed_center_absolute_area_pi_coefficients": {
+    "X": {
+      "num": 19,
+      "den": 2
+    },
+    "Y": {
+      "num": 25,
+      "den": 4
+    },
+    "Z": {
+      "num": 15,
+      "den": 2
+    }
+  },
+  "total_fixed_center_absolute_area_pi_coefficient": {
+    "num": 93,
+    "den": 4
+  },
+  "nonzero_pair_area_pi_coefficient": {
+    "num": 1,
+    "den": 8
+  },
+  "slot_duration_pi_coefficient": {
+    "num": 1,
+    "den": 4
+  },
+  "center_duration_pi_coefficient": {
+    "num": 59,
+    "den": 2
+  },
+  "separate_signed_primitive_caps": {
+    "X": 1,
+    "Y": 1,
+    "Z": 1
+  },
+  "parameter_box": "|t_j| < pi/8",
+  "minimum_slot_duration": "pi/4",
+  "physical_smoothing_domain": "0 <= w < pi/8",
+  "merging_or_cancellation_applied": false
+}

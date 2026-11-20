@@ -1,0 +1,11 @@
+Family,Start,Initial $T_g/t_0$,Final $T_g/t_0$,Steps,Time (s),Stop
+R,Old selected,61.699132,59.632393,120,27.4,120-step limit
+R,Common warm,76.808867,61.699132,120,19.1,120-step limit
+R,Local 1,61.720774,60.838345,120,44.3,120-step limit
+R,Local 2,61.732581,61.674824,57,23.8,Trust limit
+R,Local 3,61.785678,59.618874,120,38.1,120-step limit
+M,Old selected,76.788413,76.788413,14,6.5,Trust limit
+M,Common warm,76.808867,76.788413,59,23.4,Trust limit
+M,Local 1,76.878865,76.788927,56,22.5,Trust limit
+M,Local 2,76.903174,76.789544,53,19.9,Trust limit
+M,Local 3,76.823908,76.788138,47,18.1,Trust limit

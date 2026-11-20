@@ -1,0 +1,12 @@
+{
+  "sha256": {
+    "tools\\run_cnot_tolerance_numerics_20261012_v1.py": "c48b24cc55b38c4f11c75e0b86e1ade50392cd140de663ad855e3eaa2a249479",
+    "src\\cnot_tolerance_v1.py": "f3c937ec40d061bff443c914c09a694c1289cd21d30bb979bda3d5c2ed78116e",
+    "runs\\cnot_tolerance_20261012_v1\\CONFIG.json": "4f2464d54585357e04b40b2395870d0b11fc35ae20bb3bae96ef3bb643f35bcb"
+  },
+  "versions": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "numpy": "2.4.6",
+    "scipy": "1.18.0"
+  }
+}
